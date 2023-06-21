@@ -1,6 +1,6 @@
 # Master of magic unit balance mod
 
-Attemt to modify normal unit stats to make them more sensible and usable.
+Attempt to modify normal unit stats to make them more sensible and usable.
 
 _Disclaimer_
 
