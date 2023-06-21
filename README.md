@@ -12,7 +12,7 @@ To enhance normal unit playing variativity, usability, and restore game depth to
 
 # Problem statement
 
-There are three major unit groups in the game: normal units, summoned units and heroes. Summoned units and heroes acceptably balanced to the level that they form their corresponding strategies. Whereas normal units just plain sucks. There are few factors contributing to this.
+There are three major unit groups in the game: normal units, summoned units and heroes. Summoned units and heroes acceptably balanced to the level that they form their corresponding strategies. Whereas normal units just plain suck. There are few factors contributing to this.
 
 * Normal units food upkeep burden is impossible at any stage of the game but most pronouncely at the beginning. Some average 5 size town can barely upkeep two spearmen garrison while it grows and advance infrastructure through two thirds of the game until it can support basic military. That is laughable.
 * Normal arhetipical units do not have good strength spread and do not have good middle strength representation. All these swordsmen, halebardiers, bowmen, shaman, cavalery are about the same strength, about same cost and plain suck when you are able to build them. Player has no insentive to pick one or the other.
