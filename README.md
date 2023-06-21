@@ -146,7 +146,7 @@ Shamans receive their well deserved +1d racial bonus. Strangely they didn't in v
 
 Javelineers: **3m 3r 3d**. Insanely powerful unit comparable to the most high end ones. It should not be, though. I let them keep their ranged attack as definitve feature but reduced melee and defense to tone them down a little.
 
-Dragon Turtle: **15m 10f 10d 20h**. Laughably patheting vanilla unit not worth investments now overtakes Javeliners and can fight toughest fantastic creatures.
+Dragon Turtle: **15m 10f 10d 20h**. Laughably pathetic vanilla unit not worth investments now overtakes Javeliners and can fight toughest fantastic creatures.
 
 ## Nomads
 
