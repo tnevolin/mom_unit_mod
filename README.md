@@ -34,71 +34,60 @@ Adjust high end units to make them strong enough to be able to fight strongest l
 
 Adjust unit cost so that economy deprived races have them at relatively lower cost. Like lizardmen should have relatively strong but cheap units as this the only advantage they have.
 
-# Archetypical unit changes
+# Archetypical unit change
 
-## Swordsmen
+## Basic unit to be aligned
 
-**+1 melee**
+I consider these units as archetypical representation.
 
-**4m 2d**
+* spearmen: Orc Spearmen
+* swordsmen: Orc Swordsmen
+* cavalry: High Men Cavalry (with first strike)
+* halberdiers: Orc Halberdiers
+* pikemen: High Men Pikemen
+* bowmen: Orc Bowmen
+* shaman: Orc Shaman
+* priests: High Men Priests
+* magicans: Orc Magicians (4 figures)
 
-They are barely better than spearmen due to their lesser figure count. There is no point building twice (thrice when counting gold upkeep) as costly unit. Adding extra melee makes them somewhat more preferrable switch.
+Taking Orc Magicians as basis strength of strongest archetypical unit. High Men magicians are stronger but this is more like racial specifics.
 
-## Halebardiers
+## Proposed distribution
 
-**+2 melee**
+### Melee
 
-**6m 3d**
+(High Men) Pikemen should be about same strength as (Orc) magicians or maybe somewhat stronger. The rest of melee units should be about proportionally distributed in strength between spearmen and pikemen.
 
-Same rationale as above. They need to be pushed up slightly comparing to swordsmen.
+* spearmen
+* swordsmen
+* cavalry
+* halberdiers
+* pikemen
 
-## Cavalry
+### Ranged
 
-**+2 melee, +1 defense**
+(Orc) magicians are same as in vanilla. The rest of ranged units should be about proportionally distributed in strength between bowmen and magician. The exact strength of bowmen comparing to melee units could be somewhere around swordsmen or maybe just slightly stronger.
 
-**6m 3d**
+* bowmen
+* shaman
+* priests
+* magicians
 
-Not interested and undistinguishable from halebardiers unit in vanilla. Now they are strong enough to take their place between halebardiers and pikemen.
+## Proposed changes
 
-## Pikemen
+Halbardiers become much stronger than cavalry. Therefore, their cost model changes too.
 
-**+2 melee, +1 defense**
-
-**7m 4d**
-
-To continue strenght progression in line with previous infantry units.
-
-## Bowmen
-
-**+1 ranged**
-
-**1m 2r 1d**
-
-Quite useless in vanilla requiring at least one level advancement to become something. It makes more sense to build shrine and make shamans. With this improvement they may be not that bad in early game.
-
-## Shamans
-
-**+1 ranged**
-
-**2m 3r 3d**
-
-Slightly more interesting but pretty weak. Added ranged damage to be in line with improved bowmen and priests.
-
-## Priests
-
-**-1 melee, -1 defense**
-
-**2m 4r 3d**
-
-Now this is strangely one of the most overpowered archetypical unit. They are just 1 ranged weaker than magicians but their superior attack and defense (and 5 HP healing ability) effectivelly compensates for that. They are pretty comparable to magicians in vanilla even though they require much less infrastructure investments. I didn't want to take their ranged attack as this is what defines them but reduction in hand-to-hand combat abilities seems to put them in the right place.
-
-## Magicians
-
-**no change**
-
-**1m 5r 3d**
-
-Very powerful but already adequately priced.
+|type|melee|ranged|defense|
+|:----|----:|----:|----:|
+|spearmen||||
+|swordsmen|+1|||
+|cavalry|+1|||
+|halberdiers|+2||+2|
+|pikemen|+1||+1|
+|bowmen||+1||
+|shamans||+1||
+|priests|-1||-1|
+|magicians||||
 
 # Racial unit changes
 
