@@ -86,7 +86,7 @@ Halbardiers become much stronger than cavalry. Therefore, their cost model chang
 |pikemen|+2||+1|
 |bowmen||+1||
 |shamans||+1||
-|priests|-1||-1|
+|priests|-1|||
 |magicians||||
 
 # Racial unit changes
