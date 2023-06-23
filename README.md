@@ -80,10 +80,10 @@ Halbardiers become much stronger than cavalry. Therefore, their cost model chang
 |type|melee|ranged|defense|
 |:----|----:|----:|----:|
 |spearmen||||
-|swordsmen|+1|||
+|swordsmen|+1||+1|
 |cavalry|+1|||
-|halberdiers|+2||+2|
-|pikemen|+1||+1|
+|halberdiers|+2||+3|
+|pikemen|+2||+1|
 |bowmen||+1||
 |shamans||+1||
 |priests|-1||-1|
