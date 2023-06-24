@@ -36,154 +36,35 @@ Adjust unit cost so that economy deprived races have them at relatively lower co
 
 # Archetypical unit change
 
-## Basic unit to be aligned
+Halberdiers becomes seriously stronger and well protected. Rest of melee units is adjusted to be about proportinally distributed between spearmen and pikemen.
 
-I consider these units as archetypical representation.
-
-* spearmen: Orc Spearmen
-* swordsmen: Orc Swordsmen
-* cavalry: High Men Cavalry (with first strike)
-* halberdiers: Orc Halberdiers
-* pikemen: High Men Pikemen
-* bowmen: Orc Bowmen
-* shaman: Orc Shaman
-* priests: High Men Priests
-* magicans: Orc Magicians (4 figures)
-
-Taking Orc Magicians as basis strength of strongest archetypical unit. High Men magicians are stronger but this is more like racial specifics.
-
-## Proposed distribution
-
-### Melee
-
-(High Men) Pikemen should be about same strength as (Orc) magicians or maybe somewhat stronger. The rest of melee units should be about proportionally distributed in strength between spearmen and pikemen.
-
-* spearmen
-* swordsmen
-* cavalry
-* halberdiers
-* pikemen
-
-### Ranged
-
-(Orc) magicians are same as in vanilla. The rest of ranged units should be about proportionally distributed in strength between bowmen and magician. The exact strength of bowmen comparing to melee units could be somewhere around swordsmen or maybe just slightly stronger.
-
-* bowmen
-* shaman
-* priests
-* magicians
-
-## Proposed changes
-
-Halbardiers become much stronger than cavalry. Therefore, their cost model changes too.
+Bowmen and shaman are increased in strength. Priests melee is slightly reduced. They are now more proportionally distributed on bowment - magician scale.
 
 |type|melee|ranged|defense|
 |:----|----:|----:|----:|
-|spearmen||||
-|swordsmen|+1||+1|
-|cavalry|+1|||
-|halberdiers|+2||+3|
-|pikemen|+2||+1|
-|bowmen||+1||
-|shamans||+1||
-|priests|-1|||
-|magicians||||
+|spearmen|1||2|
+|swordsmen|3||3|
+|cavalry|6||2|
+|halberdiers|6||6|
+|pikemen|7||5|
+|bowmen|1|2|1|
+|shamans|2|3|3|
+|priests|2|4|3|
+|magicians|1|5|3|
 
 # Racial unit changes
 
-Only specific racial changes besides above archetypical changes are listed here.
+I am not going to list them all here. Few key points.
 
-## Barbarians
+All races high end units are now in about same class. Recruit slingers are somewhat weaker but they benefit greatly from unit buff due to 8 figures as in vanilla.
 
-Bowmen and shamans receive +1m to compensate for lack of thrown weapon. Otherwise, they are undistinguishable from basic unit and should be priced less. This way they are in line with other units.
+All races high end units are now stronger than middle tier units.
 
-Swordsmen receive +1 thrown to keep them proportionally stronger.
+Orc Cavalry receives +1 hit point due to lack of their first strike ability.
 
-Cavalery receives +2 thrown to keep them proportionally stronger.
+Barbarian Cavalry receives +2 thrown to keep them aligned with other units.
 
-Berserkers: **11m 6t 4d**.
-
-## Gnolls
-
-Wolf Riders: **11m 5d**
-
-## Halflings
-
-Generally all units are somewhat weaker and more expensive due to their extra harvest ability that translates to bigger armies.
-
-Slingers receive +1 ranged to stay in line with bowmen and shamans. Even with this improvement they are no match with other races high end units unless super enchanted, as always.
-
-## High Elves
-
-Elven Lords: **7m 5d** to stay in line with generally improved cavalry.
-
-Pegasai: **7m 5r 5d**. They were pretty pathetic in vanilla not worth infrastructure investments. Now they are good air support.
-
-## High Men
-
-Paladins: unchanged! They are very strong but increasing other races high end units created enough competition.
-
-## Klackons
-
-Stag Beetle: **20m 10f 10d**. With only one unit they were quite weak in vanilla. Now they are comparable to others.
-
-## Lizardmen
-
-Shamans receive their well deserved +1d racial bonus. Strangely they didn't in vanilla.
-
-Javelineers: **3m 3r 3d**. Insanely powerful unit comparable to the most high end ones. It should not be, though. I let them keep their ranged attack as definitve feature but reduced melee and defense to tone them down a little.
-
-Dragon Turtle: **15m 10f 10d 20h**. Pathetic vanilla unit not worth investment now overtakes Javeliners and can fight the toughest fantastic creatures.
-
-## Nomads
-
-Horsebowmen: **6m 3r 3d**. Improved to keep in line with improved bowmen and cavalry.
-
-Rangers: **4m 5r 4d** (+2r). One of the best ranged unit in game both by lore and name (!) should have some decent ranged attack.
-
-Griffins: no change. Surprisingly, pretty decent vanilla unit.
-
-## Orcs
-
-Cavalry gets +1h. It lacks first strike unlike other races cavalry units making it somewhat weak. I desided to give them extra health instead imagining orcs would ride some meaty and fleshy "horses". 😉
-
-Wyvern Riders: **7m 7d**.
-
-## Beastmen
-
-Centaurs: **4m 3r 3d**. Added some attack power to keep in line with bowmen and cavalry.
-
-Manticores: **9m 7d**. Just bringing them in line with sub high end level.
-
-Minotaurs: **14m 6d**. Slight strength increase. Not mandatory chagne. They are strong as were. I just feel sorrow for them to be shot to death while they are walking toward the shooters.
-
-## Dark Elves
-
-Nightblades: **6m 4d**. Slight strenght increase. I never felt compelled building them.
-
-Warlocks: unchanged. The strongest unit in game by many people opinion. I let them be but seriously increased their cost so player cannot flood plains with them. They should stay rare.
-
-Nightmares: unchanged.
-
-## Draconians
-
-Bowmen and shamans receive +1m to compensate for lack of fire breath. Otherwise, they are undistinguishable from basic unit and should be priced less. This way they are in line with other units.
-
-Doom Drakes: unchanged.
-
-Air Ship: **10m 15r 5d**. Previously relatively weak unit not worth investment. Now adequate air support. However, I may be wrong here and its speed and flying may be good enough properties to not strengthen it even more. Let me know your opinion.
-
-## Dwarves
-
-Hammerhands: unchanged.
-
-Golem: **16m 12d**. Previously overlooked underpowered unit due to the single figure. Requires serious boost to become viable.
-
-## Trolls
-
-War Trolls: unchanged.
-
-War Mammoths: **12m 8d**. Again, overlooked underpowered unit due to few figures. Got slight boost.
+Lizardman Javelineers melee capacity is reduced to keep them adequately priced.
 
 # Pricing
 
