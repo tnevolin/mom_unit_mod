@@ -77,6 +77,6 @@ Magicians are given extra attack. This is applicable to all non modified archety
 |pikemen|7||4|
 |bowmen|1|2|1|
 |shamans|2|3|3|
-|priests|2|4|3|
+|priests|2|4|4|
 |magicians|1|6|3|
 
