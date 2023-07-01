@@ -80,20 +80,20 @@ Very rough attempt
 
 |race|growth|ability|buildings|units|total|coefficient|
 |:----|----:|----:|----:|----:|----:|----:|
-|Orcs|+1|0|0|0|+1|0.9|
-|Barbarians|+1|0|-3|0|-2|1.4|
-|Beastmen|0|0|0|0|0|1.0|
-|Dark Elves|-1|+2|0|0|+1|0.9|
-|Draconians|0|+1|0|+2|+3|0.7|
-|Dwarves|-2|+3|-2|0|-1|1.2|
-|Gnolls|0|0|-2|0|-2|1.4|
-|Halflings|0|+3|-2|0|+1|0.9|
-|High Elves|-1|+1|0|0|0|1.0|
-|High Men|0|0|0|0|0|1.0|
-|Klackons|+2|+4|-2|0|+4|0.6|
-|Lizardmen|0|0|-3|+1|-2|1.4|
-|Nomads|+1|+2|-1|0|+2|0.8|
-|Trolls|0|0|-2|+6|+4|0.6|
+|Orcs|0|0|0|0|0|1.0|
+|Barbarians|0|0|-3|0|-3|1.6|
+|Beastmen|-1|0|0|0|-1|1.2|
+|Dark Elves|-2|+2|0|0|0|1.0|
+|Draconians|-1|+1|0|+2|+2|0.8|
+|Dwarves|-3|+4|-2|0|-1|1.2|
+|Gnolls|-1|0|-2|0|-3|1.6|
+|Halflings|-1|+3|-2|0|0|1.0|
+|High Elves|-2|+1|0|0|-1|1.2|
+|High Men|-1|0|0|0|-1|1.2|
+|Klackons|+1|+4|-2|0|+3|0.7|
+|Lizardmen|-1|0|-3|+1|-3|1.6|
+|Nomads|0|+2|-1|0|+1|0.9|
+|Trolls|-1|0|-2|+6|+3|0.7|
 
 # Archetypical unit change
 
