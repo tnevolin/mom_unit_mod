@@ -59,7 +59,7 @@ These coefficients are on top of already balanced strength/cost within the race 
 
 |race|growth|ability|buildings|units|total|coefficient|
 |:----|----:|----:|----:|----:|----:|----:|
-|Orcs|0|0|0|0|0|1.00|
+|Orcs|0|0|0|0|0|1.0|
 |Barbarians|+2|0|-2|0|0|1.0|
 |Beastmen|0|+1|-1|0|0|1.0|
 |Dark Elves|-2|+2|0|0|0|1.0|
