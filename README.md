@@ -88,7 +88,7 @@ Very rough attempt
 |Dwarves|-3|+4|-2|0|-1|1.2|
 |Gnolls|-1|0|-2|0|-3|1.6|
 |Halflings|-1|+3|-2|0|0|1.0|
-|High Elves|-2|+1|0|0|-1|1.2|
+|High Elves|-3|+1|0|0|-2|1.4|
 |High Men|-1|0|0|0|-1|1.2|
 |Klackons|+1|+4|-2|0|+3|0.7|
 |Lizardmen|-1|0|-3|+1|-3|1.6|
