@@ -25,7 +25,7 @@ Which is sad.
 
 # Proposed solution
 
-Reduce army food upkeep. Currently I am trying 1/2 food upkeep per unit. Could be still high. May also try 1/4.
+Reduce army food upkeep. CoM is already doing 1/2 food upkeep per unit.
 
 Spread archetipical units more widely and evenly across strenght/cost scale giving player a meaningful strength/cost options. Each next level unit should be about 50% stronger than previous one. Also varying attack/defense balance could add variativety.
 
