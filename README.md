@@ -37,28 +37,63 @@ Adjust unit cost so that economy deprived races have them at relatively lower co
 
 # Races economical strength estimate
 
-This is an attempt to estimate races economical strength to define average unit combat efficiency (strength / cost). More economically advantageous race should have less effective combat units. By economy here I understand all factors contributing to combined production development: production bonuses, food bonuses, gold bonuses, mana bonuses, allowed buildings, etc.
+This is an attempt to estimate races economical strength to define racial unit cost coefficient. More economically advantageous race should have more expensive combat units.
 
-These coefficients are on top of already balanced strength/cost within the race internally. For example, if Orcs cost efficiency coefficient is 1.00 and Dark Elves is 0.9, and two Orc spearmen equivalent in strength to one Darl Elf spearmen, then two Orc spearmen combined cost will be 0.9 of one Dark Elf spearmen cost.
+These coefficients are on top of already balanced strength/cost within the race internally. For example, if Orcs cost coefficient is 1.00 and Dark Elves is 1.2, and two Orc spearmen equivalent in strength to one Dark Elf spearmen, then one Dark Elf spearmen cost is 1.2 of two Orc spearmen combined cost.
 
-## Unit cost efficiency coefficients
+## Economical factors
 
-|race|economics|coefficient|factors|
-|:----|:----|----:|:----|
-|Orcs|average|1.0|Used as a baseline. Can build all economical buildings, no bonuses.|
-|Barbarians|average|1.0|fast (+1), lack some buildings (-1)|
-|Beastmen|average|1.0|0.5 mana (+1), lack some buildings (-1)|
-|Dark Elves|strong|0.8|1.0 mana (+2), slow (-1)|
-|Draconians|strong|0.8|0.5 mana (+1), fast expansion (+1)|
-|Dwarves|strong very|0.6|0.5 mana (+1), prod/gold bonus (+5), slow (-1), lack of buildings (-1)|
-|Gnolls|weak|1.6|impared economy (-3)|
-|Halflings|strong|0.8|food bonus (+3), bad economy (-2)|
-|High Elves|average|1.0|0.5 mana (+1), slow (-1)|
-|High Men|average|1.0|Similar to Orcs economy|
-|Klackons|average|1.0|prod bonus (+3), impared economy (-3)|
-|Lizardmen|weak very|2.0|appaling economy (-4)|
-|Nomads|average|1.0|gold bonus (+1)|
-|Trolls|average|1.0|regeneration (+3), slow (-1), impared economy (-3)|
+|factor|weight|
+|:----|----:|
+|+10 growth|1|
+|+1 worker production|+4|
+|+1 farmer food|+3|
+|+50% gold ability|+2|
+|+1/2 mana/pop|+1|
+|4 missing buildings|-1|
+|swimming units|+1|
+|flying units|+2|
+|regeneration|+6|
+
+## Economy efficiency estimate (vanilla)
+
+|race|growth|ability|buildings|units|total|coefficient|
+|:----|----:|----:|----:|----:|----:|----:|
+|Orcs|0|0|0|0|0|1.00|
+|Barbarians|+2|0|-2|0|0|1.0|
+|Beastmen|0|+1|-1|0|0|1.0|
+|Dark Elves|-2|+2|0|0|0|1.0|
+|Draconians|-1|+1|0|+2|+2|0.8|
+|Dwarves|-2|+8|-3|0|+3|0.7|
+|Gnolls|-1|0|-3|0|-4|1.8|
+|Halflings|0|+3|-3|0|0|1.0|
+|High Elves|-2|+1|-1|0|-2|1.4|
+|High Men|0|0|0|0|0|1.0|
+|Klackons|-1|+4|-4|0|-1|1.2|
+|Lizardmen|+1|0|-4|+1|-4|1.8|
+|Nomads|-1|+2|0|0|+1|0.9|
+|Trolls|-2|0|-3|+6|+1|0.9|
+
+## Economy efficiency estimate (CoM)
+
+Very rough attempt
+
+|race|growth|ability|buildings|units|total|coefficient|
+|:----|----:|----:|----:|----:|----:|----:|
+|Orcs|+1|0|0|0|+2|0.8|
+|Barbarians|+1|0|-3|0|-2|1.4|
+|Beastmen|0|0|0|0|0|1.0|
+|Dark Elves|-1|+2|0|0|+1|0.9|
+|Draconians|0|+1|0|+2|+3|0.7|
+|Dwarves|-2|+3|-2|0|-1|1.2|
+|Gnolls|0|0|-2|0|-2|1.4|
+|Halflings|0|+3|-2|0|+1|0.9|
+|High Elves|-1|+1|0|0|0|1.0|
+|High Men|0|0|0|0|0|1.0|
+|Klackons|+2|+4|-2|0|+4|0.6|
+|Lizardmen|0|0|-3|+1|-2|1.4|
+|Nomads|+1|+2|-1|0|+2|0.8|
+|Trolls|0|0|-2|+6|+4|0.6|
 
 # Archetypical unit change
 
