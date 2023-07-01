@@ -81,17 +81,17 @@ Very rough attempt
 |race|growth|ability|buildings|units|total|coefficient|
 |:----|----:|----:|----:|----:|----:|----:|
 |Orcs|0|0|0|0|0|1.0|
-|Barbarians|0|0|-3|0|-3|1.6|
+|Barbarians|0|0|-3|0|-3|1.3|
 |Beastmen|-1|+1|0|0|0|1.0|
 |Dark Elves|-2|+2|0|0|0|1.0|
 |Draconians|-1|+1|0|+2|+2|0.8|
-|Dwarves|-3|+4|-2|0|-1|1.2|
-|Gnolls|-1|0|-2|0|-3|1.6|
+|Dwarves|-3|+4|-2|0|-1|1.1|
+|Gnolls|-1|0|-2|0|-3|1.3|
 |Halflings|-1|+3|-2|0|0|1.0|
-|High Elves|-3|+1|0|0|-2|1.4|
-|High Men|-1|0|0|0|-1|1.2|
+|High Elves|-1|+1|0|0|0|1.0|
+|High Men|0|0|0|0|0|1.0|
 |Klackons|+1|+4|-2|0|+3|0.7|
-|Lizardmen|-1|0|-3|+1|-3|1.6|
+|Lizardmen|-1|0|-3|+1|-3|1.3|
 |Nomads|0|+2|-1|0|+1|0.9|
 |Trolls|-1|0|-2|+5|+2|0.8|
 
