@@ -80,7 +80,7 @@ Very rough attempt
 
 |race|growth|ability|buildings|units|total|coefficient|
 |:----|----:|----:|----:|----:|----:|----:|
-|Orcs|+1|0|0|0|+2|0.8|
+|Orcs|+1|0|0|0|+1|0.9|
 |Barbarians|+1|0|-3|0|-2|1.4|
 |Beastmen|0|0|0|0|0|1.0|
 |Dark Elves|-1|+2|0|0|+1|0.9|
