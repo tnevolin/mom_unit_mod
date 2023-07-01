@@ -53,7 +53,7 @@ These coefficients are on top of already balanced strength/cost within the race 
 |4 missing buildings|-1|
 |swimming units|+1|
 |flying units|+2|
-|regeneration|+6|
+|regeneration|+5|
 
 ## Economy efficiency estimate (vanilla)
 
@@ -72,7 +72,7 @@ These coefficients are on top of already balanced strength/cost within the race 
 |Klackons|-1|+4|-4|0|-1|1.2|
 |Lizardmen|+1|0|-4|+1|-4|1.8|
 |Nomads|-1|+2|0|0|+1|0.9|
-|Trolls|-2|0|-3|+6|+1|0.9|
+|Trolls|-2|0|-3|+5|0|1.0|
 
 ## Economy efficiency estimate (CoM)
 
@@ -93,7 +93,7 @@ Very rough attempt
 |Klackons|+1|+4|-2|0|+3|0.7|
 |Lizardmen|-1|0|-3|+1|-3|1.6|
 |Nomads|0|+2|-1|0|+1|0.9|
-|Trolls|-1|0|-2|+6|+3|0.7|
+|Trolls|-1|0|-2|+5|+2|0.8|
 
 # Archetypical unit change
 
