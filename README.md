@@ -44,19 +44,19 @@ These coefficients are on top of already balanced strength/cost within the race 
 ## Unit cost efficiency coefficients
 
 |race|economics|coefficient|factors|
-|:----|----:|----:|:----|
+|:----|:----|----:|:----|
 |Orcs|average|1.0|Used as a baseline. Can build all economical buildings, no bonuses.|
 |Barbarians|average|1.0|fast (+1), lack some buildings (-1)|
 |Beastmen|average|1.0|0.5 mana (+1), lack some buildings (-1)|
-|Dark Elves|stronger|0.8|1.0 mana (+2), slow (-1)|
-|Draconians|stronger|0.8|0.5 mana (+1), fast expansion (+1)|
-|Dwarves|strong|0.6|0.5 mana (+1), prod/gold bonus (+5), slow (-1), lack of buildings (-1)|
+|Dark Elves|strong|0.8|1.0 mana (+2), slow (-1)|
+|Draconians|strong|0.8|0.5 mana (+1), fast expansion (+1)|
+|Dwarves|strong very|0.6|0.5 mana (+1), prod/gold bonus (+5), slow (-1), lack of buildings (-1)|
 |Gnolls|weak|1.6|impared economy (-3)|
-|Halflings|stronger|0.8|food bonus (+3), bad economy (-2)|
+|Halflings|strong|0.8|food bonus (+3), bad economy (-2)|
 |High Elves|average|1.0|0.5 mana (+1), slow (-1)|
 |High Men|average|1.0|Similar to Orcs economy|
 |Klackons|average|1.0|prod bonus (+3), impared economy (-3)|
-|Lizardmen|weakest|2.0|appaling economy (-4)|
+|Lizardmen|weak very|2.0|appaling economy (-4)|
 |Nomads|average|1.0|gold bonus (+1)|
 |Trolls|average|1.0|regeneration (+3), slow (-1), impared economy (-3)|
 
