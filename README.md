@@ -85,7 +85,7 @@ Very rough attempt
 |Beastmen|-1|+1|0|0|0|1.0|
 |Dark Elves|-2|+2|0|0|0|1.0|
 |Draconians|-1|+1|0|+2|+2|0.8|
-|Dwarves|-3|+4|-2|0|-1|1.1|
+|Dwarves|-3|+6|-2|0|+1|0.9|
 |Gnolls|-1|0|-2|0|-3|1.3|
 |Halflings|-1|+3|-2|0|0|1.0|
 |High Elves|-1|+1|0|0|0|1.0|
