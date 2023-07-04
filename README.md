@@ -43,75 +43,58 @@ These coefficients are on top of already balanced strength/cost within the race 
 
 ## Economical factors
 
-|factor|weight|
+Factors affecting production, population growth, expansion, mana etc. Essentially, everything that does not equates in unit combat strength. For example, Draconians fly is already factored into combat strength. However, it is also an expansion aid letting them reach out and expand quicker resulting in faster total population increase. Another example is Trolls regeneration. Again, it is already factored into combat strength. However, it is also has an effect of ressurecting fallen units after victory resulting in less unit building investments and faster growing army.
+
+|factor|bonus|
 |:----|----:|
-|+10 growth|1|
-|+1 worker production|+4|
+|+20 growth|+1|
 |+1 farmer food|+3|
-|+50% gold ability|+2|
+|+1 worker production|+4|
+|+50% gold|+4|
 |+1/2 mana/pop|+1|
-|4 missing buildings|-1|
+|missing Granary|-1|
+|missing 4 buildings|-1|
 |swimming units|+1|
 |flying units|+2|
-|regeneration|+4|
-
-## Economy efficiency estimate (vanilla)
-
-|race|growth|ability|buildings|units|total|coefficient|
-|:----|----:|----:|----:|----:|----:|----:|
-|Orcs|0|0|0|0|0|1.0|
-|Barbarians|+2|0|-2|0|0|1.0|
-|Beastmen|0|+1|-1|0|0|1.0|
-|Dark Elves|-2|+2|0|0|0|1.0|
-|Draconians|-1|+1|0|+2|+2|0.8|
-|Dwarves|-2|+8|-3|0|+3|0.7|
-|Gnolls|-1|0|-3|0|-4|1.8|
-|Halflings|0|+3|-3|0|0|1.0|
-|High Elves|-2|+1|-1|0|-2|1.4|
-|High Men|0|0|0|0|0|1.0|
-|Klackons|-1|+4|-4|0|-1|1.2|
-|Lizardmen|+1|0|-4|+1|-4|1.8|
-|Nomads|-1|+2|0|0|+1|0.9|
-|Trolls|-2|0|-3|+4|-1|1.2|
+|regenerating units|+3|
+|extra unrest|-2|
 
 ## Economy efficiency estimate (CoM)
 
-Very rough attempt
-
 |race|growth|ability|buildings|units|total|coefficient|
 |:----|----:|----:|----:|----:|----:|----:|
 |Orcs|0|0|0|0|0|1.0|
-|Barbarians|0|0|-3|0|-3|1.3|
+|Barbarians|0|0|-4|0|-4|1.4|
 |Beastmen|-1|+1|0|0|0|1.0|
 |Dark Elves|-2|+2|0|0|0|1.0|
-|Draconians|-1|+1|0|+2|+2|0.8|
-|Dwarves|-3|+6|-2|0|+1|0.9|
-|Gnolls|-1|0|-2|0|-3|1.3|
+|Draconians|-1|+1|-2|+2|0|1.0|
+|Dwarves|-3|+10|-2|0|+5|0.8|
+|Gnolls|-1|0|-3|0|-4|1.4|
 |Halflings|-1|+3|-2|0|0|1.0|
-|High Elves|-1|+1|0|0|0|1.0|
-|High Men|0|0|0|0|0|1.0|
-|Klackons|+1|+4|-2|0|+3|0.7|
+|High Elves|-3|+1|-1|0|-3|1.3|
+|High Men|-1|0|0|0|0|1.0|
+|Klackons|+1|+8|-2|0|+5|0.8|
 |Lizardmen|-1|0|-3|+1|-3|1.3|
-|Nomads|0|+2|-1|0|+1|0.9|
-|Trolls|-1|0|-2|+4|+1|0.9|
+|Nomads|0|+2|-2|0|0|1.0|
+|Trolls|-1|0|-2|+3|0|1.0|
 
 # Archetypical unit change
 
-Halberdiers becomes seriously stronger and well protected. Rest of melee units is adjusted to be about proportinally distributed between spearmen and pikemen.
+_This is comparing to vanilla. Some of these changes are similar to what CoM did._
 
-Bowmen and shaman are increased in strength. Priests melee is slightly reduced. They are now more proportionally distributed on bowmen - magician scale.
+Halberdiers are seriously stronger and better protected. They now take place between cavalry and pikemen. Rest of melee units is adjusted to be about proportinally distributed between spearmen and pikemen.
 
-Magicians are given extra attack. This is applicable to all non modified archetypical magicians (except Dark Elves and High Men ones).
+Bowmen, shaman, and normal magicians (except modified High Men and Dark Elves versions) are given extra ranged attack.
 
 |type|melee|ranged|defense|
 |:----|----:|----:|----:|
 |spearmen|1||2|
-|swordsmen|4||2|
+|swordsmen|3||3|
 |cavalry|5||2|
-|halberdiers|7||4|
-|pikemen|7||4|
+|halberdiers|6||4|
+|pikemen|6||4|
 |bowmen|1|2|1|
 |shamans|2|3|3|
-|priests|2|4|4|
-|magicians|1|6|3|
+|priests|3|4|4|
+|magicians|1|7|3|
 
