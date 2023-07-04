@@ -71,7 +71,7 @@ Factors affecting production, population growth, expansion, mana etc. Essentiall
 |Dwarves|-3|+10|-2|0|+5|0.8|
 |Gnolls|-1|0|-3|0|-4|1.4|
 |Halflings|-1|+3|-2|0|0|1.0|
-|High Elves|-3|+1|-1|0|-3|1.3|
+|High Elves|-3|+1|0|0|-2|1.2|
 |High Men|-1|0|0|0|0|1.0|
 |Klackons|+1|+8|-2|0|+5|0.8|
 |Lizardmen|-1|0|-3|+1|-3|1.3|
