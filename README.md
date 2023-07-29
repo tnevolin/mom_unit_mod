@@ -29,12 +29,11 @@ Factors affecting production, population growth, expansion, mana etc. Essentiall
 
 |factor|bonus|
 |:----|----:|
-|+20 growth|+1|
+|+10 growth|+1|
 |+1 farmer food|+3|
 |+1 worker production|+4|
 |+50% gold|+4|
 |+1/2 mana/pop|+1|
-|missing Granary|-1|
 |missing 4 buildings|-1|
 |swimming units|+1|
 |flying units|+2|
@@ -46,17 +45,17 @@ Factors affecting production, population growth, expansion, mana etc. Essentiall
 |race|growth|ability|buildings|units|total|coefficient|
 |:----|----:|----:|----:|----:|----:|----:|
 |Orcs|0|0|0|0|0|1.0|
-|Barbarians|0|0|-4|0|-4|1.4|
-|Beastmen|-1|+1|0|0|0|1.0|
-|Dark Elves|-2|+2|0|0|0|1.0|
-|Draconians|-1|+1|-2|+2|0|1.0|
+|Barbarians|+3|0|-4|0|-1|1.0|
+|Beastmen|0|+1|0|0|+1|1.0|
+|Dark Elves|-1|+2|0|0|+1|1.0|
+|Draconians|0|+1|-2|+2|+1|1.0|
 |Dwarves|-3|+10|-2|0|+5|0.8|
 |Gnolls|-1|0|-3|0|-4|1.4|
 |Halflings|-1|+3|-2|0|0|1.0|
-|High Elves|-3|+1|0|0|-2|1.2|
-|High Men|-1|0|0|0|0|1.0|
+|High Elves|-2|+1|0|0|-1|1.0|
+|High Men|0|0|0|0|0|1.0|
 |Klackons|+1|+8|-2|0|+5|0.8|
-|Lizardmen|-1|0|-3|+1|-3|1.3|
-|Nomads|0|+2|-2|0|0|1.0|
+|Lizardmen|+1|0|-3|+1|-1|1.0|
+|Nomads|+2|+2|-2|0|+2|1.0|
 |Trolls|-1|0|-2|+3|0|1.0|
 
