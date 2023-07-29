@@ -1,39 +1,21 @@
 # Master of magic normal unit balance mod
 
-Attempt to modify normal unit stats to make them more sensible and usable.
+Attempt to modify normal unit stats to make them more usable.
 
-_Disclaimer_
+Modification is made on top of CoM. Therefore, a lot of CoM modifications were reverted or compensated to resemble vanilla development pace.
 
-Master of magic is a great game of all times! 😀
+# Archetypical unit change
 
-# Intent
-
-* Spread archetypical normal units strength proportionally so that each of them has an application in early-mid-late game.
-* Adjust top level normal units to make sure they are about same strength/cost ratio and are strong enough to challenge tougher nodes/lairs.
-
-# Problem statement
-
-There are three major unit groups in the game: normal units, summoned units and heroes. Summoned units and heroes acceptably balanced to the level that they form their corresponding strategies. Whereas normal units generally suck except maybe some of them like paladins or slingers. There are few factors contributing to this.
-
-* Normal units food upkeep burden is impossible at any stage of the game but most pronouncely at the beginning. Some average 5 size town can barely upkeep two spearmen garrison while it grows and advance infrastructure through two thirds of the game until it can support basic military. That is laughable.
-* Normal archetipical units do not have good strength spread and do not have good middle strength unit representation. All these swordsmen, halebardiers, bowmen, shaman, cavalry units fall in about the same strength range and cost range. Player generally has no insentive to advance infrastructure to unlock next unit in line.
-* A lot of high end normal units are pretty awfully balanced. Especially those 1-2 figure super unit requiring immense infrastructure investments may be worse than a middle tier one. Extreme example: Javeliners vs. Dragon Turtle. The latter is more costly and more difficult to achieve but is noticeably weaker. That again does not give player incentive to develop infrastructure. Thus shallowing game to pretty simple and repetitive play removing strategical advancement element from the game and making it much less replayable.
-
-Which is sad.
-
-😢
-
-# Proposed solution
-
-Reduce army food upkeep. CoM is already doing 1/2 food upkeep per unit.
-
-Spread archetipical units more widely and evenly across strenght/cost scale giving player a meaningful strength/cost options. Each next level unit should be about 50% stronger than previous one. Also varying attack/defense balance could add variativety.
-
-Adjust high end units in each race to make right infrastructure to strenght progression. Further investment into infrastructure should result in noticeably stronger units.
-
-Adjust high end units to make them strong enough to be able to fight strongest lairs and nodes. In vanilla they are pretty incapable of that and a lot of strong lairs/nodes just stay sealed until the end of the game. Unless strong enough heroes can crack them, of course.
-
-Adjust unit cost so that economy deprived races have them at relatively lower cost. Like lizardmen should have relatively strong but cheap units as this the only advantage they have.
+|type|melee|ranged|defense|
+|:----|----:|----:|----:|
+|spearmen|2||2|
+|swordsmen|4||2|
+|cavalry|5||2|
+|halberdiers|6||4|
+|bowmen|1|3|1|
+|shamans|2|3|4|
+|priests|3|4|4|
+|magicians|1|5|3|
 
 # Races economical strength estimate
 
@@ -77,24 +59,4 @@ Factors affecting production, population growth, expansion, mana etc. Essentiall
 |Lizardmen|-1|0|-3|+1|-3|1.3|
 |Nomads|0|+2|-2|0|0|1.0|
 |Trolls|-1|0|-2|+3|0|1.0|
-
-# Archetypical unit change
-
-_This is comparing to vanilla. Some of these changes are similar to what CoM did._
-
-Halberdiers are seriously stronger and better protected. They now take place between cavalry and pikemen. Rest of melee units is adjusted to be about proportinally distributed between spearmen and pikemen.
-
-Bowmen, shaman, and normal magicians (except modified High Men and Dark Elves versions) are given extra ranged attack.
-
-|type|melee|ranged|defense|
-|:----|----:|----:|----:|
-|spearmen|1||2|
-|swordsmen|3||3|
-|cavalry|5||2|
-|halberdiers|6||4|
-|pikemen|6||4|
-|bowmen|1|2|1|
-|shamans|2|3|3|
-|priests|3|4|4|
-|magicians|1|7|3|
 
