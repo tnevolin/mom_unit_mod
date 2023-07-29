@@ -6,6 +6,8 @@ Modification is made on top of CoM. Therefore, a lot of CoM modifications were r
 
 # Archetypical unit change
 
+## Standard units
+
 |type|melee|ranged|defense|
 |:----|----:|----:|----:|
 |spearmen|2||2|
@@ -17,45 +19,24 @@ Modification is made on top of CoM. Therefore, a lot of CoM modifications were r
 |priests|3|4|4|
 |magicians|1|5|3|
 
-# Races economical strength estimate
+## Races unit economical effectiveness
 
-This is an attempt to estimate races economical strength to define racial unit cost coefficient. More economically advantageous race should have more expensive combat units.
+Some races are economically advantageous and can produce units faster and support more of them. Here is the estimate how effective racial units should be. Higher number defines higher fighting power per cost.
 
-These coefficients are on top of already balanced strength/cost within the race internally. For example, if Orcs cost coefficient is 1.00 and Dark Elves is 1.2, and two Orc spearmen equivalent in strength to one Dark Elf spearmen, then one Dark Elf spearmen cost is 1.2 of two Orc spearmen combined cost.
-
-## Economical factors
-
-Factors affecting production, population growth, expansion, mana etc. Essentially, everything that does not equates in unit combat strength. For example, Draconians fly is already factored into combat strength. However, it is also an expansion aid letting them reach out and expand quicker resulting in faster total population increase. Another example is Trolls regeneration. Again, it is already factored into combat strength. However, it is also has an effect of ressurecting fallen units after victory resulting in less unit building investments and faster growing army.
-
-|factor|bonus|
-|:----|----:|
-|+10 growth|+1|
-|+1 farmer food|+3|
-|+1 worker production|+4|
-|+50% gold|+4|
-|+1/2 mana/pop|+1|
-|missing 4 buildings|-1|
-|swimming units|+1|
-|flying units|+2|
-|regenerating units|+3|
-|extra unrest|-2|
-
-## Economy efficiency estimate (CoM)
-
-|race|growth|ability|buildings|units|total|coefficient|
-|:----|----:|----:|----:|----:|----:|----:|
-|Orcs|0|0|0|0|0|1.0|
-|Barbarians|+3|0|-4|0|-1|1.0|
-|Beastmen|0|+1|0|0|+1|1.0|
-|Dark Elves|-1|+2|0|0|+1|1.0|
-|Draconians|0|+1|-2|+2|+1|1.0|
-|Dwarves|-3|+10|-2|0|+5|0.8|
-|Gnolls|-1|0|-3|0|-4|1.4|
-|Halflings|-1|+3|-2|0|0|1.0|
-|High Elves|-2|+1|0|0|-1|1.0|
-|High Men|0|0|0|0|0|1.0|
-|Klackons|+1|+8|-2|0|+5|0.8|
-|Lizardmen|+1|0|-3|+1|-1|1.0|
-|Nomads|+2|+2|-2|0|+2|1.0|
-|Trolls|-1|0|-2|+3|0|1.0|
+|race|effectiveness|comment|
+|:----|----:|:----|
+|Orcs|1.0||
+|Barbarians|1.2|Very economically disadvantageous race except the fastest growth.|
+|Beastmen|1.0||
+|Dark Elves|1.0|Grow slow but extra mana intake that can be used to summon units and strengthen normal units.|
+|Draconians|1.0||
+|Dwarves|0.8|The best producers in the game with multiple additional bonuses.|
+|Gnolls|1.5|The most economically disadvantageous race.|
+|Halflings|1.0||
+|High Elves|1.0||
+|High Men|1.0||
+|Klackons|0.8|Powerful producers.|
+|Lizardmen|1.2|Somewhat economically disandantagious race but with some expansion bonuses.|
+|Nomads|1.0||
+|Trolls|1.0|Regeneration requires less units to support but compensated with weak economy.|
 
