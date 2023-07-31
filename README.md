@@ -26,17 +26,17 @@ Some races are economically advantageous and can produce units faster and suppor
 |race|effectiveness|comment|
 |:----|----:|:----|
 |Orcs|1.0||
-|Barbarians|1.2|Very economically disadvantageous race except the fastest growth.|
+|Barbarians|1.3|Grow fast but otherwise economically disadvantageous.|
 |Beastmen|1.0||
-|Dark Elves|1.0|Grow slow but extra mana intake that can be used to summon units and strengthen normal units.|
-|Draconians|1.0||
+|Dark Elves|1.0||
+|Draconians|0.8|Flying units allows fast expansion.|
 |Dwarves|0.8|The best producers in the game with multiple additional bonuses.|
 |Gnolls|1.5|The most economically disadvantageous race.|
-|Halflings|1.0||
+|Halflings|1.0|Tough to say. Extra food production but serious lack of infrastructure.|
 |High Elves|1.0||
 |High Men|1.0||
-|Klackons|0.8|Powerful producers.|
-|Lizardmen|1.2|Somewhat economically disandantagious race but with some expansion bonuses.|
+|Klackons|1.0|Powerful producers but economics is very bad.|
+|Lizardmen|1.3|Bad economy but fast expansion ability.|
 |Nomads|1.0||
-|Trolls|1.0|Regeneration requires less units to support but compensated with weak economy.|
+|Trolls|1.0|Appalling economy but regeneration requires less units to build.|
 
