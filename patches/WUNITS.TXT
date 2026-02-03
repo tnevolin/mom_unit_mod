@@ -1,0 +1,262 @@
+;----------------------------------------------------------------------------------------------
+; Halberdiers attack: +2, cost: x1.5
+;----------------------------------------------------------------------------------------------
+; Beastmen Halberdiers attack:	  5 ->   7
+00029CFE
+05
+07
+; Beastmen Halberdiers cost:	 80 -> 120
+00029D06
+50
+78
+; Dark Elf Halberdiers attack:	  4 ->   6
+00029E8A
+04
+06
+; Dark Elf Halberdiers cost:	100 -> 150
+00029E92
+64
+96
+; Draconian Halberdiers attack:	  4 ->   6
+00029FCE
+04
+06
+; Draconian Halberdiers cost:	100 -> 150
+00029FD6
+64
+96
+; Dwarven Halberdiers attack:	  4 ->   6
+0002A112
+04
+06
+; Dwarven Halberdiers cost:	100 -> 150
+0002A11A
+64
+96
+; Gnoll Halberdiers attack:	  6 ->   8
+0002A232
+06
+08
+; Gnoll Halberdiers cost:	 40 ->  60
+0002A23A
+64
+96
+; High Elf Halberdiers attack:	  4 ->   6
+0002A3E2
+04
+06
+; High Elf Halberdiers cost:	 60 -> 100
+0002A3EA
+3C
+64
+; Klackon Halberdiers attack:	  4 ->   6
+0002A68E
+04
+06
+; Klackon Halberdiers cost:	 80 -> 120
+0002A696
+50
+78
+; Lizardmen Halberdiers attack:	  4 ->   6
+0002A766
+04
+06
+; Lizardmen Halberdiers cost:	 40 ->  60
+0002A76E
+28
+3C
+; Orc Halberdiers attack:	  4 ->   6
+0002A9CA
+04
+06
+; Orc Halberdiers cost:		 40 ->  60
+0002A9D2
+28
+3C
+; Troll Halberdiers attack:	  6 ->   8
+0002AB32
+06
+08
+; Troll Halberdiers cost:		 40 ->  60
+0002AB3A
+78
+C8
+;----------------------------------------------------------------------------------------------
+; Various unit strength and cost adjustments
+;----------------------------------------------------------------------------------------------
+; Barbarian Bowmen attack:	  1 ->   2
+00029C02
+01
+02
+; Barbarian Berserkers cost:	120 -> 300
+00029C9A
+78
+2C
+00029C9B
+00
+01
+; Beastmen Bowmen ranged:	  1 ->   2
+00029D23
+01
+02
+; Beastmen Manticores melee:	  5 ->   8
+00029DFA
+05
+08
+; Dark Elf Spearmen cost:	 25 ->  40
+00029E4A
+19
+28
+; Dark Elf Nightblades attack:	  4 ->   5
+00029F1A
+04
+05
+; Dark Elf Nightmares cost:	160 -> 250
+00029F6A
+A0
+FA
+; Draconian Air Ship cost:	200 -> 400
+0002A0D2
+C8
+90
+0002A0D3
+00
+01
+; Dwarven Hammerhands cost:	160 -> 250
+0002A162
+A0
+FA
+; Dwarven Golem attack:		 12 ->  16
+0002A1A2
+0C
+10
+; Dwarven Golem cost:		200 -> 300
+0002A1AA
+C8
+2C
+0002A1AB
+00
+01
+; Gnoll	Bowmen ranged:		  1 ->   2
+0002A257
+01
+02
+; Halfling Slingers cost:	100 -> 150
+0002A37E
+64
+96
+; High Elf Longbowmen cost:	 80 -> 120
+0002A47A
+50
+78
+; High Men Magicians cost:	120 -> 200
+0002A59A
+78
+C8
+; High Men Pikemen cost:	 80 -> 120
+0002A606
+50
+78
+; High Men Paladins cost:	200 -> 300
+0002A62A
+C8
+2C
+0002A62B
+00
+01
+; Klackon Stag Beetle cost:	160 -> 250
+0002A702
+A0
+FA
+; Lizardman Shaman defense:	  3 ->   4
+0002A7B3
+03
+04
+; Lizardman Dragon Turtle att:	 10 ->  15
+0002A7F6
+0A
+0F
+; Lizardman Dragon Turtle fire:	  5 ->  10
+0002A7F7
+05
+0A
+; Lizardman Dragon Turtle cost:	100 -> 200
+0002A7FE
+64
+C8
+; Nomad Horsebowmen cost:	 60 -> 100
+0002A8FA
+3C
+64
+; Nomad Pikemen cost:	 	 80 -> 120
+0002A91E
+50
+78
+; Nomad Rangers cost:	 	120 -> 200
+0002A942
+78
+C8
+; Nomad Griffins cost:	 	200 -> 300
+0002A966
+C8
+2C
+0002A967
+00
+01
+; Orc Wyvern Riders attack: 	  5 ->   8
+0002AAC6
+05
+08
+; Orc Wyvern Riders cost:	200 -> 300
+0002AACE
+C8
+2C
+0002AACF
+00
+01
+; Troll	War Trolls cost:	160 -> 250
+0002ABA6
+A0
+FA
+; Troll	War Mammoths attack:	 10 ->  12
+0002ABC2
+0A
+0C
+; Troll	War Mammoths cost:	240 -> 400
+0002ABCA
+F0
+90
+0002ABCB
+00
+01
+; Chaos Chimera attack:		  7 ->   6
+0002ACBE
+07
+06
+; Chaos Chimera defense:	  5 ->   3
+0002ACC3
+05
+03
+; Chaos	Doom Bat attack:	 10 ->  15
+0002ACE2
+0A
+0F
+; Chaos Efreet attack:	 	  9 ->  15
+0002AD06
+09
+0F
+; Chaos Hydra hit points: 	 10 ->   5
+0002AD3A
+0A
+05
+; Chaos Great Drake cost: 	900 ->1500
+0002AD56
+84
+DC
+0002AD57
+03
+05
+; Death Night Stalker attack: 	  5 ->  10
+0002ADBA
+07
+0A
