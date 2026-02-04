@@ -96,16 +96,16 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 
 | unit | HP | me | ra | de | comment |
 | ---- | ----: | ----: | ----: | ----: | ---- |
-| Dwarf | +5 | +2 |  | +1 | rather plain hero |
+| Dwarf | +6 | +2 |  | +1 | some initial stats for otherwise plain hero |
 | Barbarian | +5 |  |  |  |  |
 | Sage | +5 |  |  |  |  |
 | Dervish | +5 |  |  |  |  |
-| Beastmaster | +5 | +4 |  | +1 | surprisingly useless and unadvanceable guy even for the lowest level |
-| Bard | +5 | +2 |  | +1 | too weak even with Leadership |
+| Beastmaster | +5 | +5 |  | +3 | some initial stats for the most unadvanceable guy |
+| Bard | +5 | +3 |  | +2 | too weak even with Leadership |
 | Orc Warrior | +5 |  |  |  |  |
 | Healer | +5 |  |  |  |  |
 | Huntress | +5 |  |  |  |  |
-| Thief | +3 | +2 |  |  | limited HP boost due to Agility |
+| Thief | +5 | +2 |  |  | slight offense boost to otherwise toothless hero |
 | Druid | +5 |  |  |  |  |
 | War Monk | +2 |  |  |  | limited HP boost due to super Agility |
 | Warrior Mage | +5 |  |  |  |  |
@@ -117,20 +117,20 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | Witch | +5 |  |  |  |  |
 | Golden One | +5 |  |  |  |  |
 | Ninja | +2 | +2 |  |  | limited HP boost due to invisibility |
-| Rogue | +5 |  |  |  |  |
-| Amazon | +5 |  |  |  |  |
+| Rogue | +5 | +3 |  | +2 | too weak for mid level hero |
+| Amazon |  | -2 |  |  | already too strong with Might and Blademaster |
 | Warlock | +5 |  |  |  |  |
 | Unknown | +5 |  |  |  |  |
 | Illusionist | +5 |  |  |  |  |
 | Swordsman | +5 |  |  |  |  |
 | Priestess | +5 |  |  |  |  |
 | Paladin | +5 |  |  |  |  |
-| Black Knight | +5 |  |  |  |  |
-| Elven Archer | +5 |  | -2 |  | insanely powerful shooter with Blademaster |
-| Knight | +5 |  |  |  |  |
+| Black Knight |  |  |  |  | no boost needed |
+| Elven Archer | +5 | -2 | -2 |  | insanely powerful shooter with Blademaster |
+| Knight | +5 | +2 |  | +2 | relatively unremarkable for its class |
 | Necromancer | +5 |  |  |  |  |
-| Chaos Warrior | +5 | -4 | -4 |  | insanely powerful combat machine with Arcane Power and Armor Piercing |
-| Chosen |  |  |  |  | no boost needed at all |
+| Chaos Warrior |  | -4 | -4 |  | insanely powerful combat machine with Arcane Power and Armor Piercing |
+| Chosen |  | -4 |  | -2 | too not interesting overpowered dude |
 
 # Patches
 
