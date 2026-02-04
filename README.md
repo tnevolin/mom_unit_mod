@@ -42,7 +42,8 @@ Mostly changed unit cost for some overpowered ones. There are also few strength 
 
 | unit | me | ra | de | HP | cost | comment |
 | ---- | ----: | ----: | ----: | ----: | ----: | ---- |
-| Barbarian Bowmen | +1 |  |  |  |  | no racial thrown attack on this unit |
+| Barbarian Bowmen |  | +1 |  |  |  | compensation for racial thrown attack |
+| Barbarian Shaman |  | +1 |  |  |  | compensation for racial thrown attack |
 | Barbarian Berserkers |  |  |  |  | 300 | super strong |
 | Beastmen Bowmen |  | +1 |  |  |  | lacking +1 racial bonus on ranged |
 | Beastmen Manticores | +3 |  |  |  |  | super weak for their tier |
