@@ -6,7 +6,7 @@ Attempt to modify different aspects of the game to make them more usable.
 
 ## Problem
 
-Super restrictive food support overshooting even gold support in its restrictivity. Player barely can sustend garrisons. Especially at the beginning of the game. As the result, operating with large normal armies is unfeasible.
+Super restrictive food support overshooting even gold support in its restrictivity. Player barely can maintain garrisons, especially at the beginning of the game. As the result, operating with large normal armies is unfeasible.
 
 Another issue with food support is that exess of food is converted to gold at 2:1 ratio. And then this excess of gold is spent on rushing production at 2:1 ratio again. That is 4 (four!) times less efficient then simply adjusting worker allocation, which exchanges food to hammers at 1:1 ratio.
 Obviously, with this system, player should try to minimize excessive food production doing micro adjustments _every time new unit produced_! Super annoying micromanagement.
