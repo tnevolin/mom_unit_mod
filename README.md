@@ -28,7 +28,7 @@ melee units: Spearmen, Swordsmen, Cavalry, Halberdiers, Pikemen
 
 All of the above are more or less efficient and in their place, except Cavalry and Halberdiers have more or less equal strength and there is a huge strength gap between Halberdiers and Pikemen.
 
-Cavalry requires just two building to unlock and could be considered by cheap and light fast moving unit able to quickly close the gap to ranged units.
+Cavalry requires just two building to unlock and could be considered as cheap and light fast moving unit able to quickly close the gap to ranged units.
 
 Halberdiers, from the other hand, require more buildings to unlock, but they feel pretty weak at this level. They should fill the gap of strong middle tier comparable to Pikemen.
 
