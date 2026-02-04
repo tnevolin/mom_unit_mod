@@ -132,6 +132,70 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | Chaos Warrior |  | -4 | -4 |  | insanely powerful combat machine with Arcane Power and Armor Piercing |
 | Chosen |  | -4 |  | -2 | too not interesting overpowered dude |
 
+# Spells
+
+## Counter Magic
+
+Power decreases by **25**, but only after successful countering.
+
+## Other Spells
+
+_not implemented_
+
+1. Generic protection and buffs cost doubled (or so).
+2. Selective protection and buffs cost could be same or x1.5.
+3. Overland damaging and suppression enchantments upkeep quintupled.
+
+| spell | overland | combat | upkeep | comment |
+| ---- | ----: | ----: | ----: | ---- |
+| Heroism | 200 | 40 | 4 |  |
+| High Prayer |  | 100 |  |  |
+| Holy Armor | 200 | 40 | 4 |  |
+| Holy Weapon | 100 | 20 | 2 |  |
+| Incarnation | 1000 |  |  | Chosen is too good of a hero. Should be more expensive than summoning champion. |
+| Invulnerability | 400 | 80 | 10 |  |
+| Life Force |  |  | 50 |  |
+| Lionheart | 400 | 80 | 8 |  |
+| Planar Seal |  |  | 25 |  |
+| Prayer |  | 50 |  |  |
+| Righteousness | 300 | 60 | 3 |  |
+| Tranquility |  |  | 50 |  |
+| True Light |  |  | 30 |  |
+| Call Lightning |  | 100 |  |  |
+| Cracks Call |  | 100 |  | 25% killing chance for 20 mana ?? |
+| Earth to Mud |  | 5 |  | this was too overpriced for the effect |
+| Entangle |  | 25 |  | another rarely used spell due to its price |
+| Iron Skin | 400 | 80 | 10 |  |
+| Nature's Wrath |  |  | 50 |  |
+| Confusion |  | 30 |  |  |
+| Enchant Road | 200 |  |  |  |
+| Flight | 250 | 50 | 6 |  |
+| Invisibility | 350 | 70 | 20 |  |
+| Magic Immunity | 500 | 100 | 10 |  |
+| Mass Invisibility |  | 160 |  |  |
+| Mind Storm |  | 100 |  | unresistable -5 everything |
+| Suppress Magic |  |  | 250 |  |
+| Time Stop |  |  | 1000 |  |
+| Armageddon |  |  | 200 |  |
+| Chaos Channels | 200 |  |  |  |
+| Corruption | 100 |  |  | to prevent AI wizards from casting it all the time |
+| Doom Bolt |  | 80 |  |  |
+| Eldritch Weapon | 150 | 30 | 2 |  |
+| Flame Blade | 250 | 50 | 4 |  |
+| Great Wasting |  |  | 100 |  |
+| Metal Fires |  | 80 |  |  |
+| Meteor Storm |  |  | 50 |  |
+| Warp Wood |  | 20 |  |  |
+| Black Prayer |  | 70 |  |  |
+| Black Sleep |  | 30 |  |  |
+| Death Wish | 1000 |  |  | too cheap for killing 50% of units worldwide |
+| Evil Omens |  |  | 50 |  |
+| Mana Leak |  | 40 |  |  |
+| Wrack |  | 60 |  |  |
+| Zombie Mastery |  |  | 80 |  |
+| Spell of Mastery | 10000 |  |  | it was too close to other spell costs |
+| Spell of Return | 500 |  |  | reducing losing the castle city consequence |
+
 # Patches
 
 | filename | effect |
@@ -140,4 +204,5 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | WFDUPK05.TXT  | Units food support = 1/2 |
 | WUNITS.TXT | Cumulative unit changes |
 | WHEROES.TXT | Hero changes |
+| WCOUNTER.TXT  | Counter Magic adjustmetns |
 
