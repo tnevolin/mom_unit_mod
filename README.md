@@ -75,6 +75,63 @@ Mostly changed unit cost for some overpowered ones. There are also few strength 
 | Chaos Great Drake |  | 1500 | too strong for its price |
 | Death Night Stalker | melee: 5 -> 10 |  | strangely weak even if invisible |
 
+# Heroes
+
+## Problem
+
+1. They are useless and fragile at the beginning. Player has to include them into combat but just let them sit and learn.
+2. Some abilities (Agility, Blademaster) turn even low level heroes into superpower machines.
+3. Due to steep hero progression, players usually refuse to replace their low level experienced heroes with higher level recruits.
+4. Due to their fragility they are destroyed pretty quickly by direct damage attacks and spells. That requires constant attention on keeping them alive.
+
+## Solution
+
+Beef up some weaker and lower level heroes (+HP and other stats) to make them less fragile and more useful from the beginning. Flat addition should not sqew up their advanced versions.
+
+1. Recruited heroes are less fragile and can fight in battle on par with normal units.
+2. Some rebalancing between heroes.
+3. Experienced heroes are _slightly_ more tough and better. They will die less frequent and player should not pay extra attention on protecting them.
+4. With lower dying chances it should be fine to allow them to rotate even when they do die.
+
+
+| unit | HP | me | ra | de | comment |
+| ---- | ----: | ----: | ----: | ----: | ---- |
+| Dwarf | +5 | +2 |  | +1 | rather plain hero |
+| Barbarian | +5 |  |  |  |  |
+| Sage | +5 |  |  |  |  |
+| Dervish | +5 |  |  |  |  |
+| Beastmaster | +5 | +4 |  | +1 | surprisingly useless and unadvanceable guy even for the lowest level |
+| Bard | +5 | +2 |  | +1 | too weak even with Leadership |
+| Orc Warrior | +5 |  |  |  |  |
+| Healer | +5 |  |  |  |  |
+| Huntress | +5 |  |  |  |  |
+| Thief | +3 | +2 |  |  | limited HP boost due to Agility |
+| Druid | +5 |  |  |  |  |
+| War Monk | +2 |  |  |  | limited HP boost due to super Agility |
+| Warrior Mage | +5 |  |  |  |  |
+| Magician | +5 |  | -4 |  | too devastating ranged attack with Arcane Power at this tier |
+| Assassin | +5 | +2 |  |  | too low melee to benefit from Blademaster |
+| Wind Mage | +5 |  |  |  |  |
+| Ranger | +5 |  |  |  | Might is not well placed in this hero, but I do not know what to do with him now |
+| Draconian | +5 |  |  |  |  |
+| Witch | +5 |  |  |  |  |
+| Golden One | +5 |  |  |  |  |
+| Ninja | +2 | +2 |  |  | limited HP boost due to invisibility |
+| Rogue | +5 |  |  |  |  |
+| Amazon | +5 |  |  |  |  |
+| Warlock | +5 |  |  |  |  |
+| Unknown | +5 |  |  |  |  |
+| Illusionist | +5 |  |  |  |  |
+| Swordsman | +5 |  |  |  |  |
+| Priestess | +5 |  |  |  |  |
+| Paladin | +5 |  |  |  |  |
+| Black Knight | +5 |  |  |  |  |
+| Elven Archer | +5 |  | -2 |  | insanely powerful shooter with Blademaster |
+| Knight | +5 |  |  |  |  |
+| Necromancer | +5 |  |  |  |  |
+| Chaos Warrior | +5 | -4 | -4 |  | insanely powerful combat machine with Arcane Power and Armor Piercing |
+| Chosen |  |  |  |  | no boost needed at all |
+
 # Patches
 
 | filename | effect |
