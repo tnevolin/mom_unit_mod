@@ -82,4 +82,5 @@ Mostly changed unit cost for some overpowered ones. There are also few strength 
 | WFDGD20.TXT | Excess food to gold conversion ratio = 1:2 |
 | WFDUPK05.TXT  | Units food support = 1/2 |
 | WUNITS.TXT | Cumulative unit changes |
+| WHEROES.TXT | Hero changes |
 
