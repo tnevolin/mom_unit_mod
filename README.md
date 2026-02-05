@@ -270,7 +270,9 @@ _not implemented_
 
 1. More porwerful spell should be unproportionally more expensive to be less mana efficient.
 2. Positive unit enchantment upkeep is **doubled** to prevent player accumulating tons of buffs.
-4. All overland enchantments affecting business and wellbeing of other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
+4. Overland enchantments affecting business and wellbeing of other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
+5. Universal non resistable damage spells (Doom Bolt, Disintegrate, etc.) casting cost is seriously increased.
+6. Strong ability given unit enchantments (Flight, Invisibility, Magic Immunity, etc.) casting cost is seriosly increasd.
 
 ## Counter Magic
 
