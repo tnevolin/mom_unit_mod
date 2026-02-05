@@ -325,7 +325,7 @@ Power decreases by **25**, but only after successful countering.
 | 41 | Resist Magic |  |  |  |
 | 42 | Dispel Magic True |  |  |  |
 | 43 | Floating Island |  |  |  |
-| 44 | Guardian Wind | 15 | 3 | missile immunity should not be cheap |
+| 44 | Guardian Wind | 20 | 4 | missile immunity should not be cheap |
 | 45 | Phantom Warriors |  |  |  |
 | 46 | Confusion | 30 |  | notoriously OP |
 | 47 | Word of Recall |  |  |  |
