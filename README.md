@@ -264,12 +264,13 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 
 # Spells
 
+_not implemented_
+
 ## General rules
 
-1. More porwerful spell should be unproportionally more expensive to present speed vs. mana efficiency choice to the player.
-2. Long lasting effect spells (protective) should cost proportionally more than one time effect ones (damage).
-3. All anti-magic overland enchantments should have super high upkeep. Wizard should pay a every turn premium suppressing other players.
-4. All super nasty overland enchantments (Armageddon, Great Wasting) should have super high upkeep.
+1. More porwerful spell should be unproportionally more expensive to be less mana efficient.
+2. Positive unit enchantment upkeep is **doubled** to prevent player accumulating tons of buffs.
+4. All overland enchantments affecting business and wellbeing of other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
 
 ## Counter Magic
 
@@ -277,57 +278,222 @@ Power decreases by **25**, but only after successful countering.
 
 ## Summary table
 
-_not implemented_
-
-| spell | overland | combat | upkeep | comment |
-| ---- | ----: | ----: | ----: | ---- |
-| Heroism | 200 | 40 | 8 |  |
-| High Prayer |  | 150 |  |  |
-| Holy Armor | 100 | 20 | 4 |  |
-| Holy Weapon | 50 | 10 | 2 |  |
-| Incarnation | 1000 |  |  | should be more expensive than summoning a champion |
-| Invulnerability | 300 | 60 | 12 |  |
-| Life Force |  |  | 50 |  |
-| Lionheart | 400 | 80 | 16 |  |
-| Planar Seal |  |  | 25 |  |
-| Prayer |  | 60 |  |  |
-| Righteousness | 300 | 60 | 6 |  |
-| Tranquility |  |  | 50 |  |
-| True Light |  |  | 30 |  |
-| Call Lightning |  | 100 |  |  |
-| Cracks Call |  | 100 |  | 25% killing chance for 20 mana ?? |
-| Earth to Mud |  | 5 |  | this was too overpriced for the effect |
-| Entangle |  | 25 |  | another rarely used spell due to its price |
-| Iron Skin | 300 | 60 | 12 |  |
-| Nature's Wrath |  |  | 50 |  |
-| Confusion |  | 30 |  |  |
-| Enchant Road | 200 |  |  |  |
-| Flight | 250 | 50 | 10 |  |
-| Invisibility | 350 | 70 | 20 |  |
-| Magic Immunity | 500 | 100 | 20 |  |
-| Mass Invisibility |  | 160 |  |  |
-| Mind Storm |  | 100 |  | unresistable -5 everything |
-| Suppress Magic |  |  | 250 |  |
-| Time Stop |  |  | 1000 |  |
-| Armageddon |  |  | 200 |  |
-| Chaos Channels | 200 |  |  |  |
-| Corruption | 100 |  |  | to prevent AI wizards from casting it all the time |
-| Doom Bolt |  | 100 |  | ignore everything super damage |
-| Eldritch Weapon | 100 | 20 | 4 |  |
-| Flame Blade | 125 | 25 | 4 |  |
-| Great Wasting |  |  | 100 |  |
-| Metal Fires |  | 60 |  |  |
-| Meteor Storm |  |  | 50 |  |
-| Warp Wood |  | 20 |  |  |
-| Black Prayer |  | 60 |  |  |
-| Black Sleep |  | 30 |  |  |
-| Death Wish | 1000 |  |  | too cheap for killing 50% of units worldwide |
-| Evil Omens |  |  | 50 |  |
-| Mana Leak |  | 40 |  |  |
-| Wrack |  | 60 |  |  |
-| Zombie Mastery |  |  | 80 |  |
-| Spell of Mastery | 10000 |  |  | it was too close to other spell costs |
-| Spell of Return | 500 |  |  | reducing losing the castle city consequence |
+| #| spell | cost | upkeep | comment |
+| ----: | ---- | ----: | ----: | ---- |
+| 1 | Earth to Mud | 5 |  | not too usable spell should be cheap |
+| 2 | Resist Elements | 10 | 2 |  |
+| 3 | Wall of Stone |  |  |  |
+| 4 | Giant Strength |  |  |  |
+| 5 | Web |  |  |  |
+| 6 | War Bears |  |  |  |
+| 7 | Stone Skin |  |  |  |
+| 8 | Water Walking |  |  |  |
+| 9 | Sprites |  |  |  |
+| 10 | Earth Lore |  |  |  |
+| 11 | Cracks Call | 100 |  | 25% killing chance should be expensive |
+| 12 | Nature's Eye |  |  |  |
+| 13 | Ice Bolt |  |  |  |
+| 14 | Giant Spiders |  |  |  |
+| 15 | Change Terrain |  |  |  |
+| 16 | Path Finding |  |  |  |
+| 17 | Cockatrices |  |  |  |
+| 18 | Transmute |  |  |  |
+| 19 | Nature's Cures |  |  |  |
+| 20 | Basilisk |  |  |  |
+| 21 | Elemental Armor | 50 | 10 |  |
+| 22 | Petrify |  |  |  |
+| 23 | Stone Giant |  |  |  |
+| 24 | Iron Skin | 75 | 15 |  |
+| 25 | Ice Storm |  |  |  |
+| 26 | Earthquake |  |  |  |
+| 27 | Gorgons |  |  |  |
+| 28 | Move Fortress |  |  |  |
+| 29 | Gaia's Blessing |  |  |  |
+| 30 | Earth Elemental |  |  |  |
+| 31 | Regeneration |  |  |  |
+| 32 | Behemoth |  |  |  |
+| 33 | Entangle | 25 |  | another rarely used spell |
+| 34 | Nature Awareness |  |  |  |
+| 35 | Call Lightning | 100 |  |  |
+| 36 | Colossus |  |  |  |
+| 37 | Earth Gate |  |  |  |
+| 38 | Herb Mastery |  |  |  |
+| 39 | Great Wyrm |  |  |  |
+| 40 | Nature's Wrath |  | 50 |  |
+| 41 | Resist Magic |  |  |  |
+| 42 | Dispel Magic True |  |  |  |
+| 43 | Floating Island |  |  |  |
+| 44 | Guardian Wind | 15 | 3 | missile immunity should not be cheap |
+| 45 | Phantom Warriors |  |  |  |
+| 46 | Confusion | 30 |  | notoriously OP |
+| 47 | Word of Recall |  |  |  |
+| 48 | Counter Magic |  |  |  |
+| 49 | Nagas |  |  |  |
+| 50 | Psionic Blast |  |  |  |
+| 51 | Blur |  |  |  |
+| 52 | Disenchant True |  |  |  |
+| 53 | Vertigo |  |  |  |
+| 54 | Spell Lock |  | 2 |  |
+| 55 | Enchant Road |  |  |  |
+| 56 | Flight |  | 10 |  |
+| 57 | Wind Mastery |  |  |  |
+| 58 | Spell Blast |  |  |  |
+| 59 | Aura of Majesty |  |  |  |
+| 60 | Phantom Beast |  |  |  |
+| 61 | Disjunction True |  |  |  |
+| 62 | Invisiblity |  | 15 |  |
+| 63 | Wind Walking |  |  |  |
+| 64 | Banish |  |  |  |
+| 65 | Storm Giant |  |  |  |
+| 66 | Air Elemental |  |  |  |
+| 67 | Mind Storm | 100 |  | non resistable -5 everything |
+| 68 | Stasis |  |  |  |
+| 69 | Magic Immunity | 100 | 20 |  |
+| 70 | Haste |  |  |  |
+| 71 | Djinn |  |  |  |
+| 72 | Spell Ward |  |  |  |
+| 73 | Creature Binding |  |  |  |
+| 74 | Mass Invisibility | 125 |  |  |
+| 75 | Great Unsummoning |  |  |  |
+| 76 | Spell Binding |  |  |  |
+| 77 | Flying Fortress |  |  |  |
+| 78 | Sky Drake |  |  |  |
+| 79 | Suppress Magic |  | 250 |  |
+| 80 | Time Stop |  | 1000 |  |
+| 81 | Warp Wood | 20 |  |  |
+| 82 | Disrupt |  |  |  |
+| 83 | Fire Bolt |  |  |  |
+| 84 | Hell Hounds |  |  |  |
+| 85 | Corruption | 100 |  | just for AI not to use it too often |
+| 86 | Eldritch Weapon | 30 | 6 |  |
+| 87 | Wall of Fire |  |  |  |
+| 88 | Shatter |  |  |  |
+| 89 | Warp Creature |  |  |  |
+| 90 | Fire Elemental |  |  |  |
+| 91 | Lightning Bolt |  |  |  |
+| 92 | Fire Giant |  |  |  |
+| 93 | Chaos Channels |  |  |  |
+| 94 | Flame Blade |  | 4 |  |
+| 95 | Gargoyles |  |  |  |
+| 96 | Fireball |  |  |  |
+| 97 | Doom Bat |  |  |  |
+| 98 | Raise Volcano |  |  |  |
+| 99 | Immolation |  |  |  |
+| 100 | Chimeras |  |  |  |
+| 101 | Warp Lightning |  |  |  |
+| 102 | Metal Fires | 60 |  |  |
+| 103 | Chaos Spawn |  |  |  |
+| 104 | Doom Bolt | 100 |  | another universal guaranteed damage |
+| 105 | Magic Vortex |  |  |  |
+| 106 | Efreet |  |  |  |
+| 107 | Fire Storm |  |  |  |
+| 108 | Warp Reality |  |  |  |
+| 109 | Flame Strike | 100 |  |  |
+| 110 | Chaos Rift |  |  |  |
+| 111 | Hydra |  |  |  |
+| 112 | Disintegrate | 100 |  |  |
+| 113 | Meteor Storm |  |  |  |
+| 114 | Great Wasting |  | 100 |  |
+| 115 | Call Chaos |  |  |  |
+| 116 | Chaos Surge |  |  |  |
+| 117 | Doom Mastery |  |  |  |
+| 118 | Great Drake |  |  |  |
+| 119 | Call the Void |  |  |  |
+| 120 | Armageddon |  | 200 |  |
+| 121 | Bless |  |  |  |
+| 122 | Star Fires |  |  |  |
+| 123 | Endurance |  |  |  |
+| 124 | Holy Weapon | 20 | 4 |  |
+| 125 | Healing |  |  |  |
+| 126 | Holy Armor | 30 | 6 |  |
+| 127 | Just Cause |  |  |  |
+| 128 | True Light | 30 |  |  |
+| 129 | Guardian Spirit |  |  |  |
+| 130 | Heroism | 40 | 8 |  |
+| 131 | True Sight |  |  |  |
+| 132 | Plane Shift |  |  |  |
+| 133 | Resurrection |  |  |  |
+| 134 | Dispel Evil |  |  |  |
+| 135 | Planar Seal |  | 25 |  |
+| 136 | Unicorns |  |  |  |
+| 137 | Raise Dead |  |  |  |
+| 138 | Planar Travel |  |  |  |
+| 139 | Heavenly Light |  |  |  |
+| 140 | Prayer | 60 |  |  |
+| 141 | Lionheart | 75 | 15 |  |
+| 142 | Incarnation | 1000 |  | should not be cheaper than champion |
+| 143 | Invulnerability | 60 | 15 |  |
+| 144 | Righteousness | 60 | 12 |  |
+| 145 | Prosperity |  |  |  |
+| 146 | Altar of Battle |  |  |  |
+| 147 | Angel |  |  |  |
+| 148 | Stream of Life |  |  |  |
+| 149 | Mass Healing |  |  |  |
+| 150 | Holy Word |  |  |  |
+| 151 | High Prayer | 150 |  |  |
+| 152 | Inspirations |  |  |  |
+| 153 | Astral Gate |  |  |  |
+| 154 | Holy Arms |  |  |  |
+| 155 | Consecration |  |  |  |
+| 156 | Life Force |  | 50 |  |
+| 157 | Tranquility |  | 50 |  |
+| 158 | Crusade |  |  |  |
+| 159 | Arch Angel |  |  |  |
+| 160 | Charm of Life |  |  |  |
+| 161 | Skeletons |  |  |  |
+| 162 | Weakness |  |  |  |
+| 163 | Dark Rituals |  |  |  |
+| 164 | Cloak of Fear |  |  |  |
+| 165 | Black Sleep | 30 |  |  |
+| 166 | Ghouls |  |  |  |
+| 167 | Life Drain |  |  |  |
+| 168 | Terror |  |  |  |
+| 169 | Darkness | 30 |  |  |
+| 170 | Mana Leak | 40 |  |  |
+| 171 | Drain Power |  |  |  |
+| 172 | Possession |  |  |  |
+| 173 | Lycanthropy |  |  |  |
+| 174 | Black Prayer | 50 |  |  |
+| 175 | Black Channels |  |  |  |
+| 176 | Night Stalker |  |  |  |
+| 177 | Subversion |  |  |  |
+| 178 | Wall of Darkness |  |  |  |
+| 179 | Berserk | 45 |  |  |
+| 180 | Shadow Demons |  |  |  |
+| 181 | Wraith Form |  |  |  |
+| 182 | Wrack | 60 |  |  |
+| 183 | Evil Presence |  |  |  |
+| 184 | Wraiths |  |  |  |
+| 185 | Cloud of Shadow |  |  |  |
+| 186 | Warp Node |  |  |  |
+| 187 | Black Wind |  |  |  |
+| 188 | Zombie Mastery |  |  |  |
+| 189 | Famine |  |  |  |
+| 190 | Cursed Lands |  |  |  |
+| 191 | Cruel Unminding |  |  |  |
+| 192 | Word of Death |  |  |  |
+| 193 | Death Knights |  |  |  |
+| 194 | Death Spell |  |  |  |
+| 195 | Animate Dead |  |  |  |
+| 196 | Pestilence |  |  |  |
+| 197 | Eternal Night |  |  |  |
+| 198 | Evil Omens |  | 50 |  |
+| 199 | Death Wish |  |  |  |
+| 200 | Demon Lord |  |  |  |
+| 201 | Magic Spirit |  |  |  |
+| 202 | Dispel Magic |  |  |  |
+| 203 | Summoning Circle |  |  |  |
+| 204 | Disenchant Area |  |  |  |
+| 205 | Recall Hero |  |  |  |
+| 206 | Detect Magic |  |  |  |
+| 207 | Enchant Item |  |  |  |
+| 208 | Summon Hero |  |  |  |
+| 209 | Awareness |  |  |  |
+| 210 | Disjunction |  |  |  |
+| 211 | Create Artifact |  |  |  |
+| 212 | Summon Champion |  |  |  |
+| 213 | Spell of Mastery | 10000 |  | should take longer for other wizards to fight the caster |
+| 214 | Spell of Return | 500 |  | should not take too long |
 
 # Patches
 
