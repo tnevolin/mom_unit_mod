@@ -223,11 +223,11 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | 157 | Chaos | Fire Giant |  |  |  |  |  |  |
 | 158 | Chaos | Fire Elemental |  |  |  |  |  |  |
 | 159 | Chaos | Chaos Spawn |  |  |  |  |  |  |
-| 160 | Chaos | Chimera | 6 |  | 3 |  |  |  |
-| 161 | Chaos | Doom Bat | 15 |  |  |  |  |  |
-| 162 | Chaos | Efreet | 15 |  |  |  |  |  |
-| 163 | Chaos | Hydra |  |  |  | 5 |  |  |
-| 164 | Chaos | Great Drake |  |  |  |  | 1500 |  |
+| 160 | Chaos | Chimera |  |  |  | 6 |  |  |
+| 161 | Chaos | Doom Bat | 15 |  |  | 30 |  | weak single figure unit |
+| 162 | Chaos | Efreet | 15 | 15 |  | 15 |  |  |
+| 163 | Chaos | Hydra |  |  |  | 5 | 1000 |  |
+| 164 | Chaos | Great Drake |  |  |  | 20 | 2000 |  |
 | 165 | Death | Skeletons |  |  |  |  |  |  |
 | 166 | Death | Ghouls |  |  |  |  |  |  |
 | 167 | Death | Night Stalker | 10 |  |  |  |  |  |
@@ -235,31 +235,31 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | 169 | Death | Demon |  |  |  |  |  |  |
 | 170 | Death | Wraiths |  |  |  |  |  |  |
 | 171 | Death | Shadow Demons |  |  |  |  |  |  |
-| 172 | Death | Death Knights |  |  |  |  |  |  |
-| 173 | Death | Demon Lord |  |  |  |  |  |  |
+| 172 | Death | Death Knights |  |  |  |  | 1000 |  |
+| 173 | Death | Demon Lord |  |  |  |  | 1500 |  |
 | 174 | Death | Zombies |  |  |  |  |  |  |
 | 175 | Life | Unicorns |  |  |  |  |  |  |
 | 176 | Life | Guardian Spirit |  |  |  |  |  |  |
 | 177 | Life | Angel |  |  |  |  |  |  |
 | 178 | Life | Arch Angel |  |  |  |  |  |  |
-| 179 | Nature | War Bears |  |  |  |  |  |  |
+| 179 | Nature | War Bears |  |  |  |  | 50 |  |
 | 180 | Nature | Sprites |  |  |  |  |  |  |
 | 181 | Nature | Cockatrices |  |  |  |  |  |  |
 | 182 | Nature | Basilisk |  |  |  |  |  |  |
 | 183 | Nature | Giant Spiders |  |  |  |  |  |  |
 | 184 | Nature | Stone Giant |  |  |  |  |  |  |
-| 185 | Nature | Colossus |  |  |  |  |  |  |
-| 186 | Nature | Gorgons |  |  |  |  |  |  |
+| 185 | Nature | Colossus |  |  |  |  | 1400 |  |
+| 186 | Nature | Gorgons |  |  |  |  | 800 |  |
 | 187 | Nature | Earth Elemental |  |  |  |  |  |  |
-| 188 | Nature | Behemoth |  |  |  |  |  |  |
-| 189 | Nature | Great Wyrm |  |  |  |  |  |  |
+| 188 | Nature | Behemoth |  |  |  |  | 1500 |  |
+| 189 | Nature | Great Wyrm |  |  |  |  | 2000 |  |
 | 190 | Sorcery | Floating Island |  |  |  |  |  |  |
 | 191 | Sorcery | Phantom Beast |  |  |  |  |  |  |
 | 192 | Sorcery | Phantom Warriors |  |  |  |  |  |  |
 | 193 | Sorcery | Storm Giant |  |  |  |  |  |  |
 | 194 | Sorcery | Air Elemental |  |  |  |  |  |  |
 | 195 | Sorcery | Djinn |  |  |  |  |  |  |
-| 196 | Sorcery | Sky Drake |  |  |  |  |  |  |
+| 196 | Sorcery | Sky Drake |  |  |  |  | 2000 |  |
 | 197 | Sorcery | Nagas |  |  |  |  |  |  |
 
 # Spells
