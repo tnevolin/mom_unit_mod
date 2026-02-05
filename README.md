@@ -227,7 +227,7 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | 161 | Chaos | Doom Bat | 15 |  |  | 30 |  | weak single figure unit |
 | 162 | Chaos | Efreet | 15 | 15 |  | 15 |  |  |
 | 163 | Chaos | Hydra |  |  |  | 5 | 1000 |  |
-| 164 | Chaos | Great Drake |  |  |  | 20 | 2000 |  |
+| 164 | Chaos | Great Drake |  |  |  |  | 2000 |  |
 | 165 | Death | Skeletons |  |  |  |  |  |  |
 | 166 | Death | Ghouls |  |  |  |  |  |  |
 | 167 | Death | Night Stalker | 10 |  |  |  |  |  |
@@ -259,7 +259,7 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | 193 | Sorcery | Storm Giant |  |  |  |  |  |  |
 | 194 | Sorcery | Air Elemental |  |  |  |  |  |  |
 | 195 | Sorcery | Djinn |  |  |  |  |  |  |
-| 196 | Sorcery | Sky Drake |  |  |  |  | 2000 |  |
+| 196 | Sorcery | Sky Drake |  |  |  |  | 2500 |  |
 | 197 | Sorcery | Nagas |  |  |  |  |  |  |
 
 # Spells
