@@ -22,6 +22,7 @@ Obviously, with this system, player should try to minimize excessive food produc
 
 1. There should be no duplicate racial/realm units. They should differ either in type (melee/ranged/flying) or in strength.
 2. Higher tier unit should be stronger and proportionally expensive.
+3. Small adjustment between units of similar class to highlight less used one (War Bears).
 
 ## Specific issues
 
@@ -56,7 +57,7 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 
 1. Recruited heroes are less fragile and can fight in battle on par with normal units.
 2. Some rebalancing between heroes.
-3. Experienced heroes are _slightly_ more tough and better. They will die less frequent and player should not pay extra attention on protecting them.
+3. Experienced heroes are _slightly_ more tougher and better. They will die less frequent and player should not pay extra attention on protecting them.
 4. With lower dying chances it should be fine to allow them to rotate even when they do die.
 
 ## Summary table
@@ -268,9 +269,9 @@ _not implemented_
 
 ## General rules
 
-1. More porwerful spell should be unproportionally more expensive to be less mana efficient.
+1. More porwerful spell should be less mana efficient comparing to weaker version.
 2. Positive unit enchantment upkeep is **doubled** to prevent player accumulating tons of buffs.
-4. Overland enchantments affecting business and wellbeing of other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
+4. Overland enchantment annoying other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
 5. Universal non resistable damage spells (Doom Bolt, Disintegrate, etc.) casting cost is seriously increased.
 6. Strong ability given unit enchantments (Flight, Invisibility, Magic Immunity, etc.) casting cost is seriosly increasd.
 
@@ -292,7 +293,7 @@ Power decreases by **25**, but only after successful countering.
 | 8 | Water Walking |  |  |  |
 | 9 | Sprites |  |  |  |
 | 10 | Earth Lore |  |  |  |
-| 11 | Cracks Call | 100 |  | 25% killing chance should be expensive |
+| 11 | Cracks Call | 60 |  | 25% killing chance should be expensive |
 | 12 | Nature's Eye |  |  |  |
 | 13 | Ice Bolt |  |  |  |
 | 14 | Giant Spiders |  |  |  |
@@ -316,7 +317,7 @@ Power decreases by **25**, but only after successful countering.
 | 32 | Behemoth |  |  |  |
 | 33 | Entangle | 25 |  | another rarely used spell |
 | 34 | Nature Awareness |  |  |  |
-| 35 | Call Lightning | 100 |  |  |
+| 35 | Call Lightning | 120 |  |  |
 | 36 | Colossus |  |  |  |
 | 37 | Earth Gate |  |  |  |
 | 38 | Herb Mastery |  |  |  |
@@ -337,37 +338,37 @@ Power decreases by **25**, but only after successful countering.
 | 53 | Vertigo |  |  |  |
 | 54 | Spell Lock |  | 2 |  |
 | 55 | Enchant Road |  |  |  |
-| 56 | Flight |  | 10 |  |
+| 56 | Flight | 50 | 10 |  |
 | 57 | Wind Mastery |  |  |  |
 | 58 | Spell Blast |  |  |  |
 | 59 | Aura of Majesty |  |  |  |
 | 60 | Phantom Beast |  |  |  |
 | 61 | Disjunction True |  |  |  |
-| 62 | Invisiblity |  | 15 |  |
-| 63 | Wind Walking |  |  |  |
+| 62 | Invisiblity | 70 | 15 |  |
+| 63 | Wind Walking | 500 | 25 |  |
 | 64 | Banish |  |  |  |
 | 65 | Storm Giant |  |  |  |
 | 66 | Air Elemental |  |  |  |
-| 67 | Mind Storm | 100 |  | non resistable -5 everything |
+| 67 | Mind Storm | 125 |  | non resistable -5 everything |
 | 68 | Stasis |  |  |  |
 | 69 | Magic Immunity | 100 | 20 |  |
 | 70 | Haste |  |  |  |
 | 71 | Djinn |  |  |  |
 | 72 | Spell Ward |  |  |  |
 | 73 | Creature Binding |  |  |  |
-| 74 | Mass Invisibility | 125 |  |  |
+| 74 | Mass Invisibility | 150 |  |  |
 | 75 | Great Unsummoning |  |  |  |
 | 76 | Spell Binding |  |  |  |
 | 77 | Flying Fortress |  |  |  |
 | 78 | Sky Drake |  |  |  |
 | 79 | Suppress Magic |  | 250 |  |
 | 80 | Time Stop |  | 1000 |  |
-| 81 | Warp Wood | 20 |  |  |
+| 81 | Warp Wood | 20 |  | guardian wind on opponent |
 | 82 | Disrupt |  |  |  |
 | 83 | Fire Bolt |  |  |  |
 | 84 | Hell Hounds |  |  |  |
 | 85 | Corruption | 100 |  | just for AI not to use it too often |
-| 86 | Eldritch Weapon | 30 | 6 |  |
+| 86 | Eldritch Weapon |  | 3 |  |
 | 87 | Wall of Fire |  |  |  |
 | 88 | Shatter |  |  |  |
 | 89 | Warp Creature |  |  |  |
@@ -390,7 +391,7 @@ Power decreases by **25**, but only after successful countering.
 | 106 | Efreet |  |  |  |
 | 107 | Fire Storm |  |  |  |
 | 108 | Warp Reality |  |  |  |
-| 109 | Flame Strike | 100 |  |  |
+| 109 | Flame Strike | 125 |  | equivalent of nine 15 strength fireballs |
 | 110 | Chaos Rift |  |  |  |
 | 111 | Hydra |  |  |  |
 | 112 | Disintegrate | 100 |  |  |
@@ -405,7 +406,7 @@ Power decreases by **25**, but only after successful countering.
 | 121 | Bless |  |  |  |
 | 122 | Star Fires |  |  |  |
 | 123 | Endurance |  |  |  |
-| 124 | Holy Weapon | 20 | 4 |  |
+| 124 | Holy Weapon | 25 | 5 |  |
 | 125 | Healing |  |  |  |
 | 126 | Holy Armor | 30 | 6 |  |
 | 127 | Just Cause |  |  |  |
