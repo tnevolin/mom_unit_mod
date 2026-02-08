@@ -1,121 +1,118 @@
 # Master of magic strategy balancing mod
 
-Attempt to modify different aspects of the game to make them more usable.
+Attempt to modify different aspects of the game to make them more usable and give existing but unfeasible strategies second life.
 
-# Normal units food support
+# Installation
 
-<ins>Problem</ins>
+Prerequisite: Master of Magic Community Patch (from GOG or Slitherine).
 
-Super restrictive food support overshooting even gold support in its restrictivity. Player barely can maintain garrisons, especially at the beginning of the game. As the result, operating with large normal armies is unfeasible.
+1. Download files in `patches` folder.
+2. Run DOSBox and switch to game folder.
+3. Run following commands.
 
-Another issue with food support is that exess of food is converted to gold at 2:1 ratio. And then this excess of gold is spent on rushing production at 2:1 ratio again. That is 4 (four!) times less efficient then simply adjusting worker allocation, which exchanges food to hammers at 1:1 ratio.
-Obviously, with this system, player should try to minimize excessive food production doing micro adjustments _every time new unit produced_! Super annoying micromanagement.
+```
+FILESET.EXE WIZARDS.EXE <path to downloaded WIZARDS.TXT>
+FILESET.EXE SPELLDAT.LBX <path to downloaded SPELLDAT.TXT>
+```
 
- <ins>Solution</ins>
+# Normal units food upkeep
 
-1. Change excess food to gold conversion ratio to 1:2 (one food to two gold). This way extra gold collected from excess food is sufficient to cover lost hammers and player does not need to adjust worker allocation too often.
-2. Reduce food support to some fraction value (1/2, 1/4) or removing it altogether. Some players may still prefer to have it non zero to keep a "adjust worker allocation to feed the army" mini game as this is the only use of excess food production.
+* Normal unit food upkeep: 1/2.
+* Optionally, food upkeep can be eliminated alltogether.
 
-# Units
+Player can have larger army without exhausting their food supply. I have tested it and found it extremely satisfactory. Army size is not hard limited by food harvesting anymore. It still consume gold but this is more flexible due to centralized distribution and stockpiled reserves. I still need to reallocate workers occasionally, but twice as less often.
+
+# Normal units
 
 ## General rules
 
-1. There should be no duplicate racial/realm units. They should differ either in type (melee/ranged/flying) or in strength.
-2. Higher tier unit should be stronger and proportionally expensive.
-3. Small adjustment between units of similar class to highlight less used one (War Bears).
+* More advanced unit that requires more buildings should be adequately stronger and proportionally more expensive.
+* Some top tier racial units are adjusted to stay competitive among other races top tier units.
 
-## Specific issues
+## Basic unit stats
 
-### Halberdiers
+Some basic units stats are adjusted a little to keep them on par with their racial units.
 
-<ins>Problem</ins>
+## Warship
 
-melee units: Spearmen, Swordsmen, Cavalry, Halberdiers, Pikemen
+* Limited shots to 10.
 
-All of the above are more or less efficient and in their place, except Cavalry and Halberdiers have more or less equal strength and there is a huge strength gap between Halberdiers and Pikemen.
+## Halberdiers
 
-Cavalry requires just two building to unlock and could be considered as cheap and light fast moving unit able to quickly close the gap to ranged units.
+* Halberdiers get +2 melee and +50% cost.
 
-Halberdiers, from the other hand, require more buildings to unlock, but they feel pretty weak at this level. They should fill the gap of strong middle tier comparable to Pikemen.
+They are supposed to be weaker version of Pikemen. However, they are way too weak with their original stats and cannot serve as a good middle tier unit similar to Pikemen. With the above adjustment they can, even though they are still not that strong.
 
-<ins>Solution</ins>
+## Magicians
 
-Beef up Halberdiers with +2 attack and +50% cost. This way they become a true usable heavy infantry of their era. They are still weaker than eight figures armor piercing Pikemen even with this improvement.
+* High Men Magicians are more expensive due to their increased figure count.
+* Other races Magicians (except Warlocks) have +1 to their ranged attack. Otherwise, Wizards' Guild does not seem to be worth of its 1000 hammer cost.
 
-### Heroes
+## Hero survivability
 
-<ins>Problem</ins>
+* All heroes except OP few receive +5 HP.
+* Some badly advanceable heroes recevie strong boost to their initial stats to keep them viable initially.
 
-1. They are useless and fragile at the beginning. Player has to include them into combat but just let them sit and learn.
-2. Some abilities (Agility, Blademaster) turn even low level heroes into superpower machines.
-3. Due to steep hero progression, players usually refuse to replace their low level experienced heroes with higher level recruits.
-4. Due to their fragility they are destroyed pretty quickly by direct damage attacks and spells. That requires constant attention on keeping them alive.
+Increasing their HP makes heroes much less fragile, especially at the beginning. They can engage with low level units earning their XP in honest combat instead of sitting on the bench wathing other. They require much less babysitting and stupid micromanagement. They still incur damage but do not die in a single blow exchange and can be pulled out of the battle in time when their HP drops too low. Overall it feels like they play their role now leading a battle and augmenting player's forces rather than being some non-combat toy.
 
-<ins>Solution</ins>
-
-Beef up some weaker and lower level heroes (+HP and other stats) to make them less fragile and more useful from the beginning. Flat addition should not sqew up their advanced versions.
-
-1. Recruited heroes are less fragile and can fight in battle on par with normal units.
-2. Some rebalancing between heroes.
-3. Experienced heroes are _slightly_ more tougher and better. They will die less frequent and player should not pay extra attention on protecting them.
-4. With lower dying chances it should be fine to allow them to rotate even when they do die.
+Extra HP does not make them OP with advanced experience as their armor is still penetrable. They just live little longer. Because of this player does not need to retain them at all costs. They may still die occasionally, but much less often and the replacement is not that bad either.
 
 ## Summary table
 
 | # | race | name | me | ra | de | HP | cost | comment |
 | ----: | ---- | ---- | ----: | ----: | ----: | ----: | ----: | ---- |
-| 0 | Dwarven | Dwarf | 8 |  | 5 | 15 |  | not too advanceable |
+| 0 | Dwarven | Dwarf | 7 |  | 5 | 15 |  | not too advanceable |
 | 1 | Barbarian | Barbarian |  |  |  | 14 |  |  |
 | 2 | High Men | Sage |  |  |  | 10 |  |  |
-| 3 | High Men | Dervish |  |  |  | 11 |  |  |
-| 4 | Beastmen | Beastmaster | 10 |  | 7 | 12 |  | absolutely unadvanceable guy |
-| 5 | High Men | Bard | 7 |  | 7 | 11 |  | too weak even with Leadership |
+| 3 | High Men | Dervish |  |  | 5 | 11 |  | weak fighter |
+| 4 | Beastmen | Beastmaster | 9 |  | 6 | 12 |  | the most unadvanceable hero |
+| 5 | High Men | Bard | 7 |  | 7 | 11 |  | not too strong even with Leadership |
 | 6 | Orc | Orc Warrior |  |  |  | 13 |  |  |
 | 7 | High Men | Healer |  |  |  | 10 |  |  |
 | 8 | High Men | Huntress |  |  |  | 12 |  |  |
-| 9 | High Men | Thief | 7 |  |  | 12 |  | too toothless |
-| 10 | High Men | Druid |  |  |  | 10 |  |  |
+| 9 | High Men | Thief |  |  |  | 12 |  |  |
+| 10 | High Men | Driud |  |  |  | 10 |  |  |
 | 11 | High Men | War Monk |  |  |  | 11 |  |  |
-| 12 | High Men | Warrior Mage |  |  |  | 12 |  |  |
-| 13 | High Men | Magician |  | 4 |  | 10 |  | extremenly OP with Arcane Power |
-| 14 | High Men | Assassin | 7 |  |  | 11 |  | not enough melee to utilize Blademaster |
+| 12 | High Men | Warrior Mage | 7 | 7 |  | 12 |  | short mana supply and measly stats |
+| 13 | High Men | Magician |  | 4 |  | 10 |  | super OP guy - still very strong even with this handicap |
+| 14 | High Men | Assassin | 8 |  |  | 11 |  | lack of swords to utilize Blademaster |
 | 15 | High Men | Wind Mage |  |  |  | 10 |  |  |
 | 16 | High Men | Ranger |  |  |  | 13 |  |  |
-| 17 | Draconian | Draconian |  |  |  | 13 |  |  |
+| 17 | Draconian | Draconian |  |  | 3 | 13 |  | very strong guy - making him at least not that defensive |
 | 18 | High Men | Witch |  |  |  | 10 |  |  |
 | 19 | High Men | Golden One |  |  |  | 11 |  |  |
-| 20 | High Men | Ninja | 8 |  |  | 12 |  | not too strong even with invisibility |
-| 21 | High Men | Rogue | 10 |  | 7 | 13 |  | too weak for its tier |
-| 22 | High Men | Amazon | 5 |  |  |  |  | too strong with Might and Blademaster |
+| 20 | High Men | Ninja | 7 |  |  | 12 |  | lack of swords to utilize Blademaster |
+| 21 | High Men | Rogue | 11 |  | 7 | 13 |  | uninteresting guy - giving him a lot of initial boost |
+| 22 | High Men | Amazon |  |  |  | 13 |  |  |
 | 23 | High Men | Warlock |  |  |  | 10 |  |  |
 | 24 | High Men | Unknown |  |  |  | 13 |  |  |
-| 25 | High Men | Illusionist |  |  |  | 10 |  |  |
-| 26 | High Men | Swordsman |  |  |  | 15 |  |  |
+| 25 | High Men | Illusionist |  | 7 |  | 10 |  | lack of attack to utilize Illusion |
+| 26 | High Men | Swordsman | 12 |  |  | 15 |  | flat guy - giving swordsman more themed swords |
 | 27 | High Men | Priestess |  |  |  | 10 |  |  |
 | 28 | High Men | Paladin |  |  |  | 13 |  |  |
-| 29 | High Men | Black Knight |  |  |  |  |  |  |
-| 30 | High Elf | Elven Archer | 3 | 6 |  | 11 |  | OP with original build |
-| 31 | High Men | Knight | 10 |  | 7 | 14 |  | insufficiently strong for this tier |
+| 29 | High Men | Black Knight | 7 |  |  |  |  | the most powerful guy even without HP boost |
+| 30 | High Elf | Elven Archer | 3 |  |  | 11 |  | let her be archer |
+| 31 | High Men | Knight |  |  | 9 | 14 |  | flat guy - giving knight in shiny armor more themed armor |
 | 32 | High Men | Necromancer |  |  |  | 10 |  |  |
-| 33 | High Men | Chaos Warrior | 4 | 4 |  |  |  | insanely OP with Arcane Power and Armor Piercing |
-| 34 | Life | Chosen | 8 |  | 6 |  |  | a living tank with original build |
+| 33 | High Men | Chaos Warrior |  |  |  | 13 |  |  |
+| 34 | Life | Chosen |  |  |  |  |  |  |
 | 35 | Generic | Trireme |  |  |  |  |  |  |
 | 36 | Generic | Galley |  |  |  |  |  |  |
 | 37 | Generic | Catapult |  |  |  |  |  |  |
-| 38 | Generic | Warship |  |  |  |  | 300 |  |
+| 38 | Generic | Warship |  |  |  |  | 500 |  |
 | 39 | Barbarian | Spearmen |  |  |  |  |  |  |
 | 40 | Barbarian | Swordsmen |  |  |  |  |  |  |
-| 41 | Barbarian | Bowmen |  |  |  |  |  |  |
+| 41 | Barbarian | Bowmen |  | 2 |  |  |  | compensation for missing racial thrown bonus |
 | 42 | Barbarian | Cavalry |  |  |  |  |  |  |
 | 43 | Barbarian | Shaman |  |  |  |  |  |  |
 | 44 | Barbarian | Settlers |  |  |  |  |  |  |
-| 45 | Barbarian | Berserkers |  |  |  |  | 300 |  |
+| 45 | Barbarian | Berserkers |  |  |  |  | 250 |  |
 | 46 | Beastmen | Spearmen |  |  |  |  |  |  |
 | 47 | Beastmen | Swordsmen |  |  |  |  |  |  |
 | 48 | Beastmen | Halberdiers | 7 |  |  |  | 120 |  |
 | 49 | Beastmen | Bowmen |  |  |  |  |  |  |
 | 50 | Beastmen | Priests |  |  |  |  |  |  |
-| 51 | Beastmen | Magicians |  |  |  |  |  |  |
+| 51 | Beastmen | Magicians |  | 7 |  |  |  |  |
 | 52 | Beastmen | Engineers |  |  |  |  |  |  |
 | 53 | Beastmen | Settlers |  |  |  |  |  |  |
 | 54 | Beastmen | Centaurs |  |  |  |  |  |  |
@@ -129,106 +126,106 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | 62 | Dark Elf | Settlers |  |  |  |  |  |  |
 | 63 | Dark Elf | Nightblades | 5 |  |  |  |  |  |
 | 64 | Dark Elf | Warlocks |  |  |  |  |  |  |
-| 65 | Dark Elf | Nightmares |  |  |  |  | 300 |  |
+| 65 | Dark Elf | Nightmares |  |  |  |  | 250 |  |
 | 66 | Draconian | Spearmen |  |  |  |  |  |  |
 | 67 | Draconian | Swordsmen |  |  |  |  |  |  |
 | 68 | Draconian | Halberdiers | 6 |  |  |  | 150 |  |
 | 69 | Draconian | Bowmen |  |  |  |  |  |  |
 | 70 | Draconian | Shaman |  |  |  |  |  |  |
-| 71 | Draconian | Magicians |  |  |  |  |  |  |
+| 71 | Draconian | Magicians |  | 7 |  |  |  |  |
 | 72 | Draconian | Engineers |  |  |  |  |  |  |
 | 73 | Draconian | Settlers |  |  |  |  |  |  |
-| 74 | Draconian | Doom Drakes |  |  |  |  |  |  |
-| 75 | Draconian | Air Ship |  |  |  |  | 500 |  |
+| 74 | Draconian | Doom Drakes |  |  |  |  | 200 |  |
+| 75 | Draconian | Air Ship |  |  |  |  | 450 |  |
 | 76 | Dwarven | Swordsmen |  |  |  |  |  |  |
 | 77 | Dwarven | Halberdiers | 6 |  |  |  | 150 |  |
 | 78 | Dwarven | Engineers |  |  |  |  |  |  |
-| 79 | Dwarven | Hammerhands |  |  |  |  | 350 |  |
+| 79 | Dwarven | Hammerhands |  |  |  |  | 300 |  |
 | 80 | Dwarven | Steam Cannon |  |  |  |  |  |  |
-| 81 | Dwarven | Golem | 20 |  | 10 |  | 500 | they should have some serious punch for top tier unit |
+| 81 | Dwarven | Golem | 16 |  |  |  | 350 | should be stronger than hammerhands |
 | 82 | Dwarven | Settlers |  |  |  |  |  |  |
 | 83 | Gnoll | Spearmen |  |  |  |  |  |  |
 | 84 | Gnoll | Swordsmen |  |  |  |  |  |  |
 | 85 | Gnoll | Halberdiers | 8 |  |  |  | 60 |  |
 | 86 | Gnoll | Bowmen |  |  |  |  |  |  |
 | 87 | Gnoll | Settlers |  |  |  |  |  |  |
-| 88 | Gnoll | Wolf Riders |  |  |  |  | 150 |  |
+| 88 | Gnoll | Wolf Riders |  |  |  |  |  |  |
 | 89 | Halfling | Spearmen |  |  |  |  |  |  |
 | 90 | Halfling | Swordsmen |  |  |  |  |  |  |
 | 91 | Halfling | Bowmen |  |  |  |  |  |  |
 | 92 | Halfling | Shaman |  |  |  |  |  |  |
 | 93 | Halfling | Settlers |  |  |  |  |  |  |
-| 94 | Halfling | Slingers |  |  |  |  | 150 |  |
+| 94 | Halfling | Slingers |  |  |  |  |  |  |
 | 95 | High Elf | Spearmen |  |  |  |  |  |  |
 | 96 | High Elf | Swordsmen |  |  |  |  |  |  |
 | 97 | High Elf | Halberdiers | 6 |  |  |  | 100 |  |
 | 98 | High Elf | Cavalry |  |  |  |  |  |  |
-| 99 | High Elf | Magicians |  |  |  |  |  |  |
+| 99 | High Elf | Magicians |  | 7 |  |  |  |  |
 | 100 | High Elf | Settlers |  |  |  |  |  |  |
-| 101 | High Elf | Longbowmen |  |  |  |  | 120 |  |
+| 101 | High Elf | Longbowmen |  |  |  |  | 100 |  |
 | 102 | High Elf | Elven Lords |  |  |  |  |  |  |
-| 103 | High Elf | Pegasai |  |  |  |  |  |  |
+| 103 | High Elf | Pegasai | 7 | 7 |  |  | 200 |  |
 | 104 | High Men | Spearmen |  |  |  |  |  |  |
 | 105 | High Men | Swordsmen |  |  |  |  |  |  |
 | 106 | High Men | Bowmen |  |  |  |  |  |  |
 | 107 | High Men | Cavalry |  |  |  |  |  |  |
 | 108 | High Men | Priests |  |  |  |  |  |  |
-| 109 | High Men | Magicians |  |  |  |  | 200 |  |
+| 109 | High Men | Magicians |  |  |  |  |  |  |
 | 110 | High Men | Engineers |  |  |  |  |  |  |
 | 111 | High Men | Settlers |  |  |  |  |  |  |
-| 112 | High Men | Pikemen |  |  |  |  | 120 |  |
-| 113 | High Men | Paladins |  |  |  |  | 300 |  |
+| 112 | High Men | Pikemen |  |  |  |  | 100 |  |
+| 113 | High Men | Paladins |  |  |  |  |  |  |
 | 114 | Klackon | Spearmen |  |  |  |  |  |  |
 | 115 | Klackon | Swordsmen |  |  |  |  |  |  |
 | 116 | Klackon | Halberdiers | 6 |  |  |  | 120 |  |
 | 117 | Klackon | Engineers |  |  |  |  |  |  |
 | 118 | Klackon | Settlers |  |  |  |  |  |  |
-| 119 | Klackon | Stag Beetle |  |  |  |  | 300 |  |
+| 119 | Klackon | Stag Beetle |  |  |  |  | 450 |  |
 | 120 | Lizardman | Spearmen |  |  |  |  |  |  |
 | 121 | Lizardman | Swordsmen |  |  |  |  |  |  |
-| 122 | Lizardman | Halberdiers | 6 |  |  |  | 60 |  |
+| 122 | Lizardman | Halberdiers | 6 |  |  |  | 80 |  |
 | 123 | Lizardman | Javelineers |  |  |  |  | 120 |  |
-| 124 | Lizardman | Shaman |  |  | 4 |  |  | missing racial defense bonus |
+| 124 | Lizardman | Shaman |  |  | 4 |  |  |  |
 | 125 | Lizardman | Settlers |  |  |  |  |  |  |
-| 126 | Lizardman | Dragon Turtle | 15 | 10 |  |  | 150 | should have more advanced unit for this tier |
+| 126 | Lizardman | Dragon Turtle | 15 |  |  |  | 400 |  |
 | 127 | Nomad | Spearmen |  |  |  |  |  |  |
 | 128 | Nomad | Swordsmen |  |  |  |  |  |  |
 | 129 | Nomad | Bowmen |  |  |  |  |  |  |
 | 130 | Nomad | Priests |  |  |  |  |  |  |
-| 131 | Nomad | Magicians |  |  |  |  |  |  |
+| 131 | Nomad | Magicians |  | 7 |  |  |  |  |
 | 132 | Nomad | Settlers |  |  |  |  |  |  |
-| 133 | Nomad | Horsebowmen |  |  |  |  | 100 |  |
-| 134 | Nomad | Pikemen |  |  |  |  | 120 |  |
-| 135 | Nomad | Rangers |  |  |  |  | 200 |  |
-| 136 | Nomad | Griffins |  |  |  |  | 300 |  |
+| 133 | Nomad | Horsebowmen |  |  |  |  | 80 |  |
+| 134 | Nomad | Pikemen |  |  |  |  | 100 |  |
+| 135 | Nomad | Rangers |  |  |  |  | 150 |  |
+| 136 | Nomad | Griffins |  |  |  |  | 250 |  |
 | 137 | Orc | Spearmen |  |  |  |  |  |  |
 | 138 | Orc | Swordsmen |  |  |  |  |  |  |
 | 139 | Orc | Halberdiers | 6 |  |  |  | 60 |  |
 | 140 | Orc | Bowmen |  |  |  |  |  |  |
 | 141 | Orc | Cavalry |  |  |  |  |  |  |
 | 142 | Orc | Shaman |  |  |  |  |  |  |
-| 143 | Orc | Magicians |  |  |  |  |  |  |
+| 143 | Orc | Magicians |  | 7 |  |  |  |  |
 | 144 | Orc | Engineers |  |  |  |  |  |  |
 | 145 | Orc | Settlers |  |  |  |  |  |  |
-| 146 | Orc | Wyvern Riders | 8 |  |  |  | 250 | insufficiently strong for this tier |
+| 146 | Orc | Wyvern Riders | 8 |  |  |  |  |  |
 | 147 | Troll | Spearmen |  |  |  |  |  |  |
 | 148 | Troll | Swordsmen |  |  |  |  |  |  |
 | 149 | Troll | Halberdiers | 8 |  |  |  | 200 |  |
 | 150 | Troll | Shaman |  |  |  |  |  |  |
 | 151 | Troll | Settlers |  |  |  |  |  |  |
 | 152 | Troll | War Trolls |  |  |  |  | 250 |  |
-| 153 | Troll | War Mammoths | 12 |  |  |  | 350 | a little improvement for top tier unit |
+| 153 | Troll | War Mammoths | 14 |  |  |  | 400 |  |
 | 154 | Arcane | Magic Spirit |  |  |  |  |  |  |
 | 155 | Chaos | Hell Hounds |  |  |  |  |  |  |
 | 156 | Chaos | Gargoyles |  |  |  |  |  |  |
 | 157 | Chaos | Fire Giant |  |  |  |  |  |  |
 | 158 | Chaos | Fire Elemental |  |  |  |  |  |  |
 | 159 | Chaos | Chaos Spawn |  |  |  |  |  |  |
-| 160 | Chaos | Chimera |  |  |  | 6 |  |  |
-| 161 | Chaos | Doom Bat | 15 |  |  | 30 |  | weak single figure unit |
-| 162 | Chaos | Efreet | 15 | 15 |  | 15 |  |  |
-| 163 | Chaos | Hydra |  |  |  | 5 | 1000 |  |
-| 164 | Chaos | Great Drake |  |  |  |  | 2000 |  |
+| 160 | Chaos | Chimera |  |  | 3 |  |  |  |
+| 161 | Chaos | Doom Bat | 14 |  |  |  |  |  |
+| 162 | Chaos | Efreet | 15 | 15 | 10 |  |  |  |
+| 163 | Chaos | Hydra |  |  |  |  | 1000 |  |
+| 164 | Chaos | Great Drake |  |  |  |  | 2500 |  |
 | 165 | Death | Skeletons |  |  |  |  |  |  |
 | 166 | Death | Ghouls |  |  |  |  |  |  |
 | 167 | Death | Night Stalker | 10 |  |  |  |  |  |
@@ -237,7 +234,7 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | 170 | Death | Wraiths |  |  |  |  |  |  |
 | 171 | Death | Shadow Demons |  |  |  |  |  |  |
 | 172 | Death | Death Knights |  |  |  |  | 1000 |  |
-| 173 | Death | Demon Lord |  |  |  |  | 1500 |  |
+| 173 | Death | Demon Lord |  |  |  |  | 1250 |  |
 | 174 | Death | Zombies |  |  |  |  |  |  |
 | 175 | Life | Unicorns |  |  |  |  |  |  |
 | 176 | Life | Guardian Spirit |  |  |  |  |  |  |
@@ -248,36 +245,35 @@ Beef up some weaker and lower level heroes (+HP and other stats) to make them le
 | 181 | Nature | Cockatrices |  |  |  |  |  |  |
 | 182 | Nature | Basilisk |  |  |  |  |  |  |
 | 183 | Nature | Giant Spiders |  |  |  |  |  |  |
-| 184 | Nature | Stone Giant |  |  |  |  |  |  |
-| 185 | Nature | Colossus |  |  |  |  | 1400 |  |
+| 184 | Nature | Stone Giant |  |  |  |  | 550 |  |
+| 185 | Nature | Colossus |  |  |  |  | 1200 |  |
 | 186 | Nature | Gorgons |  |  |  |  | 800 |  |
 | 187 | Nature | Earth Elemental |  |  |  |  |  |  |
-| 188 | Nature | Behemoth |  |  |  |  | 1500 |  |
-| 189 | Nature | Great Wyrm |  |  |  |  | 2000 |  |
+| 188 | Nature | Behemoth |  |  |  |  | 1000 |  |
+| 189 | Nature | Great Wyrm |  |  |  |  | 1500 |  |
 | 190 | Sorcery | Floating Island |  |  |  |  |  |  |
 | 191 | Sorcery | Phantom Beast |  |  |  |  |  |  |
 | 192 | Sorcery | Phantom Warriors |  |  |  |  |  |  |
-| 193 | Sorcery | Storm Giant |  |  |  |  |  |  |
+| 193 | Sorcery | Storm Giant |  |  |  |  | 600 |  |
 | 194 | Sorcery | Air Elemental |  |  |  |  |  |  |
 | 195 | Sorcery | Djinn |  |  |  |  |  |  |
 | 196 | Sorcery | Sky Drake |  |  |  |  | 2500 |  |
-| 197 | Sorcery | Nagas |  |  |  |  |  |  |
 
 # Spells
 
-_not implemented_
-
 ## General rules
 
-1. More porwerful spell should be less mana efficient comparing to weaker version.
-2. Positive unit enchantment upkeep is **doubled** to prevent player accumulating tons of buffs.
-4. Overland enchantment annoying other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
-5. Universal non resistable damage spells (Doom Bolt, Disintegrate, etc.) casting cost is seriously increased.
-6. Strong ability given unit enchantments (Flight, Invisibility, Magic Immunity, etc.) casting cost is seriosly increasd.
+* More porwerful spell should be less mana efficient comparing to weaker version.
+* Positive unit enchantment upkeep is **doubled** to prevent player accumulating tons of buffs.
+* Overland enchantment annoying other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
+* Universal non resistable damage spells (Doom Bolt, Disintegrate, etc.) casting cost is seriously increased.
+* Strong ability given unit enchantments (Flight, Invisibility, Magic Immunity, etc.) casting cost is seriosly increasd.
 
 ## Counter Magic
 
-Power decreases by **25**, but only after successful countering.
+* Power decreases by **25**, but only after successful countering.
+
+That eliminates its abusive use to cast 50 strength magical shield and stay protected for 10 (**ten**) turns while continuing mollesting opponent with damaging spells. With above change it is down by 1-2 turns.
 
 ## Summary table
 
@@ -497,14 +493,4 @@ Power decreases by **25**, but only after successful countering.
 | 212 | Summon Champion |  |  |  |
 | 213 | Spell of Mastery | 10000 |  | should take longer for other wizards to fight the caster |
 | 214 | Spell of Return | 500 |  | should not take too long |
-
-# Patches
-
-| filename | effect |
-| ---- | ---- |
-| WFDGD20.TXT | Excess food to gold conversion ratio = 1:2 |
-| WFDUPK05.TXT  | Units food support = 1/2 |
-| WUNITS.TXT | Cumulative unit changes |
-| WHEROES.TXT | Hero changes |
-| WCOUNTER.TXT  | Counter Magic adjustmetns |
 
