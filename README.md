@@ -31,7 +31,7 @@ Player can have larger army without exhausting their food supply. I have tested 
 
 ## Basic unit stats
 
-Some basic units stats are adjusted a little to keep them on par with their racial units.
+* Some basic units stats are adjusted a little to keep them on par with their racial units.
 
 ## Warship
 
