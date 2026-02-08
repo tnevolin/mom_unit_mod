@@ -1,10 +1,17 @@
 ;----------------------------------------------------------------------------------------------
 ; Excess food is converted to 2 gold
 ;----------------------------------------------------------------------------------------------
-; food conversion
+; food conversion end turn summary display
 96681
 D1
 D1
 96682
+F8
+E0
+; food conversion end turn compute
+BCC6E
+D1
+D1
+BCC6F
 F8
 E0

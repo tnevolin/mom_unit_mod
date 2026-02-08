@@ -1,0 +1,11 @@
+;----------------------------------------------------------------------------------------------
+; Counter Magic
+;----------------------------------------------------------------------------------------------
+; Counter Magic, only countered spells reduce power, successful or player cancelled ones do not
+8379A
+B8
+CE
+; Counter Magic power loss after spell: 25
+8395F
+FB
+E7
