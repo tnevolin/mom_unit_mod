@@ -20,7 +20,7 @@ FILESET.EXE SPELLDAT.LBX <path to downloaded SPELLDAT.TXT>
 * Normal unit food upkeep: 1/2.
 * Optionally, food upkeep can be eliminated alltogether.
 
-Player can have larger army without exhausting their food supply. I have tested it and found it extremely satisfactory. Army size is not hard limited by food harvesting anymore. It still consume gold but this is more flexible due to centralized distribution and stockpiled reserves. I still need to reallocate workers occasionally, but twice as less often.
+Player can have larger army without exhausting their food supply. I have tested it and found it extremely satisfactory. Army size is not hard limited by food harvesting anymore. It keeps consuming gold but this is more flexible due to centralized distribution and stockpiled reserves. Occasional worker reallocation is still needed but not that often.
 
 # Normal units
 
