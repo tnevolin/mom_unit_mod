@@ -22,33 +22,37 @@ FILESET.EXE SPELLDAT.LBX <path to downloaded SPELLDAT.TXT>
 
 Player can have larger army without exhausting their food supply. I have tested it and found it extremely satisfactory. Army size is not hard limited by food harvesting anymore. It keeps consuming gold but this is more flexible due to centralized distribution and stockpiled reserves. Occasional worker reallocation is still needed but not that often.
 
-# Normal units
+# Units
 
-## General rules
+## Normal units
+
+### General rules
 
 * More advanced unit that requires more buildings should be adequately stronger and proportionally more expensive.
 * Some top tier racial units are adjusted to stay competitive among other races top tier units.
 
-## Basic unit stats
+### Basic unit stats
 
 * Some basic units stats are adjusted a little to keep them on par with their racial units.
 
-## Warship
+### Warship
 
 * Limited shots to 10.
 
-## Halberdiers
+### Halberdiers
 
 * Halberdiers get +2 melee and +50% cost.
 
 They are supposed to be weaker version of Pikemen. However, they are way too weak with their original stats and cannot serve as a good middle tier unit similar to Pikemen. With the above adjustment they can, even though they are still not that strong.
 
-## Magicians
+### Magicians
 
 * High Men Magicians are more expensive due to their increased figure count.
 * Other races Magicians (except Warlocks) have +1 to their ranged attack. Otherwise, Wizards' Guild does not seem to be worth of its 1000 hammer cost.
 
-## Hero survivability
+## Heroes
+
+### Hero survivability
 
 * All heroes except OP few receive +5 HP.
 * Some badly advanceable heroes recevie strong boost to their initial stats to keep them viable initially.
@@ -56,6 +60,10 @@ They are supposed to be weaker version of Pikemen. However, they are way too wea
 Increasing their HP makes heroes much less fragile, especially at the beginning. They can engage with low level units earning their XP in honest combat instead of sitting on the bench wathing other. They require much less babysitting and stupid micromanagement. They still incur damage but do not die in a single blow exchange and can be pulled out of the battle in time when their HP drops too low. Overall it feels like they play their role now leading a battle and augmenting player's forces rather than being some non-combat toy.
 
 Extra HP does not make them OP with advanced experience as their armor is still penetrable. They just live little longer. Because of this player does not need to retain them at all costs. They may still die occasionally, but much less often and the replacement is not that bad either.
+
+## Fantastic units
+
+* Units stats (strength, cost) are adjusted to make them adequately placed on research timeline.
 
 ## Summary table
 
@@ -493,4 +501,14 @@ That eliminates its abusive use to cast 50 strength magical shield and stay prot
 | 212 | Summon Champion |  |  |  |
 | 213 | Spell of Mastery | 10000 |  | should take longer for other wizards to fight the caster |
 | 214 | Spell of Return | 500 |  | should not take too long |
+
+# Resistance and spell save
+
+* I do not have a solution for this yet.
+
+People correctly complain about resistance system unflexibility. Each cross is essentially equivalent to 10% toHit/toBlock modifier for attack/defense. Therefore, ten crosses cover the whole range of available resistances in the game making each and every cross very valuable. Whereas, game awarding crosses to everybody like they are nothing. Even normal units gets one at each promotion. Majority of high end units and heroes have either 100% resistance or close to that. It is useless to cast any resistable spell on them. They are practically already magic immuned.
+
+Spell resistance modifier (plus extra from items) kind of alleviating this problem but they either not sufficient or super sufficient.
+
+The essense of the problem is that game treats resistance too lightly as something not too important.
 
