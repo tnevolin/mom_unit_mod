@@ -504,7 +504,7 @@ That eliminates its abusive use to cast 50 strength magical shield and stay prot
 
 # Experience
 
-* Each turn +1 experience is **disabled**.
+* Unit **does not** get +1 experience each turn.
 * Combat experience is **divided** among survivors. Experimental: Please report any discrepancies on it.
 
 Experience is not cheap anymore. Doing nothing for 20 turns does not grant next level. Unit has to fight for it.
