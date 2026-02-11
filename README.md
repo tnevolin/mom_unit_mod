@@ -502,6 +502,19 @@ That eliminates its abusive use to cast 50 strength magical shield and stay prot
 | 213 | Spell of Mastery | 10000 |  | should take longer for other wizards to fight the caster |
 | 214 | Spell of Return | 500 |  | should not take too long |
 
+# Experience
+
+* Each turn +1 experience is **disabled**.
+* Combat experience is **divided** among survivors. Experimental: Please report any discrepancies on it.
+
+Experience is not cheap anymore. Doing nothing for 20 turns does not grant next level. Unit has to fight for it.
+
+At the same time combat experience is not granted in equal amount to bystanders anymore. Combat experience pool is fixed and is divided among victors including summoned creatures. The more units player throws into battle, the less experience share each one get. That eliminates the exploit of packing as much units into battle as possible for the mere use of bumping their experience for free. Now, when this experience exploit is gone, player is not forced to drag all of their heroes in a single stack if they do not want to.
+
+There is also a question of *how much* experience they should receive from each fallen enemy. Currently, it is original default: 2. However, with fixed experience pool, there may be need to increase it to match OG progression. Need to playtest and see. Please report your observations.
+
+Experience level bonuses should be increased with hard to get experience. That is a work in progress.
+
 # Resistance and spell save
 
 * I do not have a solution for this yet.
