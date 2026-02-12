@@ -506,14 +506,24 @@ That eliminates its abusive use to cast 50 strength magical shield and stay prot
 
 * Unit **does not** get +1 experience each turn.
 * Combat experience is **divided** among survivors. Experimental: Please report any discrepancies on it.
+* Normal unit experience level bonuses are slightly increased.
 
-Experience is not cheap anymore. Doing nothing for 20 turns does not grant next level. Unit has to fight for it.
+Experience is not cheap anymore. Doing nothing for 20 turns does not grant next level. Unit has to fight for it. Armsmaster heroes become more valuable as they are only non-combat source of experience.
 
 At the same time combat experience is not granted in equal amount to bystanders anymore. Combat experience pool is fixed and is divided among victors including summoned creatures. The more units player throws into battle, the less experience share each one get. That eliminates the exploit of packing as much units into battle as possible for the mere use of bumping their experience for free. Now, when this experience exploit is gone, player is not forced to drag all of their heroes in a single stack if they do not want to.
 
 There is also a question of *how much* experience they should receive from each fallen enemy. Currently, it is original default: 2. However, with fixed experience pool, there may be need to increase it to match OG progression. Need to playtest and see. Please report your observations.
 
-Experience level bonuses should be increased with hard to get experience. That is a work in progress.
+## Normal unit experience level bonuses summary table
+
+| level | `attack    ` | `toHit     ` | `defense   ` | `resistance` | `hit points` |
+| ---- | ----: | ----: | ----: | ----: | ----: |
+| Recruit |  |  |  |  |  |
+| Regular | +1 |  |  | +1 |  |
+| Veteran | +<ins>**2**</ins> |  | +1 | +2 |  |
+| Elite | +2 | +1 | +1 | +3 | +1 |
+| Ultra-Elite | +2 | +2 | +2 | +4 | +1 |
+| Champion | +3 | +3 | +2 | +5 | +2 |
 
 # Resistance and spell save
 
