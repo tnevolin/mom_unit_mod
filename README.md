@@ -550,7 +550,7 @@ _not implemented_
 | 165 | Black Sleep | <ins>**0**</ins> | common and cheap powerful spell |
 | 172 | Possession | -1 |  |
 | 187 | Black Wind | -1 |  |
-| 168 | Terror | -2 | no need to be that restrictive for just slow down spell |
+| 168 | Terror | -<ins>**2**</ins> | no need to be that restrictive for just slow down spell |
 | 182 | Wrack | +1 |  |
 | 192 | Word of Death | -5 |  |
 | 194 | Death Spell | -2 |  |
