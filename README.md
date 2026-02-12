@@ -15,14 +15,39 @@ FILESET.EXE WIZARDS.EXE <path to downloaded WIZARDS.TXT>
 FILESET.EXE SPELLDAT.LBX <path to downloaded SPELLDAT.TXT>
 ```
 
-# Normal units food upkeep
+# Idea
 
-* Normal unit food upkeep: 1/2.
-* Optionally, food upkeep can be eliminated alltogether.
+MoM is exceptionally feature reach game. Unfortunately, due to some balance skews, a lot of interesting strategies are unfeasible/ineffective and, therefore, never used. The goal of this mod is to modify balance in a way to give them a second life and restore this game glory as true strategy reach one as it should be.
 
-Player can have larger army without exhausting their food supply. I have tested it and found it extremely satisfactory. Army size is not hard limited by food harvesting anymore. It keeps consuming gold but this is more flexible due to centralized distribution and stockpiled reserves. Occasional worker reallocation is still needed but not that often.
+Some example user complaints can be found here: https://www.realmsbeyond.net/forums/showthread.php?tid=4966
 
-# Units
+# Problems addressing
+
+## Normal unit army strategy is unfeasible
+
+* Food upkeep is too restrictive prohibiting to have barely decent size army and operate at all directions.
+* Basic unit types seem to be jammed into lower strength niche and redundant.
+  * Spearmen are mostly police throughtout the game. Occasionally as a supplemental force against low level neutrals early game.
+  * Swordsmen can be built in small quantity in first town to supplement low level neutral attack early game. Never since.
+  * Cavalry is never built.
+  * Halberdiers are too weak comparing to their infrastructure investment.
+  * Bowmen are excellent against early game phantom warriors/beasts. Never after.
+  * Shamans are for purifying only. Never for combat.
+* XP advancement is skewed. It is very easy to accumulate it just doing nothing, but reward is measly for first two levels. No insentive to fight for XP or utilize Armsmaster.
+* Combat XP awarded equally to every participant. That forces player to stack their heroes/armies together for free XP even if they are strong enough fighting on their own.
+
+## General imbalance in unit strengths
+
+* Some units (heroes, normal, summoned) are just plain weaker than other and are never built/summoned.
+
+# Fix: Normal units food upkeep
+
+* Normal unit food upkeep is set to 1/2.
+* Optionally, food upkeep can be eliminated alltogether. However, the above change seems to be sufficient. Please share feedback.
+
+Player can have larger army without exhausting their food supply. This seems to run extremely satisfactory. Army size is not hard limited by food harvesting anymore. It keeps consuming gold but this is more flexible due to centralized distribution and stockpiled reserves. Occasional worker reallocation is still needed but not that often.
+
+# Fix: Unit balance
 
 ## Normal units
 
@@ -43,29 +68,33 @@ Player can have larger army without exhausting their food supply. I have tested 
 
 * Halberdiers get +2 melee and +50% cost.
 
-They are supposed to be weaker version of Pikemen. However, they are way too weak with their original stats and cannot serve as a good middle tier unit similar to Pikemen. With the above adjustment they can, even though they are still not that strong.
+They are supposed to be weaker version of Pikemen. However, they are way too weak with their original stats and cannot serve as a good middle tier unit similar to Pikemen. Above adjustment brings them closer to the desired niche.
 
 ### Magicians
 
 * High Men Magicians are more expensive due to their increased figure count.
-* Other races Magicians (except Warlocks) have +1 to their ranged attack. Otherwise, Wizards' Guild does not seem to be worth of its 1000 hammer cost.
+* Other races Magicians (except Warlocks) have +1 to their ranged attack. Otherwise, they do not seem worth infrastructure investment.
 
 ## Heroes
 
 ### Hero survivability
 
-* All heroes except OP few receive +5 HP.
-* Some badly advanceable heroes recevie strong boost to their initial stats to keep them viable initially.
+* All heroes (except few OP ones) receive +5 HP.
+* Some badly advanceable heroes recevie significant stat boost to make them worth their price at least initially.
 
-Increasing their HP makes heroes much less fragile, especially at the beginning. They can engage with low level units earning their XP in honest combat instead of sitting on the bench wathing other. They require much less babysitting and stupid micromanagement. They still incur damage but do not die in a single blow exchange and can be pulled out of the battle in time when their HP drops too low. Overall it feels like they play their role now leading a battle and augmenting player's forces rather than being some non-combat toy.
+Increasing heroes HP makes them much less fragile, especially at the beginning. They can engage with low level units earning their XP in honest fight instead of sitting on the bench during combat. They require much less babysitting and protecting. They still incur damage but do not die in a single blow exchange and can be pulled out of the battle in time when their HP drops too low. Overall it feels like they play their role now leading a battle and augmenting player's forces rather than being some non-combat toy.
 
-Extra HP does not make them OP with advanced experience as their armor is still penetrable. They just live little longer. Because of this player does not need to retain them at all costs. They may still die occasionally, but much less often and the replacement is not that bad either.
+Extra HP does not make them OP at higher XP levels either as their armor is still penetrable. They just live little longer. Because of this player does not need to retain them at all costs. They may still die occasionally, but much less often and the replacement is not that bad either.
 
 ## Fantastic units
 
 * Units stats (strength, cost) are adjusted to make them adequately placed on research timeline.
 
 ## Summary table
+
+<details>
+
+<summary>Unit stats</summary>
 
 | # | race | name | me | ra | de | HP | cost | comment |
 | ----: | ---- | ---- | ----: | ----: | ----: | ----: | ----: | ---- |
@@ -266,6 +295,35 @@ Extra HP does not make them OP with advanced experience as their armor is still 
 | 194 | Sorcery | Air Elemental |  |  |  |  |  |  |
 | 195 | Sorcery | Djinn |  |  |  |  |  |  |
 | 196 | Sorcery | Sky Drake |  |  |  |  | 2500 |  |
+
+</details>
+
+# Fix: Experience levels
+
+* Normal units and heroes **do not** get +1 experience each turn.
+* Combat experience is **divided** among survivors. Experimental: Please report any discrepancies on it.
+* Normal unit experience level bonuses are slightly improved.
+
+Experience is not cheap anymore. Doing nothing for 20 turns does not grant next level. Unit has to fight for it. XP buildings and Armsmaster heroes become more valuable as they are only non-combat source of experience.
+
+At the same time, total combat experience is a fixed pool equally distributed among survivors (including summoned creatures). No need for combining heroes/armies for the sole purpose of reaping more XP. There is NO "more XP". Player can concentrate on strategical efficiency instead of XP grinding. Smaller number of more efficient troops get more XP than large quantity of weak and badly matched ones.
+
+There is also a question of *how much* experience they should receive from each fallen enemy. Currently, it is original default: 2. However, with fixed experience pool, there may be need to increase it to match OG progression. Need to playtest and see. Please report your observations.
+
+## Normal unit experience level bonuses summary table
+
+Both Regular and Veteran get two nice synergetic improvements. Elite still has strong bonus of +1 HP, which doubles low level unit toughness. Champions get three super cool improvements as it was in OG and how it should be.
+
+Changes are bolded. Level improvements are underscored.
+
+| level | `attack    ` | `toHit     ` | `defense   ` | `resistance` | `hit points` |
+| ---- | ----: | ----: | ----: | ----: | ----: |
+| Recruit |  |  |  |  |  |
+| Regular | <ins>+1</ins> |  | <ins>**+1**</ins> | <ins>+1</ins> |  |
+| Veteran | <ins>**+2**</ins> | <ins>**+1**</ins> | +1 | <ins>+2</ins> |  |
+| Elite | <ins>**+3**</ins> | +1 | +1 | <ins>+3</ins> | <ins>+1</ins> |
+| Ultra-Elite | **+3** | <ins>+2</ins> | <ins>+2</ins> | <ins>+4</ins> | +1 |
+| Champion | <ins>**+4**</ins> | <ins>+3</ins> | +2 | <ins>+5</ins> | <ins>+2</ins> |
 
 # Spells
 
@@ -501,29 +559,6 @@ That eliminates its abusive use to cast 50 strength magical shield and stay prot
 | 212 | Summon Champion |  |  |  |
 | 213 | Spell of Mastery | 10000 |  | should take longer for other wizards to fight the caster |
 | 214 | Spell of Return | 500 |  | should not take too long |
-
-# Experience
-
-* Unit **does not** get +1 experience each turn.
-* Combat experience is **divided** among survivors. Experimental: Please report any discrepancies on it.
-* Normal unit experience level bonuses are slightly increased.
-
-Experience is not cheap anymore. Doing nothing for 20 turns does not grant next level. Unit has to fight for it. Armsmaster heroes become more valuable as they are only non-combat source of experience.
-
-At the same time combat experience is not granted in equal amount to bystanders anymore. Combat experience pool is fixed and is divided among victors including summoned creatures. The more units player throws into battle, the less experience share each one get. That eliminates the exploit of packing as much units into battle as possible for the mere use of bumping their experience for free. Now, when this experience exploit is gone, player is not forced to drag all of their heroes in a single stack if they do not want to.
-
-There is also a question of *how much* experience they should receive from each fallen enemy. Currently, it is original default: 2. However, with fixed experience pool, there may be need to increase it to match OG progression. Need to playtest and see. Please report your observations.
-
-## Normal unit experience level bonuses summary table
-
-| level | `attack    ` | `toHit     ` | `defense   ` | `resistance` | `hit points` |
-| ---- | ----: | ----: | ----: | ----: | ----: |
-| Recruit |  |  |  |  |  |
-| Regular | +1 |  |  | +1 |  |
-| Veteran | **+2** |  | +1 | +2 |  |
-| Elite | +2 | +1 | +1 | +3 | +1 |
-| Ultra-Elite | +2 | +2 | +2 | +4 | +1 |
-| Champion | +3 | +3 | +2 | +5 | +2 |
 
 # Resistance and spell save
 
