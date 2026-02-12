@@ -520,7 +520,7 @@ There is also a question of *how much* experience they should receive from each 
 | ---- | ----: | ----: | ----: | ----: | ----: |
 | Recruit |  |  |  |  |  |
 | Regular | +1 |  |  | +1 |  |
-| Veteran | +<ins>**2**</ins> |  | +1 | +2 |  |
+| Veteran | **+2** |  | +1 | +2 |  |
 | Elite | +2 | +1 | +1 | +3 | +1 |
 | Ultra-Elite | +2 | +2 | +2 | +4 | +1 |
 | Champion | +3 | +3 | +2 | +5 | +2 |
@@ -533,26 +533,29 @@ There is also a question of *how much* experience they should receive from each 
 
 _not implemented_
 
-| # | name | save | comment |
-| ----: | ---- | ----: | ---- |
-| 22 | Petrify | 0 | no modifier figure death for 35 mana |
-| 53 | Vertigo | 0 | rendering unit useless for 25 mana - should be either more expensive or less effective |
-| 64 | Banish | -3 |  |
-| 46 | Confusion | <ins>**0**</ins> | a cheap common possession version |
-| 68 | Stasis | -5 |  |
-| 73 | Creature Binding | -2 |  |
-| 75 | Great Unsummoning | -3 |  |
-| 88 | Shatter | 0 |  |
-| 89 | Warp Creature | -1 |  |
-| 134 | Dispel Evil | -4 |  |
-| 150 | Holy Word | -2 |  |
-| 162 | Weakness | -2 |  |
-| 165 | Black Sleep | <ins>**0**</ins> | common and cheap powerful spell |
-| 172 | Possession | -1 |  |
-| 187 | Black Wind | -1 |  |
-| 168 | Terror | -<ins>**2**</ins> | no need to be that restrictive for just slow down spell |
-| 182 | Wrack | +1 |  |
-| 192 | Word of Death | -5 |  |
-| 194 | Death Spell | -2 |  |
-| 199 | Death Wish | 0 |  |
+Damage is an estimated portion of unit destroyed when spell suceeds completely. This is used to compare different resistable spells between each other. For area effect spells it is assumed to be 5 targets on the battlefield or 3 if not all of them are affected. Subverting unit counts as double as it not only takes one unit out of enemy army, but also gives it to the casting wizard.
+
+| # | name | cost | save | damage | comment |
+| ----: | ---- | ----: | ----: | ----: | ---- |
+| 22 | Petrify | 35 | **-2** | 1 |  |
+| 46 | Confusion | **30** | **0** | 2 | cheaper version of possession |
+| 53 | Vertigo | 25 | **-2** | 0.75 |  |
+| 64 | Banish | 20 | -3 | 1 |  |
+| 68 | Stasis | 250 | -5 |  |  |
+| 73 | Creature Binding | 70 | -2 | 2 |  |
+| 75 | Great Unsummoning | 1000 | -3 |  |  |
+| 88 | Shatter | 12 | 0 | 0.75 |  |
+| 89 | Warp Creature | 18 | -1 | 0.5 |  |
+| 134 | Dispel Evil | 25 | -4 | 1 |  |
+| 150 | Holy Word | 60 | -2 | 3 |  |
+| 162 | Weakness | 5 | -2 | 0.5 |  |
+| 165 | Black Sleep | **30** | -2 | 1 |  |
+| 168 | Terror | 20 | 1 | 1.25 |  |
+| 172 | Possession | **50** | -1 | 2 |  |
+| 182 | Wrack | **60** | 1 | 2.5 |  |
+| 187 | Black Wind | 200 | -1 |  |  |
+| 192 | Word of Death | 40 | -5 | 1 |  |
+| 194 | Death Spell | 50 | -2 | 5 |  |
+| 199 | Death Wish | 500 | 0 |  |  |
+
 
