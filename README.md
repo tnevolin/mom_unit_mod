@@ -1,12 +1,12 @@
 # Master of magic strategy balancing mod
 
-Attempt to modify different aspects of the game to make them more usable and give existing but unfeasible strategies second life.
+Attempt to modify different aspects of the game to make them more usable and give existing underdog strategies second life.
 
 # Installation
 
 Prerequisite: Master of Magic Community Patch (from GOG or Slitherine).
 
-1. Download files in `patches` folder.
+1. Download files from `patches/cumulative` folder.
 2. Run DOSBox and switch to game folder.
 3. Run following commands.
 
