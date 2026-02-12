@@ -1,12 +1,12 @@
 # Master of magic strategy balancing mod
 
-Attempt to modify different aspects of the game to make them more usable and give existing but unfeasible strategies second life.
+Attempt to modify different aspects of the game to make them more usable and give existing underdog strategies second life.
 
 # Installation
 
 Prerequisite: Master of Magic Community Patch (from GOG or Slitherine).
 
-1. Download files in `patches` folder.
+1. Download files from `patches/cumulative` folder.
 2. Run DOSBox and switch to game folder.
 3. Run following commands.
 
@@ -506,22 +506,56 @@ That eliminates its abusive use to cast 50 strength magical shield and stay prot
 
 * Unit **does not** get +1 experience each turn.
 * Combat experience is **divided** among survivors. Experimental: Please report any discrepancies on it.
+* Normal unit experience level bonuses are slightly increased.
 
-Experience is not cheap anymore. Doing nothing for 20 turns does not grant next level. Unit has to fight for it.
+Experience is not cheap anymore. Doing nothing for 20 turns does not grant next level. Unit has to fight for it. Armsmaster heroes become more valuable as they are only non-combat source of experience.
 
 At the same time combat experience is not granted in equal amount to bystanders anymore. Combat experience pool is fixed and is divided among victors including summoned creatures. The more units player throws into battle, the less experience share each one get. That eliminates the exploit of packing as much units into battle as possible for the mere use of bumping their experience for free. Now, when this experience exploit is gone, player is not forced to drag all of their heroes in a single stack if they do not want to.
 
 There is also a question of *how much* experience they should receive from each fallen enemy. Currently, it is original default: 2. However, with fixed experience pool, there may be need to increase it to match OG progression. Need to playtest and see. Please report your observations.
 
-Experience level bonuses should be increased with hard to get experience. That is a work in progress.
+## Normal unit experience level bonuses summary table
+
+| level | `attack    ` | `toHit     ` | `defense   ` | `resistance` | `hit points` |
+| ---- | ----: | ----: | ----: | ----: | ----: |
+| Recruit |  |  |  |  |  |
+| Regular | +1 |  |  | +1 |  |
+| Veteran | **+2** |  | +1 | +2 |  |
+| Elite | +2 | +1 | +1 | +3 | +1 |
+| Ultra-Elite | +2 | +2 | +2 | +4 | +1 |
+| Champion | +3 | +3 | +2 | +5 | +2 |
 
 # Resistance and spell save
 
-* I do not have a solution for this yet.
+* Modified spell resistances.
 
-People correctly complain about resistance system unflexibility. Each cross is essentially equivalent to 10% toHit/toBlock modifier for attack/defense. Therefore, ten crosses cover the whole range of available resistances in the game making each and every cross very valuable. Whereas, game awarding crosses to everybody like they are nothing. Even normal units gets one at each promotion. Majority of high end units and heroes have either 100% resistance or close to that. It is useless to cast any resistable spell on them. They are practically already magic immuned.
+## Spell saves summary table
 
-Spell resistance modifier (plus extra from items) kind of alleviating this problem but they either not sufficient or super sufficient.
+_not implemented_
 
-The essense of the problem is that game treats resistance too lightly as something not too important.
+Damage is an estimated portion of unit destroyed when spell suceeds completely. This is used to compare different resistable spells between each other. For area effect spells it is assumed to be 5 targets on the battlefield or 3 if not all of them are affected. Subverting unit counts as double as it not only takes one unit out of enemy army, but also gives it to the casting wizard.
+
+| # | name | cost | save | damage | comment |
+| ----: | ---- | ----: | ----: | ----: | ---- |
+| 22 | Petrify | 35 | **-2** | 1 |  |
+| 46 | Confusion | **30** | **0** | 2 | cheaper version of possession |
+| 53 | Vertigo | 25 | **-2** | 0.75 |  |
+| 64 | Banish | 20 | -3 | 1 |  |
+| 68 | Stasis | 250 | -5 |  |  |
+| 73 | Creature Binding | 70 | -2 | 2 |  |
+| 75 | Great Unsummoning | 1000 | -3 |  |  |
+| 88 | Shatter | 12 | 0 | 0.75 |  |
+| 89 | Warp Creature | 18 | -1 | 0.5 |  |
+| 134 | Dispel Evil | 25 | -4 | 1 |  |
+| 150 | Holy Word | 60 | -2 | 3 |  |
+| 162 | Weakness | 5 | -2 | 0.5 |  |
+| 165 | Black Sleep | **30** | -2 | 1 |  |
+| 168 | Terror | 20 | 1 | 1.25 |  |
+| 172 | Possession | **50** | -1 | 2 |  |
+| 182 | Wrack | **60** | 1 | 2.5 |  |
+| 187 | Black Wind | 200 | -1 |  |  |
+| 192 | Word of Death | 40 | -5 | 1 |  |
+| 194 | Death Spell | 50 | -2 | 5 |  |
+| 199 | Death Wish | 500 | 0 |  |  |
+
 
