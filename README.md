@@ -23,7 +23,9 @@ Some example user complaints can be found here: https://www.realmsbeyond.net/for
 
 # Problems addressing
 
-## Normal unit army strategy is unfeasible
+## Units
+
+### Normal unit army strategy is unfeasible
 
 * Food upkeep is too restrictive prohibiting to have barely decent size army and operate at all directions.
 * Basic unit types seem to be jammed into lower strength niche and redundant.
@@ -34,11 +36,30 @@ Some example user complaints can be found here: https://www.realmsbeyond.net/for
   * Bowmen are excellent against early game phantom warriors/beasts. Never after.
   * Shamans are for purifying only. Never for combat.
 * XP advancement is skewed. It is very easy to accumulate it just doing nothing, but reward is measly for first two levels. No insentive to fight for XP or utilize Armsmaster.
-* Combat XP awarded equally to every participant. That forces player to stack their heroes/armies together for free XP even if they are strong enough fighting on their own.
+* Combat XP is awarded equally to every participant. That forces player to stack their heroes/armies together for free XP even if they are strong enough fighting on their own.
 
-## General imbalance in unit strengths
+### General imbalance in unit strengths
 
-* Some units (heroes, normal, summoned) are just plain weaker than other and are never built/summoned.
+Some units (heroes, normal, summoned) are just plain weaker than other and are never built/summoned.
+
+## Magic
+
+### Magic favors protection rather than damage
+
+Many people notice that protective magic is more effective than damaging one. Indeed, damaging opponent is an one time effect. Whereas protection acts every time unit is targeted, benefiting over and over again. Most protective spells have also relatively low upkeep allowing unit (usually hero) to be overenchanted and turned into killing machine _without spending extra_ in combat! That is a defniite imbalance.
+
+### General imbalance in spell effect vs. casting cost and upkeep
+
+Same story as always. Some spells are better than others.
+
+### Counter Magic OP
+
+Casting 50 strength Counter Magic erects **10 turns** force field disrupting enemy wizards casting (including counter Counter Magic) and, at the same time, allowing its owner to cast whaterver they want. That is an immense adavantage understandable even to AI.
+
+### Spell save imbalance
+
+* Some spells have much better save (= better success chance) that others despite their effect. It can be allowed for more rare and more expensive spells, but not for common cheap ones.
+* Item spell save can amount to -12, which is huge bonus. This does not seem like a big problem, though, due to the bonus rarity and high crafting cost.
 
 # Fix: Normal units food upkeep
 
@@ -325,23 +346,28 @@ Changes are bolded. Level improvements are underscored.
 | Ultra-Elite | **+3** | <ins>+2</ins> | <ins>+2</ins> | <ins>+4</ins> | +1 |
 | Champion | <ins>**+4**</ins> | <ins>+3</ins> | +2 | <ins>+5</ins> | <ins>+2</ins> |
 
-# Spells
+# Fix: Spell balance
 
 ## General rules
 
 * More porwerful spell should be less mana efficient comparing to weaker version.
-* Positive unit enchantment upkeep is **doubled** to prevent player accumulating tons of buffs.
+  * More rare spells are allowed to be somewhat more effective as it takes time and efforts to acquire them and even that is not guaranteed.
+* Positive unit enchantment upkeep is **doubled** to prevent accumulating tons of permanent buffs.
 * Overland enchantment annoying other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
 * Universal non resistable damage spells (Doom Bolt, Disintegrate, etc.) casting cost is seriously increased.
 * Strong ability given unit enchantments (Flight, Invisibility, Magic Immunity, etc.) casting cost is seriosly increasd.
 
 ## Counter Magic
 
-* Power decreases by **25**, but only after successful countering.
+* Power decreases by **25**, but only after successful countering. I am not sure this is working. Need to review the code.
 
 That eliminates its abusive use to cast 50 strength magical shield and stay protected for 10 (**ten**) turns while continuing mollesting opponent with damaging spells. With above change it is down by 1-2 turns.
 
 ## Summary table
+
+<details>
+
+<summary>Spell stats</summary>
 
 | #| spell | cost | upkeep | comment |
 | ----: | ---- | ----: | ----: | ---- |
@@ -516,7 +542,7 @@ That eliminates its abusive use to cast 50 strength magical shield and stay prot
 | 169 | Darkness | 30 |  |  |
 | 170 | Mana Leak | 40 |  |  |
 | 171 | Drain Power |  |  |  |
-| 172 | Possession |  |  |  |
+| 172 | Possession | 50 |  |  |
 | 173 | Lycanthropy |  |  |  |
 | 174 | Black Prayer | 50 |  |  |
 | 175 | Black Channels |  |  |  |
@@ -558,17 +584,12 @@ That eliminates its abusive use to cast 50 strength magical shield and stay prot
 | 211 | Create Artifact |  |  |  |
 | 212 | Summon Champion |  |  |  |
 | 213 | Spell of Mastery | 10000 |  | should take longer for other wizards to fight the caster |
-| 214 | Spell of Return | 500 |  | should not take too long |
 
-# Resistance and spell save
-
-* Modified spell resistances.
+</details>
 
 ## Spell saves summary table
 
-_not implemented_
-
-Damage is an estimated portion of unit destroyed when spell suceeds completely. This is used to compare different resistable spells between each other. For area effect spells it is assumed to be 5 targets on the battlefield or 3 if not all of them are affected. Subverting unit counts as double as it not only takes one unit out of enemy army, but also gives it to the casting wizard.
+Damage is an estimated number of destroyed units to compare their effects. Area effect spells are assumed to target 5 units or 3 if selective. Subverting unit counts as double as it not only takes one unit out of enemy army, but also gives it to the casting wizard.
 
 | # | name | cost | save | damage | comment |
 | ----: | ---- | ----: | ----: | ----: | ---- |
