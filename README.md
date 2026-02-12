@@ -527,11 +527,32 @@ There is also a question of *how much* experience they should receive from each 
 
 # Resistance and spell save
 
-* I do not have a solution for this yet.
+* Modified spell resistances.
 
-People correctly complain about resistance system unflexibility. Each cross is essentially equivalent to 10% toHit/toBlock modifier for attack/defense. Therefore, ten crosses cover the whole range of available resistances in the game making each and every cross very valuable. Whereas, game awarding crosses to everybody like they are nothing. Even normal units gets one at each promotion. Majority of high end units and heroes have either 100% resistance or close to that. It is useless to cast any resistable spell on them. They are practically already magic immuned.
+## Spell saves summary table
 
-Spell resistance modifier (plus extra from items) kind of alleviating this problem but they either not sufficient or super sufficient.
+_not implemented_
 
-The essense of the problem is that game treats resistance too lightly as something not too important.
+| # | name | save | comment |
+| ----: | ---- | ----: | ---- |
+| 22 | Petrify | 0 | no modifier figure death for 35 mana |
+| 53 | Vertigo | 0 | rendering unit useless for 25 mana - should be either more expensive or less effective |
+| 64 | Banish | -3 |  |
+| 46 | Confusion | <ins>**0**</ins> | a cheap common possession version |
+| 68 | Stasis | -5 |  |
+| 73 | Creature Binding | -2 |  |
+| 75 | Great Unsummoning | -3 |  |
+| 88 | Shatter | 0 |  |
+| 89 | Warp Creature | -1 |  |
+| 134 | Dispel Evil | -4 |  |
+| 150 | Holy Word | -2 |  |
+| 162 | Weakness | -2 |  |
+| 165 | Black Sleep | <ins>**0**</ins> | common and cheap powerful spell |
+| 172 | Possession | -1 |  |
+| 187 | Black Wind | -1 |  |
+| 168 | Terror | -2 | no need to be that restrictive for just slow down spell |
+| 182 | Wrack | +1 |  |
+| 192 | Word of Death | -5 |  |
+| 194 | Death Spell | -2 |  |
+| 199 | Death Wish | 0 |  |
 
