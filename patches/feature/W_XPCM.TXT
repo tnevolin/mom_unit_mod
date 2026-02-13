@@ -1,0 +1,92 @@
+;----------------------------------------------------------------------------------------------
+; Combat XP modification.
+; 1. Each fallen enemy generates 10 XP.
+; 2. Combined XP is then divided by victorious side unit count after the battle.
+;   a) That includes ALL units: summoned (previously or in battle), undead, zombie.
+;----------------------------------------------------------------------------------------------
+; XP awarded for each defeated enemy
+; XP = 10 (undeaded)
+9C376
+02
+0A
+; XP = 10 (zombie)
+9C422
+02
+0A
+; XP = 0 (dead)
+9CBF8
+02
+0A
+; compute per unit combat XP
+; mov     dx, [bp+var_8]
+9D380
+8B
+8B
+9D381
+C6
+56
+9D382
+BA
+F8
+; nop
+9D383
+6E
+90
+; mov     ax, [bp+var_A]
+9D384
+00
+8B
+9D385
+F7
+46
+9D386
+EA
+F6
+; div     dl
+9D387
+C4
+F6
+9D388
+1E
+F2
+; cbw
+9D389
+2A
+98
+; mov     di, ax
+9D38A
+92
+8B
+9D38B
+03
+F8
+; nop
+9D38C
+D8
+90
+; add computed XP
+; mov     ax, di
+9D3E8
+8B
+8B
+9D3E9
+46
+C7
+; nop
+9D3EA
+F6
+90
+;; test
+;; mov     ax, [bp+var_C]
+;9D3E8
+;8B
+;8B
+;9D3E9
+;46
+;46
+;9D3EA
+;F6
+;F2
+;
+;mov     ax, [bp+var_8]
+;8B 46 F2
