@@ -92,7 +92,7 @@ _modification is in progress_
 | Pikemen |  |  |  |  |  |
 | Bowmen |  |  |  |  |  |
 | Shaman |  | +1 |  |  | feel weak and unused |
-| Magicians |  | +1 |  | pathetic damage for the most expensive infrastructure |
+| Magicians |  | +1 |  |  | pathetic damage for the most expensive infrastructure |
 | Priests |  |  |  |  |  |
 | H.Men Magicians |  |  |  |  |  |
 
