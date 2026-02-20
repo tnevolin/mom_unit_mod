@@ -96,8 +96,6 @@ _modification is in progress_
 | Priests |  |  |  |  |  |
 | H.Men Magicians |  |  |  |  |  |
 
-Not sure what to do with range units. They seem to be weak as they are. However, they are very useful in some situations. For example, Bowmen are just awesome against phantom warriors and beast. So, I guess, they should stay at least half as week as their similarly priced infantry units.
-
 ### Warship
 
 * Limited shots to 10.
