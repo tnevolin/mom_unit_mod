@@ -166,122 +166,122 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 35 | Generic | Trireme |  |  |  |  |  |  |
 | 36 | Generic | Galley |  |  |  |  |  |  |
 | 37 | Generic | Catapult |  |  |  |  |  |  |
-| 38 | Generic | Warship |  |  |  |  | 500 |  |
+| 38 | Generic | Warship |  |  |  |  | 400 |  |
 | 39 | Barbarian | Spearmen |  |  |  |  |  |  |
 | 40 | Barbarian | Swordsmen |  |  |  |  |  |  |
-| 41 | Barbarian | Bowmen |  | 2 |  |  |  | compensation for missing racial thrown bonus |
-| 42 | Barbarian | Cavalry |  |  |  |  |  |  |
-| 43 | Barbarian | Shaman |  |  |  |  |  |  |
+| 41 | Barbarian | Bowmen |  |  |  |  |  |  |
+| 42 | Barbarian | Cavalry | 5 |  |  |  | 100 |  |
+| 43 | Barbarian | Shaman |  | 3 |  |  |  |  |
 | 44 | Barbarian | Settlers |  |  |  |  |  |  |
-| 45 | Barbarian | Berserkers |  |  |  |  | 250 |  |
+| 45 | Barbarian | Berserkers | 9 | 4 |  |  | 200 | slightly weak for hight end unit |
 | 46 | Beastmen | Spearmen |  |  |  |  |  |  |
 | 47 | Beastmen | Swordsmen |  |  |  |  |  |  |
-| 48 | Beastmen | Halberdiers | 7 |  |  |  | 120 |  |
+| 48 | Beastmen | Halberdiers | 7 |  | 5 |  | 150 |  |
 | 49 | Beastmen | Bowmen |  |  |  |  |  |  |
 | 50 | Beastmen | Priests |  |  |  |  |  |  |
-| 51 | Beastmen | Magicians |  | 7 |  |  |  |  |
+| 51 | Beastmen | Magicians |  | 6 |  |  |  |  |
 | 52 | Beastmen | Engineers |  |  |  |  |  |  |
 | 53 | Beastmen | Settlers |  |  |  |  |  |  |
-| 54 | Beastmen | Centaurs |  |  |  |  |  |  |
-| 55 | Beastmen | Manticores | 8 |  | 4 |  |  |  |
-| 56 | Beastmen | Minotaurs |  |  |  |  | 350 |  |
+| 54 | Beastmen | Centaurs | 4 |  |  |  |  | some boost to match the improved Cavalry |
+| 55 | Beastmen | Manticores | 9 |  | 5 |  |  | too weak for higher tier creature |
+| 56 | Beastmen | Minotaurs |  |  |  |  | 300 |  |
 | 57 | Dark Elf | Spearmen |  |  |  |  | 40 |  |
 | 58 | Dark Elf | Swordsmen |  |  |  |  |  |  |
-| 59 | Dark Elf | Halberdiers | 6 |  |  |  | 150 |  |
-| 60 | Dark Elf | Cavalry |  |  |  |  |  |  |
+| 59 | Dark Elf | Halberdiers | 6 |  | 5 |  | 150 |  |
+| 60 | Dark Elf | Cavalry | 5 |  |  |  |  |  |
 | 61 | Dark Elf | Priests |  |  |  |  |  |  |
 | 62 | Dark Elf | Settlers |  |  |  |  |  |  |
-| 63 | Dark Elf | Nightblades | 5 |  |  |  |  |  |
-| 64 | Dark Elf | Warlocks |  |  |  |  |  |  |
-| 65 | Dark Elf | Nightmares |  |  |  |  | 250 |  |
+| 63 | Dark Elf | Nightblades | 6 |  | 5 |  | 200 | matching halberdiers |
+| 64 | Dark Elf | Warlocks |  |  |  |  | 450 |  |
+| 65 | Dark Elf | Nightmares |  | 8 |  |  | 350 | too weak for top end magical race flying shooter |
 | 66 | Draconian | Spearmen |  |  |  |  |  |  |
 | 67 | Draconian | Swordsmen |  |  |  |  |  |  |
-| 68 | Draconian | Halberdiers | 6 |  |  |  | 150 |  |
+| 68 | Draconian | Halberdiers | 6 |  | 6 |  | 150 |  |
 | 69 | Draconian | Bowmen |  |  |  |  |  |  |
-| 70 | Draconian | Shaman |  |  |  |  |  |  |
-| 71 | Draconian | Magicians |  | 7 |  |  |  |  |
+| 70 | Draconian | Shaman |  | 3 |  |  |  |  |
+| 71 | Draconian | Magicians |  | 6 |  |  |  |  |
 | 72 | Draconian | Engineers |  |  |  |  |  |  |
 | 73 | Draconian | Settlers |  |  |  |  |  |  |
 | 74 | Draconian | Doom Drakes |  |  |  |  | 200 |  |
-| 75 | Draconian | Air Ship |  |  |  |  | 450 |  |
+| 75 | Draconian | Air Ship |  |  |  |  | 250 |  |
 | 76 | Dwarven | Swordsmen |  |  |  |  |  |  |
-| 77 | Dwarven | Halberdiers | 6 |  |  |  | 150 |  |
+| 77 | Dwarven | Halberdiers | 6 |  | 5 |  | 200 |  |
 | 78 | Dwarven | Engineers |  |  |  |  |  |  |
-| 79 | Dwarven | Hammerhands |  |  |  |  | 300 |  |
+| 79 | Dwarven | Hammerhands |  |  |  |  | 250 |  |
 | 80 | Dwarven | Steam Cannon |  |  |  |  |  |  |
 | 81 | Dwarven | Golem | 16 |  |  |  | 350 | should be stronger than hammerhands |
 | 82 | Dwarven | Settlers |  |  |  |  |  |  |
 | 83 | Gnoll | Spearmen |  |  |  |  |  |  |
 | 84 | Gnoll | Swordsmen |  |  |  |  |  |  |
-| 85 | Gnoll | Halberdiers | 8 |  |  |  | 60 |  |
+| 85 | Gnoll | Halberdiers | 8 |  | 5 |  | 80 |  |
 | 86 | Gnoll | Bowmen |  |  |  |  |  |  |
 | 87 | Gnoll | Settlers |  |  |  |  |  |  |
 | 88 | Gnoll | Wolf Riders |  |  |  |  |  |  |
 | 89 | Halfling | Spearmen |  |  |  |  |  |  |
 | 90 | Halfling | Swordsmen |  |  |  |  |  |  |
 | 91 | Halfling | Bowmen |  |  |  |  |  |  |
-| 92 | Halfling | Shaman |  |  |  |  |  |  |
+| 92 | Halfling | Shaman |  | 3 |  |  |  |  |
 | 93 | Halfling | Settlers |  |  |  |  |  |  |
 | 94 | Halfling | Slingers |  |  |  |  |  |  |
 | 95 | High Elf | Spearmen |  |  |  |  |  |  |
 | 96 | High Elf | Swordsmen |  |  |  |  |  |  |
-| 97 | High Elf | Halberdiers | 6 |  |  |  | 100 |  |
-| 98 | High Elf | Cavalry |  |  |  |  |  |  |
-| 99 | High Elf | Magicians |  | 7 |  |  |  |  |
+| 97 | High Elf | Halberdiers | 6 |  | 5 |  | 120 |  |
+| 98 | High Elf | Cavalry | 5 |  |  |  | 100 |  |
+| 99 | High Elf | Magicians |  | 6 |  |  |  |  |
 | 100 | High Elf | Settlers |  |  |  |  |  |  |
-| 101 | High Elf | Longbowmen |  |  |  |  | 100 |  |
-| 102 | High Elf | Elven Lords |  |  |  |  |  |  |
-| 103 | High Elf | Pegasai | 7 | 7 |  |  | 200 |  |
+| 101 | High Elf | Longbowmen |  |  |  |  | 120 |  |
+| 102 | High Elf | Elven Lords |  |  |  |  | 200 |  |
+| 103 | High Elf | Pegasai | 7 | 7 |  |  | 300 | some boost for high end unit |
 | 104 | High Men | Spearmen |  |  |  |  |  |  |
 | 105 | High Men | Swordsmen |  |  |  |  |  |  |
 | 106 | High Men | Bowmen |  |  |  |  |  |  |
-| 107 | High Men | Cavalry |  |  |  |  |  |  |
+| 107 | High Men | Cavalry | 5 |  |  |  | 60 |  |
 | 108 | High Men | Priests |  |  |  |  |  |  |
 | 109 | High Men | Magicians |  |  |  |  |  |  |
 | 110 | High Men | Engineers |  |  |  |  |  |  |
 | 111 | High Men | Settlers |  |  |  |  |  |  |
-| 112 | High Men | Pikemen |  |  |  |  | 100 |  |
-| 113 | High Men | Paladins |  |  |  |  |  |  |
+| 112 | High Men | Pikemen |  |  |  |  | 150 |  |
+| 113 | High Men | Paladins |  |  |  |  | 250 |  |
 | 114 | Klackon | Spearmen |  |  |  |  |  |  |
 | 115 | Klackon | Swordsmen |  |  |  |  |  |  |
-| 116 | Klackon | Halberdiers | 6 |  |  |  | 120 |  |
+| 116 | Klackon | Halberdiers | 6 |  | 7 |  | 150 |  |
 | 117 | Klackon | Engineers |  |  |  |  |  |  |
 | 118 | Klackon | Settlers |  |  |  |  |  |  |
-| 119 | Klackon | Stag Beetle |  |  |  |  | 450 |  |
+| 119 | Klackon | Stag Beetle |  |  |  |  | 250 |  |
 | 120 | Lizardman | Spearmen |  |  |  |  |  |  |
 | 121 | Lizardman | Swordsmen |  |  |  |  |  |  |
-| 122 | Lizardman | Halberdiers | 6 |  |  |  | 80 |  |
-| 123 | Lizardman | Javelineers |  |  |  |  | 120 |  |
-| 124 | Lizardman | Shaman |  |  | 4 |  |  |  |
+| 122 | Lizardman | Halberdiers | 6 |  | 6 |  | 100 |  |
+| 123 | Lizardman | Javelineers |  |  |  |  | 100 |  |
+| 124 | Lizardman | Shaman |  | 3 | 4 |  |  |  |
 | 125 | Lizardman | Settlers |  |  |  |  |  |  |
-| 126 | Lizardman | Dragon Turtle | 15 |  |  |  | 400 |  |
+| 126 | Lizardman | Dragon Turtle | 15 |  |  |  | 200 | should be worth the investments |
 | 127 | Nomad | Spearmen |  |  |  |  |  |  |
 | 128 | Nomad | Swordsmen |  |  |  |  |  |  |
 | 129 | Nomad | Bowmen |  |  |  |  |  |  |
 | 130 | Nomad | Priests |  |  |  |  |  |  |
-| 131 | Nomad | Magicians |  | 7 |  |  |  |  |
+| 131 | Nomad | Magicians |  | 6 |  |  |  |  |
 | 132 | Nomad | Settlers |  |  |  |  |  |  |
-| 133 | Nomad | Horsebowmen |  |  |  |  | 80 |  |
-| 134 | Nomad | Pikemen |  |  |  |  | 100 |  |
-| 135 | Nomad | Rangers |  |  |  |  | 150 |  |
+| 133 | Nomad | Horsebowmen | 5 |  |  |  | 100 | matching cavalry |
+| 134 | Nomad | Pikemen |  |  |  |  | 150 |  |
+| 135 | Nomad | Rangers |  | 5 |  |  |  | little buff to high end unit |
 | 136 | Nomad | Griffins |  |  |  |  | 250 |  |
 | 137 | Orc | Spearmen |  |  |  |  |  |  |
 | 138 | Orc | Swordsmen |  |  |  |  |  |  |
-| 139 | Orc | Halberdiers | 6 |  |  |  | 60 |  |
+| 139 | Orc | Halberdiers | 6 |  | 5 |  | 80 |  |
 | 140 | Orc | Bowmen |  |  |  |  |  |  |
-| 141 | Orc | Cavalry |  |  |  |  |  |  |
-| 142 | Orc | Shaman |  |  |  |  |  |  |
-| 143 | Orc | Magicians |  | 7 |  |  |  |  |
+| 141 | Orc | Cavalry | 5 |  |  |  | 60 |  |
+| 142 | Orc | Shaman |  | 3 |  |  |  |  |
+| 143 | Orc | Magicians |  | 6 |  |  |  |  |
 | 144 | Orc | Engineers |  |  |  |  |  |  |
 | 145 | Orc | Settlers |  |  |  |  |  |  |
-| 146 | Orc | Wyvern Riders | 8 |  |  |  |  |  |
+| 146 | Orc | Wyvern Riders | 9 |  | 7 |  | 250 |  |
 | 147 | Troll | Spearmen |  |  |  |  |  |  |
 | 148 | Troll | Swordsmen |  |  |  |  |  |  |
-| 149 | Troll | Halberdiers | 8 |  |  |  | 200 |  |
-| 150 | Troll | Shaman |  |  |  |  |  |  |
+| 149 | Troll | Halberdiers |  |  |  |  | 100 | too strong with same halberdiers buff |
+| 150 | Troll | Shaman |  | 3 |  |  |  |  |
 | 151 | Troll | Settlers |  |  |  |  |  |  |
-| 152 | Troll | War Trolls |  |  |  |  | 250 |  |
-| 153 | Troll | War Mammoths | 14 |  |  |  | 400 |  |
+| 152 | Troll | War Trolls |  |  |  |  | 200 |  |
+| 153 | Troll | War Mammoths | 12 |  |  |  | 300 |  |
 | 154 | Arcane | Magic Spirit |  |  |  |  |  |  |
 | 155 | Chaos | Hell Hounds |  |  |  |  |  |  |
 | 156 | Chaos | Gargoyles |  |  |  |  |  |  |
@@ -290,9 +290,9 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 159 | Chaos | Chaos Spawn |  |  |  |  |  |  |
 | 160 | Chaos | Chimera |  |  | 3 |  |  |  |
 | 161 | Chaos | Doom Bat | 14 |  |  |  |  |  |
-| 162 | Chaos | Efreet | 15 | 15 | 10 |  |  |  |
-| 163 | Chaos | Hydra |  |  |  |  | 1000 |  |
-| 164 | Chaos | Great Drake |  |  |  |  | 2500 |  |
+| 162 | Chaos | Efreet | 15 | 15 | 10 |  |  | was too weak for its rarity |
+| 163 | Chaos | Hydra |  |  |  |  |  |  |
+| 164 | Chaos | Great Drake |  |  |  |  |  |  |
 | 165 | Death | Skeletons |  |  |  |  |  |  |
 | 166 | Death | Ghouls |  |  |  |  |  |  |
 | 167 | Death | Night Stalker | 10 |  |  |  |  |  |
@@ -300,8 +300,8 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 169 | Death | Demon |  |  |  |  |  |  |
 | 170 | Death | Wraiths |  |  |  |  |  |  |
 | 171 | Death | Shadow Demons |  |  |  |  |  |  |
-| 172 | Death | Death Knights |  |  |  |  | 1000 |  |
-| 173 | Death | Demon Lord |  |  |  |  | 1250 |  |
+| 172 | Death | Death Knights |  |  | 6 |  |  |  |
+| 173 | Death | Demon Lord |  |  |  |  |  |  |
 | 174 | Death | Zombies |  |  |  |  |  |  |
 | 175 | Life | Unicorns |  |  |  |  |  |  |
 | 176 | Life | Guardian Spirit |  |  |  |  |  |  |
@@ -309,22 +309,22 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 178 | Life | Arch Angel |  |  |  |  |  |  |
 | 179 | Nature | War Bears |  |  |  |  | 50 |  |
 | 180 | Nature | Sprites |  |  |  |  |  |  |
-| 181 | Nature | Cockatrices |  |  |  |  |  |  |
+| 181 | Nature | Cockatrices | 6 |  |  |  |  | a little bit weak even with stoning touch |
 | 182 | Nature | Basilisk |  |  |  |  |  |  |
-| 183 | Nature | Giant Spiders |  |  |  |  |  |  |
-| 184 | Nature | Stone Giant |  |  |  |  | 550 |  |
-| 185 | Nature | Colossus |  |  |  |  | 1200 |  |
-| 186 | Nature | Gorgons |  |  |  |  | 800 |  |
+| 183 | Nature | Giant Spiders | 8 |  | 4 |  |  | too weak for their cost |
+| 184 | Nature | Stone Giant |  |  |  |  |  |  |
+| 185 | Nature | Colossus |  |  |  |  |  |  |
+| 186 | Nature | Gorgons |  |  |  |  | 600 |  |
 | 187 | Nature | Earth Elemental |  |  |  |  |  |  |
-| 188 | Nature | Behemoth |  |  |  |  | 1000 |  |
-| 189 | Nature | Great Wyrm |  |  |  |  | 1500 |  |
+| 188 | Nature | Behemoth |  |  |  |  |  |  |
+| 189 | Nature | Great Wyrm |  |  |  |  |  |  |
 | 190 | Sorcery | Floating Island |  |  |  |  |  |  |
 | 191 | Sorcery | Phantom Beast |  |  |  |  |  |  |
 | 192 | Sorcery | Phantom Warriors |  |  |  |  |  |  |
-| 193 | Sorcery | Storm Giant |  |  |  |  | 600 |  |
+| 193 | Sorcery | Storm Giant |  |  |  |  |  |  |
 | 194 | Sorcery | Air Elemental |  |  |  |  |  |  |
 | 195 | Sorcery | Djinn |  |  |  |  |  |  |
-| 196 | Sorcery | Sky Drake |  |  |  |  | 2500 |  |
+| 196 | Sorcery | Sky Drake |  |  |  |  |  |  |
 
 </details>
 
