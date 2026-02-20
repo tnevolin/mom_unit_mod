@@ -77,19 +77,30 @@ Player can have larger army without exhausting their food supply. This seems to 
 * More advanced unit that requires more buildings should be adequately stronger and proportionally more expensive.
 * Some top tier racial units are adjusted to stay competitive among other races top tier units.
 
-### Basic unit stats
+### Standard unit stats
 
-* Some basic units stats are adjusted a little to keep them on par with their racial units.
+_modification is in progress_
+
+* Standard melee units are spreaded out a little to fill up the niche between Spearmen and Pikemen more evenly.
+
+| type | melee | range | defense | cost | comment |
+| ---- | ---: | ---: | ---: | ---: | ---- |
+| Spearmen |  |  |  |  |  |
+| Swordsmen |  |  |  |  |  |
+| Cavalry | +1 |  |  | x1.5 | slight improvement for fast strike unit |
+| Halberdiers | +2 |  | +2 | x2.0 | making them more distinct from Cavalry and closer to Pikemen |
+| Pikemen |  |  |  |  |  |
+| Bowmen |  |  |  |  |  |
+| Shaman |  | +1 |  |  | feel weak and unused |
+| Magicians |  | +1 |  | pathetic damage for the most expensive infrastructure |
+| Priests |  |  |  |  |  |
+| H.Men Magicians |  |  |  |  |  |
+
+Not sure what to do with range units. They seem to be weak as they are. However, they are very useful in some situations. For example, Bowmen are just awesome against phantom warriors and beast. So, I guess, they should stay at least half as week as their similarly priced infantry units.
 
 ### Warship
 
 * Limited shots to 10.
-
-### Halberdiers
-
-* Halberdiers get +2 melee and +50% cost.
-
-They are supposed to be weaker version of Pikemen. However, they are way too weak with their original stats and cannot serve as a good middle tier unit similar to Pikemen. Above adjustment brings them closer to the desired niche.
 
 ### Magicians
 
