@@ -131,7 +131,7 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 0 | Dwarven | Dwarf | 7 |  | 5 | 15 |  | not too advanceable |
 | 1 | Barbarian | Barbarian |  |  |  | 14 |  |  |
 | 2 | High Men | Sage |  |  |  | 10 |  |  |
-| 3 | High Men | Dervish |  |  | 5 | 11 |  | weak fighter |
+| 3 | High Men | Dervish |  |  |  | 11 |  |  |
 | 4 | Beastmen | Beastmaster | 9 |  | 6 | 12 |  | the most unadvanceable hero |
 | 5 | High Men | Bard | 7 |  | 7 | 11 |  | not too strong even with Leadership |
 | 6 | Orc | Orc Warrior |  |  |  | 13 |  |  |
@@ -145,7 +145,7 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 14 | High Men | Assassin | 8 |  |  | 11 |  | lack of swords to utilize Blademaster |
 | 15 | High Men | Wind Mage |  |  |  | 10 |  |  |
 | 16 | High Men | Ranger |  |  |  | 13 |  |  |
-| 17 | Draconian | Draconian |  |  | 3 | 13 |  | very strong guy - making him at least not that defensive |
+| 17 | Draconian | Draconian |  |  |  | 13 |  |  |
 | 18 | High Men | Witch |  |  |  | 10 |  |  |
 | 19 | High Men | Golden One |  |  |  | 11 |  |  |
 | 20 | High Men | Ninja | 7 |  |  | 12 |  | lack of swords to utilize Blademaster |
@@ -153,27 +153,27 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 22 | High Men | Amazon |  |  |  | 13 |  |  |
 | 23 | High Men | Warlock |  |  |  | 10 |  |  |
 | 24 | High Men | Unknown |  |  |  | 13 |  |  |
-| 25 | High Men | Illusionist |  | 7 |  | 10 |  | lack of attack to utilize Illusion |
+| 25 | High Men | Illusionist |  |  |  | 10 |  | lack of attack to utilize Illusion |
 | 26 | High Men | Swordsman | 12 |  |  | 15 |  | flat guy - giving swordsman more themed swords |
 | 27 | High Men | Priestess |  |  |  | 10 |  |  |
 | 28 | High Men | Paladin |  |  |  | 13 |  |  |
-| 29 | High Men | Black Knight | 7 |  |  |  |  | the most powerful guy even without HP boost |
-| 30 | High Elf | Elven Archer | 3 |  |  | 11 |  | let her be archer |
+| 29 | High Men | Black Knight |  |  |  |  |  | the most powerful guy even without HP boost |
+| 30 | High Elf | Elven Archer |  |  |  | 11 |  | let her be archer |
 | 31 | High Men | Knight |  |  | 9 | 14 |  | flat guy - giving knight in shiny armor more themed armor |
 | 32 | High Men | Necromancer |  |  |  | 10 |  |  |
-| 33 | High Men | Chaos Warrior |  |  |  | 13 |  |  |
+| 33 | High Men | Chaos Warrior |  | 4 |  | 13 |  | super OP with Arcane Power |
 | 34 | Life | Chosen |  |  |  |  |  |  |
 | 35 | Generic | Trireme |  |  |  |  |  |  |
 | 36 | Generic | Galley |  |  |  |  |  |  |
 | 37 | Generic | Catapult |  |  |  |  |  |  |
-| 38 | Generic | Warship |  |  |  |  | 400 |  |
+| 38 | Generic | Warship |  |  |  |  | 500 |  |
 | 39 | Barbarian | Spearmen |  |  |  |  |  |  |
 | 40 | Barbarian | Swordsmen |  |  |  |  |  |  |
 | 41 | Barbarian | Bowmen |  |  |  |  |  |  |
 | 42 | Barbarian | Cavalry | 5 |  |  |  | 100 |  |
 | 43 | Barbarian | Shaman |  | 3 |  |  |  |  |
 | 44 | Barbarian | Settlers |  |  |  |  |  |  |
-| 45 | Barbarian | Berserkers | 9 | 4 |  |  | 200 | slightly weak for hight end unit |
+| 45 | Barbarian | Berserkers | 9 | 4 |  |  | 150 | slightly weak for hight end unit |
 | 46 | Beastmen | Spearmen |  |  |  |  |  |  |
 | 47 | Beastmen | Swordsmen |  |  |  |  |  |  |
 | 48 | Beastmen | Halberdiers | 7 |  | 5 |  | 150 |  |
@@ -183,8 +183,8 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 52 | Beastmen | Engineers |  |  |  |  |  |  |
 | 53 | Beastmen | Settlers |  |  |  |  |  |  |
 | 54 | Beastmen | Centaurs | 4 |  |  |  |  | some boost to match the improved Cavalry |
-| 55 | Beastmen | Manticores | 9 |  | 5 |  |  | too weak for higher tier creature |
-| 56 | Beastmen | Minotaurs |  |  |  |  | 300 |  |
+| 55 | Beastmen | Manticores | 10 |  | 6 |  |  | too weak for higher tier creature |
+| 56 | Beastmen | Minotaurs |  |  |  |  | 250 |  |
 | 57 | Dark Elf | Spearmen |  |  |  |  | 40 |  |
 | 58 | Dark Elf | Swordsmen |  |  |  |  |  |  |
 | 59 | Dark Elf | Halberdiers | 6 |  | 5 |  | 150 |  |
@@ -192,8 +192,8 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 61 | Dark Elf | Priests |  |  |  |  |  |  |
 | 62 | Dark Elf | Settlers |  |  |  |  |  |  |
 | 63 | Dark Elf | Nightblades | 6 |  | 5 |  | 200 | matching halberdiers |
-| 64 | Dark Elf | Warlocks |  |  |  |  | 450 |  |
-| 65 | Dark Elf | Nightmares |  | 8 |  |  | 350 | too weak for top end magical race flying shooter |
+| 64 | Dark Elf | Warlocks |  |  |  |  | 400 |  |
+| 65 | Dark Elf | Nightmares |  | 8 |  |  | 300 | too weak for top end magical race flying shooter |
 | 66 | Draconian | Spearmen |  |  |  |  |  |  |
 | 67 | Draconian | Swordsmen |  |  |  |  |  |  |
 | 68 | Draconian | Halberdiers | 6 |  | 6 |  | 150 |  |
@@ -203,13 +203,13 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 72 | Draconian | Engineers |  |  |  |  |  |  |
 | 73 | Draconian | Settlers |  |  |  |  |  |  |
 | 74 | Draconian | Doom Drakes |  |  |  |  | 200 |  |
-| 75 | Draconian | Air Ship |  |  |  |  | 250 |  |
+| 75 | Draconian | Air Ship |  |  |  |  | 300 |  |
 | 76 | Dwarven | Swordsmen |  |  |  |  |  |  |
 | 77 | Dwarven | Halberdiers | 6 |  | 5 |  | 200 |  |
 | 78 | Dwarven | Engineers |  |  |  |  |  |  |
 | 79 | Dwarven | Hammerhands |  |  |  |  | 250 |  |
 | 80 | Dwarven | Steam Cannon |  |  |  |  |  |  |
-| 81 | Dwarven | Golem | 16 |  |  |  | 350 | should be stronger than hammerhands |
+| 81 | Dwarven | Golem | 16 |  |  |  | 250 | should be stronger than hammerhands |
 | 82 | Dwarven | Settlers |  |  |  |  |  |  |
 | 83 | Gnoll | Spearmen |  |  |  |  |  |  |
 | 84 | Gnoll | Swordsmen |  |  |  |  |  |  |
@@ -230,8 +230,8 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 99 | High Elf | Magicians |  | 6 |  |  |  |  |
 | 100 | High Elf | Settlers |  |  |  |  |  |  |
 | 101 | High Elf | Longbowmen |  |  |  |  | 120 |  |
-| 102 | High Elf | Elven Lords |  |  |  |  | 200 |  |
-| 103 | High Elf | Pegasai | 7 | 7 |  |  | 300 | some boost for high end unit |
+| 102 | High Elf | Elven Lords |  |  |  |  |  |  |
+| 103 | High Elf | Pegasai |  | 5 |  |  | 200 | some boost for high end unit |
 | 104 | High Men | Spearmen |  |  |  |  |  |  |
 | 105 | High Men | Swordsmen |  |  |  |  |  |  |
 | 106 | High Men | Bowmen |  |  |  |  |  |  |
@@ -240,21 +240,21 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 109 | High Men | Magicians |  |  |  |  |  |  |
 | 110 | High Men | Engineers |  |  |  |  |  |  |
 | 111 | High Men | Settlers |  |  |  |  |  |  |
-| 112 | High Men | Pikemen |  |  |  |  | 150 |  |
-| 113 | High Men | Paladins |  |  |  |  | 250 |  |
+| 112 | High Men | Pikemen |  |  |  |  | 120 |  |
+| 113 | High Men | Paladins |  |  |  |  | 300 |  |
 | 114 | Klackon | Spearmen |  |  |  |  |  |  |
 | 115 | Klackon | Swordsmen |  |  |  |  |  |  |
 | 116 | Klackon | Halberdiers | 6 |  | 7 |  | 150 |  |
 | 117 | Klackon | Engineers |  |  |  |  |  |  |
 | 118 | Klackon | Settlers |  |  |  |  |  |  |
-| 119 | Klackon | Stag Beetle |  |  |  |  | 250 |  |
+| 119 | Klackon | Stag Beetle |  |  |  |  | 300 |  |
 | 120 | Lizardman | Spearmen |  |  |  |  |  |  |
 | 121 | Lizardman | Swordsmen |  |  |  |  |  |  |
 | 122 | Lizardman | Halberdiers | 6 |  | 6 |  | 100 |  |
 | 123 | Lizardman | Javelineers |  |  |  |  | 100 |  |
 | 124 | Lizardman | Shaman |  | 3 | 4 |  |  |  |
 | 125 | Lizardman | Settlers |  |  |  |  |  |  |
-| 126 | Lizardman | Dragon Turtle | 15 |  |  |  | 200 | should be worth the investments |
+| 126 | Lizardman | Dragon Turtle | 15 |  |  |  | 250 | should be worth the investments |
 | 127 | Nomad | Spearmen |  |  |  |  |  |  |
 | 128 | Nomad | Swordsmen |  |  |  |  |  |  |
 | 129 | Nomad | Bowmen |  |  |  |  |  |  |
@@ -262,8 +262,8 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 | 131 | Nomad | Magicians |  | 6 |  |  |  |  |
 | 132 | Nomad | Settlers |  |  |  |  |  |  |
 | 133 | Nomad | Horsebowmen | 5 |  |  |  | 100 | matching cavalry |
-| 134 | Nomad | Pikemen |  |  |  |  | 150 |  |
-| 135 | Nomad | Rangers |  | 5 |  |  |  | little buff to high end unit |
+| 134 | Nomad | Pikemen |  |  |  |  | 120 |  |
+| 135 | Nomad | Rangers |  | 5 |  |  | 150 | little buff to high end unit |
 | 136 | Nomad | Griffins |  |  |  |  | 250 |  |
 | 137 | Orc | Spearmen |  |  |  |  |  |  |
 | 138 | Orc | Swordsmen |  |  |  |  |  |  |
