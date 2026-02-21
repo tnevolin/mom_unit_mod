@@ -83,7 +83,7 @@ _modification is in progress_
 
 * Standard melee units are spreaded out a little to fill up the niche between Spearmen and Pikemen more evenly.
 
-| type | melee | range | defense | cost | comment |
+| type | `melee  ` | `range  ` | `defense` | cost | comment |
 | ---- | ---: | ---: | ---: | ---: | ---- |
 | Spearmen |  |  |  |  |  |
 | Swordsmen |  |  |  |  |  |
