@@ -64,7 +64,6 @@ Casting 50 strength Counter Magic erects **10 turns** force field disrupting ene
 # Fix: Normal units food upkeep
 
 * Normal unit food upkeep is set to 1/2.
-* Optionally, food upkeep can be eliminated alltogether. However, the above change seems to be sufficient. Please share feedback.
 
 Player can have larger army without exhausting their food supply. This seems to run extremely satisfactory. Army size is not hard limited by food harvesting anymore. It keeps consuming gold but this is more flexible due to centralized distribution and stockpiled reserves. Occasional worker reallocation is still needed but not that often.
 
@@ -78,8 +77,6 @@ Player can have larger army without exhausting their food supply. This seems to 
 * Some top tier racial units are adjusted to stay competitive among other races top tier units.
 
 ### Standard unit stats
-
-_modification is in progress_
 
 * Standard melee units are spreaded out a little to fill up the niche between Spearmen and Pikemen more evenly.
 
@@ -102,8 +99,7 @@ _modification is in progress_
 
 ### Magicians
 
-* High Men Magicians are more expensive due to their increased figure count.
-* Other races Magicians (except Warlocks) have +1 to their ranged attack. Otherwise, they do not seem worth infrastructure investment.
+* Magicians (except High Men and Warlocks) have +1 to their ranged attack. Otherwise, they do not seem worth infrastructure investment.
 
 ## Heroes
 
