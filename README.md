@@ -105,7 +105,7 @@ Player can have larger army without exhausting their food supply. This seems to 
 
 ### Hero survivability
 
-* All heroes (except few OP ones) receive +5 HP.
+* All heroes (except few OP ones) receive +10 HP.
 * Some badly advanceable heroes recevie significant stat boost to make them worth their price at least initially.
 
 Increasing heroes HP makes them much less fragile, especially at the beginning. They can engage with low level units earning their XP in honest fight instead of sitting on the bench during combat. They require much less babysitting and protecting. They still incur damage but do not die in a single blow exchange and can be pulled out of the battle in time when their HP drops too low. Overall it feels like they play their role now leading a battle and augmenting player's forces rather than being some non-combat toy.
@@ -124,41 +124,41 @@ Extra HP does not make them OP at higher XP levels either as their armor is stil
 
 | # | race | name | me | ra | de | HP | cost | comment |
 | ----: | ---- | ---- | ----: | ----: | ----: | ----: | ----: | ---- |
-| 0 | Dwarven | Dwarf | 7 |  | 5 | 15 |  | not too advanceable |
-| 1 | Barbarian | Barbarian |  |  |  | 14 |  |  |
-| 2 | High Men | Sage |  |  |  | 10 |  |  |
-| 3 | High Men | Dervish |  |  |  | 11 |  |  |
-| 4 | Beastmen | Beastmaster | 9 |  | 6 | 12 |  | the most unadvanceable hero |
-| 5 | High Men | Bard | 7 |  | 7 | 11 |  | not too strong even with Leadership |
-| 6 | Orc | Orc Warrior |  |  |  | 13 |  |  |
-| 7 | High Men | Healer |  |  |  | 10 |  |  |
-| 8 | High Men | Huntress |  |  |  | 12 |  |  |
-| 9 | High Men | Thief |  |  |  | 12 |  |  |
-| 10 | High Men | Driud |  |  |  | 10 |  |  |
-| 11 | High Men | War Monk |  |  |  | 11 |  |  |
-| 12 | High Men | Warrior Mage | 7 | 7 |  | 12 |  | short mana supply and measly stats |
-| 13 | High Men | Magician |  | 4 |  | 10 |  | super OP guy - still very strong even with this handicap |
-| 14 | High Men | Assassin | 8 |  |  | 11 |  | lack of swords to utilize Blademaster |
-| 15 | High Men | Wind Mage |  |  |  | 10 |  |  |
-| 16 | High Men | Ranger |  |  |  | 13 |  |  |
-| 17 | Draconian | Draconian |  |  |  | 13 |  |  |
-| 18 | High Men | Witch |  |  |  | 10 |  |  |
-| 19 | High Men | Golden One |  |  |  | 11 |  |  |
-| 20 | High Men | Ninja | 7 |  |  | 12 |  | lack of swords to utilize Blademaster |
-| 21 | High Men | Rogue | 11 |  | 7 | 13 |  | uninteresting guy - giving him a lot of initial boost |
-| 22 | High Men | Amazon |  |  |  | 13 |  |  |
-| 23 | High Men | Warlock |  |  |  | 10 |  |  |
-| 24 | High Men | Unknown |  |  |  | 13 |  |  |
-| 25 | High Men | Illusionist |  |  |  | 10 |  | lack of attack to utilize Illusion |
-| 26 | High Men | Swordsman | 12 |  |  | 15 |  | flat guy - giving swordsman more themed swords |
-| 27 | High Men | Priestess |  |  |  | 10 |  |  |
-| 28 | High Men | Paladin |  |  |  | 13 |  |  |
-| 29 | High Men | Black Knight |  |  |  |  |  | the most powerful guy even without HP boost |
-| 30 | High Elf | Elven Archer |  |  |  | 11 |  | let her be archer |
-| 31 | High Men | Knight |  |  | 9 | 14 |  | flat guy - giving knight in shiny armor more themed armor |
-| 32 | High Men | Necromancer |  |  |  | 10 |  |  |
+| 0 | Dwarven | Dwarf | 7 |  | 5 | 20 |  | not too advanceable |
+| 1 | Barbarian | Barbarian |  |  |  | 19 |  |  |
+| 2 | High Men | Sage |  |  |  | 15 |  |  |
+| 3 | High Men | Dervish |  |  |  | 16 |  |  |
+| 4 | Beastmen | Beastmaster | 9 |  | 6 | 17 |  | the most unadvanceable hero |
+| 5 | High Men | Bard | 7 |  | 7 | 16 |  | not too strong even with Leadership |
+| 6 | Orc | Orc Warrior |  |  |  | 18 |  |  |
+| 7 | High Men | Healer |  |  |  | 15 |  |  |
+| 8 | High Men | Huntress |  |  |  | 17 |  |  |
+| 9 | High Men | Thief |  |  |  | 17 |  |  |
+| 10 | High Men | Driud |  |  |  | 15 |  |  |
+| 11 | High Men | War Monk |  |  |  | 16 |  |  |
+| 12 | High Men | Warrior Mage | 7 | 7 |  | 17 |  | short mana supply and measly stats |
+| 13 | High Men | Magician |  | 4 |  | 15 |  | super OP guy - still very strong even with this handicap |
+| 14 | High Men | Assassin | 8 |  |  | 16 |  | lack of swords to utilize Blademaster |
+| 15 | High Men | Wind Mage |  |  |  | 15 |  |  |
+| 16 | High Men | Ranger |  |  |  | 18 |  |  |
+| 17 | Draconian | Draconian |  |  |  | 18 |  |  |
+| 18 | High Men | Witch |  |  |  | 15 |  |  |
+| 19 | High Men | Golden One |  |  |  | 16 |  |  |
+| 20 | High Men | Ninja | 7 |  |  | 17 |  | lack of swords to utilize Blademaster |
+| 21 | High Men | Rogue | 11 |  | 7 | 18 |  | uninteresting guy - giving him a lot of initial boost |
+| 22 | High Men | Amazon |  |  |  | 18 |  |  |
+| 23 | High Men | Warlock |  |  |  | 15 |  |  |
+| 24 | High Men | Unknown |  |  |  | 18 |  |  |
+| 25 | High Men | Illusionist |  |  |  | 15 |  | lack of attack to utilize Illusion |
+| 26 | High Men | Swordsman | 12 |  |  | 20 |  | flat guy - giving swordsman more themed swords |
+| 27 | High Men | Priestess |  |  |  | 15 |  |  |
+| 28 | High Men | Paladin |  |  |  | 18 |  |  |
+| 29 | High Men | Black Knight |  |  |  | 20 |  | the most powerful guy even without HP boost |
+| 30 | High Elf | Elven Archer |  |  |  | 16 |  | let her be archer |
+| 31 | High Men | Knight |  |  | 9 | 19 |  | flat guy - giving knight in shiny armor more themed armor |
+| 32 | High Men | Necromancer |  |  |  | 15 |  |  |
 | 33 | High Men | Chaos Warrior |  | 4 |  | 13 |  | super OP with Arcane Power |
-| 34 | Life | Chosen |  |  |  |  |  |  |
+| 34 | Life | Chosen |  |  |  | 17 |  |  |
 | 35 | Generic | Trireme |  |  |  |  |  |  |
 | 36 | Generic | Galley |  |  |  |  |  |  |
 | 37 | Generic | Catapult |  |  |  |  |  |  |
