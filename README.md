@@ -355,8 +355,8 @@ Changes are bolded. Level improvements are underscored.
 
 ## General rules
 
-* More porwerful spell should be less mana efficient comparing to weaker version.
-  * More rare spells are allowed to be somewhat more effective as it takes time and efforts to acquire them and even that is not guaranteed.
+* More powerful spell of similar rarity should be less mana efficient comparing to weaker version.
+* More rare spells are allowed to be more effective as it takes time and efforts to acquire them.
 * Positive unit enchantment upkeep is **doubled** to prevent accumulating tons of permanent buffs.
 * Overland enchantment annoying other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
 * Universal non resistable damage spells (Doom Bolt, Disintegrate, etc.) casting cost is seriously increased.
