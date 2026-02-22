@@ -358,7 +358,7 @@ Changes are bolded. Level improvements are underscored.
 * More powerful spell of similar rarity should be less mana efficient comparing to weaker version.
 * More rare spells are allowed to be more effective as it takes time and efforts to acquire them.
 * Positive unit enchantment upkeep is **doubled** to prevent accumulating tons of permanent buffs.
-* Overland enchantment annoying other wizards (Time Stop, Suppress Magic, Planar Seal, Armageddon, Great Wasting, etc.) upkeep is **quintupled**.
+* Overland enchantment suppressing/damaging other wizards upkeep is **quintupled**.
 * Universal non resistable damage spells (Doom Bolt, Disintegrate, etc.) casting cost is seriously increased.
 * Strong ability given unit enchantments (Flight, Invisibility, Magic Immunity, etc.) casting cost is seriosly increasd.
 
