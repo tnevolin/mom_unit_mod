@@ -368,6 +368,15 @@ Changes are bolded. Level improvements are underscored.
 
 That eliminates its abusive use to cast 50 strength magical shield and stay protected for 10 (**ten**) turns while continuing mollesting opponent with damaging spells. With above change it is down by 1-2 turns.
 
+## Armageddon and Great Waste unrest
+
+* Armageddong adds **1** unrest.
+* Great Wasing adds **no** unrest.
+
+The global unrest effect of these enchantments is, actually, their _most_ powerful element. They are too cheap for that comparing to all per-town enchantments those do the same. Without it they are more or less on the money.
+
+Besides, AI wizards tend to cast them very often disrupting human player economy. Because of their huge power income they can keep it on forever practically stalling human player development.
+
 ## Summary table
 
 <details>
