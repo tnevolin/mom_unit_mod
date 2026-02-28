@@ -1,6 +1,6 @@
 ;----------------------------------------------------------------------------------------------
 ; Combat XP modification.
-; 1. Each fallen enemy generates 10 XP.
+; 1. Each fallen enemy generates 16 XP.
 ; 2. Combined XP is then divided by victorious side unit count after the battle.
 ;   a) That includes ALL units: summoned (previously or in battle), undead, zombie.
 ;----------------------------------------------------------------------------------------------
@@ -8,16 +8,16 @@
 ; XP = 10 (undeaded)
 9C376
 02
-0A
+10
 ; XP = 10 (zombie)
 9C422
 02
-0A
+10
 ; XP = 0 (dead)
 9CBF8
 02
-0A
-; modify fame awarded condition to match 4 fallen enemies: 4 x 10 = 40
+10
+; modify fame awarded condition to match 4 fallen enemies: 4 x 16 = 64
 ; cmp     [bp+var_A], 0x28
 9D2A5
 83
@@ -30,7 +30,7 @@ F6
 F6
 9D2A8
 08
-28
+40
 ; compute per unit combat XP
 ; mov     dx, [bp+var_8]
 9D380
