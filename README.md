@@ -632,6 +632,7 @@ Damage is an estimated number of destroyed units to compare their effects. Area 
 
 * Iron bonus = 20%.
 * Coal bonus = 30%.
+* Iron/Coal bonuses are applied to *all* normal units as stated in description. No exclusions.
 
 These minerals were never seriosly regarded for town placement. Now they may seriously reduce unit cost.
 
