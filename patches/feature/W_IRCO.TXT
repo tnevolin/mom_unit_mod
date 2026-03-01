@@ -1,0 +1,46 @@
+;----------------------------------------------------------------------------------------------
+; iron bonus = 20
+; coal bonus = 30
+; Miners' Guild adds 50% to these bonuses (game default)
+; Dwarven double these bonuses (game default)
+;----------------------------------------------------------------------------------------------
+; Base iron bonus without Miners' Guild
+ED24E
+BE
+BE
+ED24F
+05
+14
+ED250
+00
+00
+; Base iron bonus with Miners' Guild
+ED249
+BE
+BE
+ED24A
+07
+1E
+ED24B
+00
+00
+; Base coal bonus without Miners' Guild
+ED262
+BE
+BE
+ED263
+0A
+1E
+ED264
+00
+00
+; Base coal bonus with Miners' Guild
+ED25D
+BE
+BE
+ED25E
+0F
+2D
+ED25F
+00
+00
