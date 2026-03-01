@@ -628,4 +628,10 @@ Damage is an estimated number of destroyed units to compare their effects. Area 
 | 194 | Death Spell | 50 | -2 | 5 |  |
 | 199 | Death Wish | 500 | 0 |  |  |
 
+# Fix: Iron and Coal bonuses
+
+* Iron bonus = 20%.
+* Coal bonus = 30%.
+
+These minerals were never seriosly regarded for town placement. Now they may seriously reduce unit cost.
 
