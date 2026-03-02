@@ -340,16 +340,16 @@ There is also a question of *how much* experience they should receive from each 
 
 Both Regular and Veteran get two nice synergetic improvements. Elite still has strong bonus of +1 HP, which doubles low level unit toughness. Champions get three super cool improvements as it was in OG and how it should be.
 
-Changes are bolded. Level improvements are underscored.
+Changes comparing to original are bolded.
 
 | level | `attack    ` | `toHit     ` | `defense   ` | `resistance` | `hit points` |
 | ---- | ----: | ----: | ----: | ----: | ----: |
 | Recruit |  |  |  |  |  |
-| Regular | <ins>+1</ins> |  | <ins>**+1**</ins> | <ins>+1</ins> |  |
-| Veteran | <ins>**+2**</ins> | <ins>**+1**</ins> | +1 | <ins>+2</ins> |  |
-| Elite | <ins>**+3**</ins> | +1 | +1 | <ins>+3</ins> | <ins>+1</ins> |
-| Ultra-Elite | **+3** | <ins>+2</ins> | <ins>+2</ins> | <ins>+4</ins> | +1 |
-| Champion | <ins>**+4**</ins> | <ins>+3</ins> | +2 | <ins>+5</ins> | <ins>+2</ins> |
+| Regular | +1 |  | **+1** | +1 |  |
+| Veteran | **+2** | **+1** | +1 | +2 |  |
+| Elite | **+3** | +1 | +1 | +3 | +1 |
+| Ultra-Elite | **+3** | +2 | +2 | +4 | +1 |
+| Champion | **+4** | +3 | +2 | +5 | +2 |
 
 # Fix: Spell balance
 
