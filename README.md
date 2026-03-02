@@ -386,7 +386,7 @@ Besides, AI wizards tend to cast them very often disrupting human player economy
 | #| spell | cost | upkeep | comment |
 | ----: | ---- | ----: | ----: | ---- |
 | 1 | Earth to Mud | 5 |  | not too usable spell should be cheap |
-| 2 | Resist Elements | 10 | 2 |  |
+| 2 | Resist Elements | 10 | 2 | extra defense against ranged magical attacks |
 | 3 | Wall of Stone |  |  |  |
 | 4 | Giant Strength |  |  |  |
 | 5 | Web |  |  |  |
@@ -405,7 +405,7 @@ Besides, AI wizards tend to cast them very often disrupting human player economy
 | 18 | Transmute |  |  |  |
 | 19 | Nature's Cures |  |  |  |
 | 20 | Basilisk |  |  |  |
-| 21 | Elemental Armor | 50 | 10 |  |
+| 21 | Elemental Armor |  |  |  |
 | 22 | Petrify |  |  |  |
 | 23 | Stone Giant |  |  |  |
 | 24 | Iron Skin | 75 | 15 |  |
@@ -419,7 +419,7 @@ Besides, AI wizards tend to cast them very often disrupting human player economy
 | 32 | Behemoth |  |  |  |
 | 33 | Entangle | 25 |  | another rarely used spell |
 | 34 | Nature Awareness |  |  |  |
-| 35 | Call Lightning | 120 |  |  |
+| 35 | Call Lightning | 90 |  |  |
 | 36 | Colossus |  |  |  |
 | 37 | Earth Gate |  |  |  |
 | 38 | Herb Mastery |  |  |  |
@@ -498,13 +498,13 @@ Besides, AI wizards tend to cast them very often disrupting human player economy
 | 111 | Hydra |  |  |  |
 | 112 | Disintegrate | 100 |  |  |
 | 113 | Meteor Storm |  |  |  |
-| 114 | Great Wasting |  | 100 |  |
+| 114 | Great Wasting | 2000 | 200 | too powerful and too detrimental to others |
 | 115 | Call Chaos |  |  |  |
 | 116 | Chaos Surge |  |  |  |
 | 117 | Doom Mastery |  |  |  |
 | 118 | Great Drake |  |  |  |
 | 119 | Call the Void |  |  |  |
-| 120 | Armageddon |  | 200 |  |
+| 120 | Armageddon | 2500 | 400 | too powerful and too detrimental to others |
 | 121 | Bless |  |  |  |
 | 122 | Star Fires |  |  |  |
 | 123 | Endurance |  |  |  |
@@ -598,12 +598,19 @@ Besides, AI wizards tend to cast them very often disrupting human player economy
 | 211 | Create Artifact |  |  |  |
 | 212 | Summon Champion |  |  |  |
 | 213 | Spell of Mastery | 10000 |  | should take longer for other wizards to fight the caster |
+| 214 | Spell of Return | 500 |  | should not take too long |
 
 </details>
 
 ## Spell saves summary table
 
-Damage is an estimated number of destroyed units to compare their effects. Area effect spells are assumed to target 5 units or 3 if selective. Subverting unit counts as double as it not only takes one unit out of enemy army, but also gives it to the casting wizard.
+* Spell saves are adjusted to reflect their effect.
+
+Confusion is the best example. I get original designers thought of it as a mere annoyance. Indeed, the "Doing nothing for the turn" and "Moving about randomly" effects fall in this category. However, the "Being temporarily controlled by the enemy" one is practically a version of possession. All it takes is just one turn of it to be controlled by enemy to deliver maximum damage withing enemy ranks. This one effect is what players use this spell for. There are two ways to fix this obvious imbalance: either disable this (switching sides) effect completely or increase cost/save for it accordingly. I am going second path now in table below. However, I am open for suggestions.
+
+Other spells are more less self-defined and easy to evaluate.
+
+Damage column below is an estimated number of destroyed units to compare their effects. Area effect spells are assumed to target 5 units or 3 if selective. Subverting unit counts as double as it not only takes one unit out of enemy army, but also gives it to the casting wizard.
 
 | # | name | cost | save | damage | comment |
 | ----: | ---- | ----: | ----: | ----: | ---- |
