@@ -4,7 +4,7 @@ Attempt to modify different aspects of the game to make them more usable and giv
 
 # Installation
 
-Prerequisite: Master of Magic Community Patch (from GOG or Slitherine).
+Prerequisite: Master of Magic Community Patch 1.60 (from GOG or Slitherine).
 
 1. Download files from `patches/cumulative` folder.
 2. Run DOSBox and switch to game folder.
